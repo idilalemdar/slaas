@@ -8,10 +8,10 @@ run: main.cpp
 test:
 	$(CC) -o test tests/*.cpp $(SRC) $(CFLAGS_TEST) $(CFLAGS_COMMON)
 debug:
-    $(CC) -o debug main.cpp $(SRC) $(CFLAGS_COMMON) -g
+	$(CC) -o debug main.cpp $(SRC) $(CFLAGS_COMMON) -g
 clean_main:
 	rm main
 clean_test:
 	rm test
 clean_debug:
-    rm debug
+	rm debug
