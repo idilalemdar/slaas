@@ -1,7 +1,6 @@
 #include "strategy.hpp"
 #include <cstdlib>
 
-
 Strategy::Strategy(const vector<bool>& decisions, int evolutionTerm, int max) {
     decisionVector = decisions;
     fitness = 0;
