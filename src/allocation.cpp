@@ -19,23 +19,26 @@ void AllocationSpace::reportResourceFeasibility(const Case& ele, int index) {
     report << index << ":\n# of type 0 slice: " << ele.countTypeZero << "\n# of type 1 slice: "
         << ele.countTypeOne << "\nTotal cost: " << ele.totalCost << "\nTotal utility: "
         << ele.totalUtility << "\n\n";
+    report.close();
 }
 
 vector<Case> AllocationSpace::calculateResourceFeasibility() {
     int maxTypeOne = static_cast<int>(floor(resourcePool / costs.first));
     vector<Case> result;
     int j = 0;
-    int k = 0;
+    int index = 0;
     double typeOneCost = 0;
     double totalCost = 0;
+    ofstream report("report.txt", ofstream::app);
+    report << "Space of resource feasibility:\n\n";
+    report.close();
     for (int i = 0; i <= maxTypeOne; ++i) {
         while (totalCost <= resourcePool) {
             const Case& c = {i, j, totalCost, i * utilities.first + j * utilities.second};
             result.push_back(c);
             totalCost += costs.second;
             j++;
-            k++;
-            reportResourceFeasibility(c, k);
+            reportResourceFeasibility(c, index++);
         }
         typeOneCost += costs.first;
         totalCost = typeOneCost;
@@ -44,16 +47,35 @@ vector<Case> AllocationSpace::calculateResourceFeasibility() {
     return result;
 }
 
+void AllocationSpace::reportFreeDecision(const pair<Case, SliceType>& p, int index) {
+    ofstream report("report.txt", ofstream::app);
+    Case c = p.first;
+    report << index << ":\n# of type 0 slice: " << c.countTypeZero << "\n# of type 1 slice: "
+           << c.countTypeOne << "\nTotal cost: " << c.totalCost << "\nTotal utility: "
+           << c.totalUtility << "\nAdded slice type: " << p.second << "\n\n";
+    report.close();
+}
+
+void AllocationSpace::addElementToFreeDecision(Case ele, SliceType type, int index) {
+    pair<Case, SliceType> p(ele, type);
+    freeDecision.push_back(p);
+    reportFreeDecision(p, index);
+}
+
 void AllocationSpace::calculateFreeDecision() {
     vector<Case> resourceFeasibility = calculateResourceFeasibility();
     double costBefore;
-    for (auto const ele : resourceFeasibility) {
+    int index = 0;
+    ofstream report("report.txt", ofstream::app);
+    report << "Space of free decision:\n\n";
+    report.close();
+    for (auto const &ele : resourceFeasibility) {
         costBefore = ele.totalCost;
         if (costBefore + costs.first <= resourcePool) {
-            freeDecision.push_back(make_pair(ele, First));
+            addElementToFreeDecision(ele, First, index++);
         }
         if (costBefore + costs.second <= resourcePool) {
-            freeDecision.push_back(make_pair(ele, Second));
+            addElementToFreeDecision(ele, Second, index++);
         }
     }
 }

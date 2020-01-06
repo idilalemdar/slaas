@@ -27,6 +27,8 @@ private:
     vector<Case> calculateResourceFeasibility();
     void calculateFreeDecision();
     void reportResourceFeasibility(const Case&, int);
+    void reportFreeDecision(const pair<Case, SliceType>&, int);
+    void addElementToFreeDecision(Case, SliceType, int);
 public:
     AllocationSpace(double, double, int, int);
     vector<pair<Case, SliceType>> getFreeDecisionSpace() const;
