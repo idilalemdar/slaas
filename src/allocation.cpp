@@ -1,6 +1,6 @@
 #include "allocation.hpp"
 #include <cmath>
-#include <iostream>
+#include <fstream>
 
 AllocationSpace::AllocationSpace(double c1, double c2, int u1, int u2) {
     costs.first = c1;
@@ -15,7 +15,8 @@ vector<pair<Case, SliceType>> AllocationSpace::getFreeDecisionSpace() const {
 }
 
 void AllocationSpace::reportResourceFeasibility(const Case& ele, int index) {
-    cout << index << ":\n# of type 0 slice: " << ele.countTypeZero << "\n# of type 1 slice: "
+    ofstream report("report.txt", ofstream::app);
+    report << index << ":\n# of type 0 slice: " << ele.countTypeZero << "\n# of type 1 slice: "
         << ele.countTypeOne << "\nTotal cost: " << ele.totalCost << "\nTotal utility: "
         << ele.totalUtility << "\n\n";
 }
