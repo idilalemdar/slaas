@@ -17,6 +17,7 @@ public:
     ~Strategy();
     void calculateFitness();
     double getFitness() const;
+    void setUtility(int, int);
 };
 
 

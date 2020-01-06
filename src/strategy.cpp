@@ -25,3 +25,7 @@ void Strategy::calculateFitness() {
     }
     fitness = (sum / evolutionTerm) / maxPossibleUtility;  // normalize the fitness value
 }
+
+void Strategy::setUtility(int index, int value) {
+    utilities[index] = value;
+}
