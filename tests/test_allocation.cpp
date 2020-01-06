@@ -8,5 +8,5 @@ TEST(AllocationTest1, Constructor) {
 
 TEST(AllocationTest2, Constructor) {
     AllocationSpace as(0.3, 0.2, 2, 1);
-    EXPECT_EQ(13, as.getFreeDecisionSpace().size());
+    EXPECT_EQ(18, as.getFreeDecisionSpace().size());
 }
