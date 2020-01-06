@@ -10,11 +10,11 @@ AllocationSpace::AllocationSpace(double c1, double c2, int u1, int u2) {
     calculateFreeDecision();
 }
 
-vector<pair<Case, SliceType>> AllocationSpace::getFreeDecisionSpace() const {
+vector<pair< ActiveSliceSet, SliceType>> AllocationSpace::getFreeDecisionSpace() const {
     return freeDecision;
 }
 
-void AllocationSpace::reportResourceFeasibility(const Case& ele, int index) {
+void AllocationSpace::reportResourceFeasibility(const ActiveSliceSet& ele, int index) {
     ofstream report("report.txt", ofstream::app);
     report << index << ":\n# of type 0 slice: " << ele.countTypeZero << "\n# of type 1 slice: "
         << ele.countTypeOne << "\nTotal cost: " << ele.totalCost << "\nTotal utility: "
@@ -22,9 +22,9 @@ void AllocationSpace::reportResourceFeasibility(const Case& ele, int index) {
     report.close();
 }
 
-vector<Case> AllocationSpace::calculateResourceFeasibility() {
+vector< ActiveSliceSet> AllocationSpace::calculateResourceFeasibility() {
     int maxTypeOne = static_cast<int>(floor(resourcePool / costs.first));
-    vector<Case> result;
+    vector< ActiveSliceSet> result;
     int j = 0;
     int index = 0;
     double typeOneCost = 0;
@@ -34,7 +34,7 @@ vector<Case> AllocationSpace::calculateResourceFeasibility() {
     report.close();
     for (int i = 0; i <= maxTypeOne; ++i) {
         while (totalCost <= resourcePool) {
-            const Case& c = {i, j, totalCost, i * utilities.first + j * utilities.second};
+            const ActiveSliceSet& c = {i, j, totalCost, i * utilities.first + j * utilities.second};
             result.push_back(c);
             totalCost += costs.second;
             j++;
@@ -47,23 +47,23 @@ vector<Case> AllocationSpace::calculateResourceFeasibility() {
     return result;
 }
 
-void AllocationSpace::reportFreeDecision(const pair<Case, SliceType>& p, int index) {
+void AllocationSpace::reportFreeDecision(const pair< ActiveSliceSet, SliceType>& p, int index) {
     ofstream report("report.txt", ofstream::app);
-    Case c = p.first;
+    ActiveSliceSet c = p.first;
     report << index << ":\n# of type 0 slice: " << c.countTypeZero << "\n# of type 1 slice: "
            << c.countTypeOne << "\nTotal cost: " << c.totalCost << "\nTotal utility: "
            << c.totalUtility << "\nAdded slice type: " << p.second << "\n\n";
     report.close();
 }
 
-void AllocationSpace::addElementToFreeDecision(Case ele, SliceType type, int index) {
-    pair<Case, SliceType> p(ele, type);
+void AllocationSpace::addElementToFreeDecision( ActiveSliceSet ele, SliceType type, int index) {
+    pair< ActiveSliceSet, SliceType> p(ele, type);
     freeDecision.push_back(p);
     reportFreeDecision(p, index);
 }
 
 void AllocationSpace::calculateFreeDecision() {
-    vector<Case> resourceFeasibility = calculateResourceFeasibility();
+    vector< ActiveSliceSet> resourceFeasibility = calculateResourceFeasibility();
     double costBefore;
     int index = 0;
     ofstream report("report.txt", ofstream::app);
