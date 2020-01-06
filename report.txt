@@ -1,0 +1,167 @@
+[==========] Running 2 tests from 2 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from AllocationTest1
+[ RUN      ] AllocationTest1.Constructor
+1:
+# of type 0 slice: 0
+# of type 1 slice: 0
+Total cost: 0
+Total utility: 0
+
+2:
+# of type 0 slice: 0
+# of type 1 slice: 1
+Total cost: 0.3
+Total utility: 1
+
+3:
+# of type 0 slice: 0
+# of type 1 slice: 2
+Total cost: 0.6
+Total utility: 2
+
+4:
+# of type 0 slice: 0
+# of type 1 slice: 3
+Total cost: 0.9
+Total utility: 3
+
+5:
+# of type 0 slice: 1
+# of type 1 slice: 0
+Total cost: 0.3
+Total utility: 2
+
+6:
+# of type 0 slice: 1
+# of type 1 slice: 1
+Total cost: 0.6
+Total utility: 3
+
+7:
+# of type 0 slice: 1
+# of type 1 slice: 2
+Total cost: 0.9
+Total utility: 4
+
+8:
+# of type 0 slice: 2
+# of type 1 slice: 0
+Total cost: 0.6
+Total utility: 4
+
+9:
+# of type 0 slice: 2
+# of type 1 slice: 1
+Total cost: 0.9
+Total utility: 5
+
+10:
+# of type 0 slice: 3
+# of type 1 slice: 0
+Total cost: 0.9
+Total utility: 6
+
+[       OK ] AllocationTest1.Constructor (0 ms)
+[----------] 1 test from AllocationTest1 (0 ms total)
+
+[----------] 1 test from AllocationTest2
+[ RUN      ] AllocationTest2.Constructor
+1:
+# of type 0 slice: 0
+# of type 1 slice: 0
+Total cost: 0
+Total utility: 0
+
+2:
+# of type 0 slice: 0
+# of type 1 slice: 1
+Total cost: 0.2
+Total utility: 1
+
+3:
+# of type 0 slice: 0
+# of type 1 slice: 2
+Total cost: 0.4
+Total utility: 2
+
+4:
+# of type 0 slice: 0
+# of type 1 slice: 3
+Total cost: 0.6
+Total utility: 3
+
+5:
+# of type 0 slice: 0
+# of type 1 slice: 4
+Total cost: 0.8
+Total utility: 4
+
+6:
+# of type 0 slice: 0
+# of type 1 slice: 5
+Total cost: 1
+Total utility: 5
+
+7:
+# of type 0 slice: 1
+# of type 1 slice: 0
+Total cost: 0.3
+Total utility: 2
+
+8:
+# of type 0 slice: 1
+# of type 1 slice: 1
+Total cost: 0.5
+Total utility: 3
+
+9:
+# of type 0 slice: 1
+# of type 1 slice: 2
+Total cost: 0.7
+Total utility: 4
+
+10:
+# of type 0 slice: 1
+# of type 1 slice: 3
+Total cost: 0.9
+Total utility: 5
+
+11:
+# of type 0 slice: 2
+# of type 1 slice: 0
+Total cost: 0.6
+Total utility: 4
+
+12:
+# of type 0 slice: 2
+# of type 1 slice: 1
+Total cost: 0.8
+Total utility: 5
+
+13:
+# of type 0 slice: 2
+# of type 1 slice: 2
+Total cost: 1
+Total utility: 6
+
+14:
+# of type 0 slice: 3
+# of type 1 slice: 0
+Total cost: 0.9
+Total utility: 6
+
+tests/test_allocation.cpp:11: Failure
+      Expected: 13
+To be equal to: as.getFreeDecisionSpace().size()
+      Which is: 18
+[  FAILED  ] AllocationTest2.Constructor (0 ms)
+[----------] 1 test from AllocationTest2 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 2 test cases ran. (0 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] AllocationTest2.Constructor
+
+ 1 FAILED TEST

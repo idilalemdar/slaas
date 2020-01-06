@@ -2,7 +2,7 @@
 #define SLAAS_ALLOCATION_H
 
 #include <utility>
-#include<vector>
+#include <vector>
 
 using namespace std;
 
@@ -16,7 +16,7 @@ typedef struct Case {
     int countTypeOne;
     double totalCost;
     int totalUtility;
-}Case;
+} Case;
 
 class AllocationSpace {
 private:
@@ -26,6 +26,7 @@ private:
     vector<pair<Case, SliceType>> freeDecision;
     vector<Case> calculateResourceFeasibility();
     void calculateFreeDecision();
+    void reportResourceFeasibility(const Case&, int);
 public:
     AllocationSpace(double, double, int, int);
     vector<pair<Case, SliceType>> getFreeDecisionSpace() const;
