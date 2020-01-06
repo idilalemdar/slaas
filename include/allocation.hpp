@@ -20,6 +20,7 @@ typedef struct ActiveSliceSet {
 
 class AllocationSpace {
 private:
+    int bestUtility = 0;
     const double resourcePool = 1.0;
     pair<double, double> costs;
     pair<int, int> utilities;
@@ -32,6 +33,7 @@ private:
 public:
     AllocationSpace(double, double, int, int);
     vector<pair<ActiveSliceSet, SliceType>> getFreeDecisionSpace() const;
+    int getBestUtility() const;
 };
 
 #endif //SLAAS_ALLOCATION_H

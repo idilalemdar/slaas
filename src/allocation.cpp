@@ -29,12 +29,17 @@ vector< ActiveSliceSet> AllocationSpace::calculateResourceFeasibility() {
     int index = 0;
     double typeOneCost = 0;
     double totalCost = 0;
+    int totalUtility;
     ofstream report("report.txt", ofstream::app);
     report << "Space of resource feasibility:\n\n";
     report.close();
     for (int i = 0; i <= maxTypeOne; ++i) {
         while (totalCost <= resourcePool) {
-            const ActiveSliceSet& c = {i, j, totalCost, i * utilities.first + j * utilities.second};
+            totalUtility = i * utilities.first + j * utilities.second;
+            if (totalUtility > bestUtility) {
+                bestUtility = totalUtility;
+            }
+            const ActiveSliceSet& c = {i, j, totalCost, totalUtility};
             result.push_back(c);
             totalCost += costs.second;
             j++;
@@ -78,4 +83,8 @@ void AllocationSpace::calculateFreeDecision() {
             addElementToFreeDecision(ele, Second, index++);
         }
     }
+}
+
+int AllocationSpace::getBestUtility() const {
+    return bestUtility;
 }
