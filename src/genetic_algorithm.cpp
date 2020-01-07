@@ -9,7 +9,6 @@ GeneticAlgorithm::GeneticAlgorithm(int term, int max, int size, int fd) {
 }
 
 void GeneticAlgorithm::initializePopulation() {
-    default_random_engine generator{static_cast<long unsigned int>(time(0))};
     uniform_real_distribution<double> distribution(0.0,1.0);
     ofstream report("initialGeneration.txt", ofstream::app);
     report << "Initializing generation zero:\n\n";
@@ -65,34 +64,29 @@ void GeneticAlgorithm::reportPopulation() {
 }
 
 void GeneticAlgorithm::calculateProportions(vector<double>& proportions) {
+    double cumulativeProportion = 0;
     for (auto const &ele : population) {
-        double proportion = ele.getFitness() / totalFitness;
-        if (proportions.empty()) {  // cumulative roulette wheel
-            proportions.push_back(proportion);
-        } else {
-            proportions.push_back(proportion + proportions.back());
-        }
+        cumulativeProportion += ele.getFitness() / totalFitness;
+        proportions.push_back(cumulativeProportion);
     }
 }
 
 void GeneticAlgorithm::createNewPopulation(const vector<double>& proportions, vector<Strategy>& new_population) {
-    default_random_engine generator{static_cast<long unsigned int>(time(0))};
     uniform_real_distribution<double> distribution(0.0, 1.0);
     for (int i = 0; i < populationSize; ++i) {
-        double roll = distribution(generator); // this nigga is not random. why not random??
+        double roll = distribution(generator);
         int index = 0;
-        cout << roll << " ";
         while (roll > proportions[index]) {
             index++;
         }
-        cout << endl;
         new_population.push_back(population[index]);
     }
 }
 
 void GeneticAlgorithm::reproduce() {  // fitness proportionate selection
-    ofstream report("populationInfo.txt", ofstream::app);
+    ofstream report;
     calculateTotalFitness();
+    report.open("populationInfo.txt", ofstream::app);
     report << "Total fitness in the population: " << totalFitness << endl;
 
     vector<double> proportions;
@@ -101,15 +95,18 @@ void GeneticAlgorithm::reproduce() {  // fitness proportionate selection
     vector<Strategy> new_population;
     createNewPopulation(proportions, new_population);
 
+    report << endl << "Old Population:" << endl;
+    report.close();
+    reportPopulation();
     population = new_population;
+    report.open("populationInfo.txt", ofstream::app);
     report << "Before shuffle:\n";
     report.close();
     reportPopulation();
-    default_random_engine generator{static_cast<long unsigned int>(time(0))};
     shuffle(population.begin(), population.end(), generator);
-    ofstream rep("populationInfo.txt", ofstream::app);
-    rep << "After shuffle:\n";
-    rep.close();
+    report.open("populationInfo.txt", ofstream::app);
+    report << "After shuffle:\n";
+    report.close();
     reportPopulation();
 }
 

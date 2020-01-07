@@ -6,6 +6,7 @@
 
 class GeneticAlgorithm {
 private:
+    default_random_engine generator{static_cast<long unsigned int>(time(0))};
     double totalFitness = 0;
     int evolutionTerm;
     int maxPossibleUtility;

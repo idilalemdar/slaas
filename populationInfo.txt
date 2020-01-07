@@ -1,97 +1,136 @@
-Fitness:0 Decision vector: 0 1 1 0 1 1 1 1 1 0 1 0 
-Fitness:0 Decision vector: 0 0 1 1 1 1 0 0 0 1 1 1 
-Fitness:0 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0 Decision vector: 1 1 0 1 1 0 1 0 1 0 1 0 
-Fitness:0 Decision vector: 1 1 1 1 0 0 1 1 1 1 1 1 
-Fitness:0 Decision vector: 0 1 1 1 0 1 0 1 1 1 1 1 
-Fitness:0 Decision vector: 0 0 1 1 1 1 0 0 1 0 0 1 
-Fitness:0 Decision vector: 1 0 1 1 1 1 1 0 1 0 1 0 
-Fitness:0 Decision vector: 1 0 0 1 1 1 1 0 0 0 0 1 
-Fitness:0 Decision vector: 1 1 1 1 0 1 1 0 1 1 1 1 
+Fitness:0 Decision vector: 0 1 1 1 0 1 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 1 1 1 1 1 0 0 1 1 0 
+Fitness:0 Decision vector: 1 1 0 1 1 1 1 1 1 0 0 0 
+Fitness:0 Decision vector: 0 1 1 1 1 1 0 1 1 1 1 0 
+Fitness:0 Decision vector: 0 1 1 0 1 1 1 1 1 0 0 0 
+Fitness:0 Decision vector: 1 0 1 1 1 1 0 1 1 0 0 1 
+Fitness:0 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 1 0 1 1 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 1 1 1 1 1 0 0 1 
+Fitness:0 Decision vector: 1 1 0 0 1 1 1 1 0 1 1 1 
 
-Total fitness in the population: 4.94444
+Total fitness in the population: 4.91667
+
+Old Population:
+Fitness:0.472222 Decision vector: 0 1 1 1 0 1 1 1 0 0 0 1 
+Fitness:0.333333 Decision vector: 1 0 1 1 1 1 1 0 0 1 1 0 
+Fitness:0.5 Decision vector: 1 1 0 1 1 1 1 1 1 0 0 0 
+Fitness:0.555556 Decision vector: 0 1 1 1 1 1 0 1 1 1 1 0 
+Fitness:0.638889 Decision vector: 0 1 1 0 1 1 1 1 1 0 0 0 
+Fitness:0.527778 Decision vector: 1 0 1 1 1 1 0 1 1 0 0 1 
+Fitness:0.555556 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.5 Decision vector: 1 0 1 1 1 1 0 1 1 1 1 0 
+Fitness:0.416667 Decision vector: 1 0 0 0 1 1 1 1 1 0 0 1 
+Fitness:0.416667 Decision vector: 1 1 0 0 1 1 1 1 0 1 1 1 
+
 Before shuffle:
-Fitness:0.583333 Decision vector: 1 1 1 1 0 1 1 0 1 1 1 1 
-Fitness:0.277778 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0.638889 Decision vector: 1 1 1 1 0 0 1 1 1 1 1 1 
-Fitness:0.583333 Decision vector: 0 0 1 1 1 1 0 0 1 0 0 1 
-Fitness:0.277778 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0.388889 Decision vector: 0 1 1 0 1 1 1 1 1 0 1 0 
-Fitness:0.638889 Decision vector: 1 1 0 1 1 0 1 0 1 0 1 0 
-Fitness:0.638889 Decision vector: 1 1 0 1 1 0 1 0 1 0 1 0 
-Fitness:0.277778 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0.555556 Decision vector: 1 0 1 1 1 1 1 0 1 0 1 0 
+Fitness:0.5 Decision vector: 1 0 1 1 1 1 0 1 1 1 1 0 
+Fitness:0.555556 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.555556 Decision vector: 0 1 1 1 1 1 0 1 1 1 1 0 
+Fitness:0.527778 Decision vector: 1 0 1 1 1 1 0 1 1 0 0 1 
+Fitness:0.555556 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.5 Decision vector: 1 1 0 1 1 1 1 1 1 0 0 0 
+Fitness:0.638889 Decision vector: 0 1 1 0 1 1 1 1 1 0 0 0 
+Fitness:0.555556 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.416667 Decision vector: 1 1 0 0 1 1 1 1 0 1 1 1 
+Fitness:0.527778 Decision vector: 1 0 1 1 1 1 0 1 1 0 0 1 
 
 After shuffle:
-Fitness:0.388889 Decision vector: 0 1 1 0 1 1 1 1 1 0 1 0 
-Fitness:0.638889 Decision vector: 1 1 0 1 1 0 1 0 1 0 1 0 
-Fitness:0.277778 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0.638889 Decision vector: 1 1 1 1 0 0 1 1 1 1 1 1 
-Fitness:0.277778 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0.277778 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0.583333 Decision vector: 1 1 1 1 0 1 1 0 1 1 1 1 
-Fitness:0.583333 Decision vector: 0 0 1 1 1 1 0 0 1 0 0 1 
-Fitness:0.638889 Decision vector: 1 1 0 1 1 0 1 0 1 0 1 0 
-Fitness:0.555556 Decision vector: 1 0 1 1 1 1 1 0 1 0 1 0 
+Fitness:0.555556 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.555556 Decision vector: 0 1 1 1 1 1 0 1 1 1 1 0 
+Fitness:0.527778 Decision vector: 1 0 1 1 1 1 0 1 1 0 0 1 
+Fitness:0.638889 Decision vector: 0 1 1 0 1 1 1 1 1 0 0 0 
+Fitness:0.527778 Decision vector: 1 0 1 1 1 1 0 1 1 0 0 1 
+Fitness:0.555556 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.5 Decision vector: 1 0 1 1 1 1 0 1 1 1 1 0 
+Fitness:0.416667 Decision vector: 1 1 0 0 1 1 1 1 0 1 1 1 
+Fitness:0.555556 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.5 Decision vector: 1 1 0 1 1 1 1 1 1 0 0 0 
 
-Fitness:0 Decision vector: 0 1 1 0 1 1 1 1 1 0 1 0 
-Fitness:0 Decision vector: 0 0 1 1 1 1 0 0 0 1 1 1 
-Fitness:0 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0 Decision vector: 1 1 0 1 1 0 1 0 1 0 1 0 
-Fitness:0 Decision vector: 1 1 1 1 0 0 1 1 1 1 1 1 
-Fitness:0 Decision vector: 0 1 1 1 0 1 0 1 1 1 1 1 
-Fitness:0 Decision vector: 0 0 1 1 1 1 0 0 1 0 0 1 
-Fitness:0 Decision vector: 1 0 1 1 1 1 1 0 1 0 1 0 
-Fitness:0 Decision vector: 1 0 0 1 1 1 1 0 0 0 0 1 
-Fitness:0 Decision vector: 1 1 1 1 0 1 1 0 1 1 1 1 
+Fitness:0 Decision vector: 0 1 1 1 0 1 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 1 1 1 1 1 0 0 1 1 0 
+Fitness:0 Decision vector: 1 1 0 1 1 1 1 1 1 0 0 0 
+Fitness:0 Decision vector: 0 1 1 1 1 1 0 1 1 1 1 0 
+Fitness:0 Decision vector: 0 1 1 0 1 1 1 1 1 0 0 0 
+Fitness:0 Decision vector: 1 0 1 1 1 1 0 1 1 0 0 1 
+Fitness:0 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 1 0 1 1 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 1 1 1 1 1 0 0 1 
+Fitness:0 Decision vector: 1 1 0 0 1 1 1 1 0 1 1 1 
 
-Total fitness in the population: 5.05556
+Total fitness in the population: 4.77778
+
+Old Population:
+Fitness:0.444444 Decision vector: 0 1 1 1 0 1 1 1 0 0 0 1 
+Fitness:0.555556 Decision vector: 1 0 1 1 1 1 1 0 0 1 1 0 
+Fitness:0.527778 Decision vector: 1 1 0 1 1 1 1 1 1 0 0 0 
+Fitness:0.416667 Decision vector: 0 1 1 1 1 1 0 1 1 1 1 0 
+Fitness:0.555556 Decision vector: 0 1 1 0 1 1 1 1 1 0 0 0 
+Fitness:0.444444 Decision vector: 1 0 1 1 1 1 0 1 1 0 0 1 
+Fitness:0.527778 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.361111 Decision vector: 1 0 1 1 1 1 0 1 1 1 1 0 
+Fitness:0.361111 Decision vector: 1 0 0 0 1 1 1 1 1 0 0 1 
+Fitness:0.583333 Decision vector: 1 1 0 0 1 1 1 1 0 1 1 1 
+
 Before shuffle:
-Fitness:0.388889 Decision vector: 1 0 0 1 1 1 1 0 0 0 0 1 
-Fitness:0.555556 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0.527778 Decision vector: 1 1 1 1 0 0 1 1 1 1 1 1 
-Fitness:0.638889 Decision vector: 0 1 1 1 0 1 0 1 1 1 1 1 
-Fitness:0.555556 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0.361111 Decision vector: 0 1 1 0 1 1 1 1 1 0 1 0 
-Fitness:0.555556 Decision vector: 1 1 0 1 1 0 1 0 1 0 1 0 
-Fitness:0.555556 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0.555556 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0.555556 Decision vector: 1 0 1 1 1 1 1 0 1 0 1 0 
+Fitness:0.361111 Decision vector: 1 0 1 1 1 1 0 1 1 1 1 0 
+Fitness:0.527778 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.527778 Decision vector: 1 1 0 1 1 1 1 1 1 0 0 0 
+Fitness:0.444444 Decision vector: 1 0 1 1 1 1 0 1 1 0 0 1 
+Fitness:0.527778 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.527778 Decision vector: 1 1 0 1 1 1 1 1 1 0 0 0 
+Fitness:0.416667 Decision vector: 0 1 1 1 1 1 0 1 1 1 1 0 
+Fitness:0.527778 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.583333 Decision vector: 1 1 0 0 1 1 1 1 0 1 1 1 
+Fitness:0.444444 Decision vector: 1 0 1 1 1 1 0 1 1 0 0 1 
 
 After shuffle:
-Fitness:0.361111 Decision vector: 0 1 1 0 1 1 1 1 1 0 1 0 
-Fitness:0.555556 Decision vector: 1 1 0 1 1 0 1 0 1 0 1 0 
-Fitness:0.555556 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0.527778 Decision vector: 1 1 1 1 0 0 1 1 1 1 1 1 
-Fitness:0.555556 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0.555556 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0.388889 Decision vector: 1 0 0 1 1 1 1 0 0 0 0 1 
-Fitness:0.638889 Decision vector: 0 1 1 1 0 1 0 1 1 1 1 1 
-Fitness:0.555556 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0.555556 Decision vector: 1 0 1 1 1 1 1 0 1 0 1 0 
+Fitness:0.527778 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.527778 Decision vector: 1 1 0 1 1 1 1 1 1 0 0 0 
+Fitness:0.444444 Decision vector: 1 0 1 1 1 1 0 1 1 0 0 1 
+Fitness:0.416667 Decision vector: 0 1 1 1 1 1 0 1 1 1 1 0 
+Fitness:0.444444 Decision vector: 1 0 1 1 1 1 0 1 1 0 0 1 
+Fitness:0.527778 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.361111 Decision vector: 1 0 1 1 1 1 0 1 1 1 1 0 
+Fitness:0.583333 Decision vector: 1 1 0 0 1 1 1 1 0 1 1 1 
+Fitness:0.527778 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.527778 Decision vector: 1 1 0 1 1 1 1 1 1 0 0 0 
 
-Total fitness in the population: 9.86111
+Total fitness in the population: 4.77778
+
+Old Population:
+Fitness:0.555556 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.472222 Decision vector: 1 1 0 1 1 1 1 1 1 0 0 0 
+Fitness:0.444444 Decision vector: 1 0 1 1 1 1 0 1 1 0 0 1 
+Fitness:0.472222 Decision vector: 0 1 1 1 1 1 0 1 1 1 1 0 
+Fitness:0.5 Decision vector: 1 0 1 1 1 1 0 1 1 0 0 1 
+Fitness:0.388889 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.555556 Decision vector: 1 0 1 1 1 1 0 1 1 1 1 0 
+Fitness:0.416667 Decision vector: 1 1 0 0 1 1 1 1 0 1 1 1 
+Fitness:0.5 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.472222 Decision vector: 1 1 0 1 1 1 1 1 1 0 0 0 
+
 Before shuffle:
-Fitness:1 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0.944444 Decision vector: 1 1 0 1 1 0 1 0 1 0 1 0 
-Fitness:1.02778 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0.888889 Decision vector: 1 0 0 1 1 1 1 0 0 0 0 1 
-Fitness:1.11111 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0.861111 Decision vector: 0 1 1 0 1 1 1 1 1 0 1 0 
-Fitness:0.888889 Decision vector: 1 1 1 1 0 0 1 1 1 1 1 1 
-Fitness:1.11111 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:1.11111 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:1.16667 Decision vector: 0 1 1 1 0 1 0 1 1 1 1 1 
+Fitness:0.388889 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.472222 Decision vector: 1 1 0 1 1 1 1 1 1 0 0 0 
+Fitness:0.555556 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.555556 Decision vector: 1 0 1 1 1 1 0 1 1 1 1 0 
+Fitness:0.472222 Decision vector: 0 1 1 1 1 1 0 1 1 1 1 0 
+Fitness:0.555556 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.472222 Decision vector: 1 1 0 1 1 1 1 1 1 0 0 0 
+Fitness:0.472222 Decision vector: 1 1 0 1 1 1 1 1 1 0 0 0 
+Fitness:0.555556 Decision vector: 1 0 1 1 1 1 0 1 1 1 1 0 
+Fitness:0.5 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
 
 After shuffle:
-Fitness:0.861111 Decision vector: 0 1 1 0 1 1 1 1 1 0 1 0 
-Fitness:0.888889 Decision vector: 1 1 1 1 0 0 1 1 1 1 1 1 
-Fitness:1.11111 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:1.02778 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0.944444 Decision vector: 1 1 0 1 1 0 1 0 1 0 1 0 
-Fitness:1.11111 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:1 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:0.888889 Decision vector: 1 0 0 1 1 1 1 0 0 0 0 1 
-Fitness:1.11111 Decision vector: 1 1 1 1 0 1 0 1 1 0 1 0 
-Fitness:1.16667 Decision vector: 0 1 1 1 0 1 0 1 1 1 1 1 
+Fitness:0.555556 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.555556 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.388889 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+Fitness:0.555556 Decision vector: 1 0 1 1 1 1 0 1 1 1 1 0 
+Fitness:0.472222 Decision vector: 0 1 1 1 1 1 0 1 1 1 1 0 
+Fitness:0.472222 Decision vector: 1 1 0 1 1 1 1 1 1 0 0 0 
+Fitness:0.472222 Decision vector: 1 1 0 1 1 1 1 1 1 0 0 0 
+Fitness:0.555556 Decision vector: 1 0 1 1 1 1 0 1 1 1 1 0 
+Fitness:0.472222 Decision vector: 1 1 0 1 1 1 1 1 1 0 0 0 
+Fitness:0.5 Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
 

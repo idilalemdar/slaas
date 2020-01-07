@@ -1,26 +1,26 @@
 Initializing generation zero:
 
-Strategy 0: F T T F T T T T T F T F 
-Strategy 1: F F T T T T F F F T T T 
-Strategy 2: T T T T F T F T T F T F 
-Strategy 3: T T F T T F T F T F T F 
-Strategy 4: T T T T F F T T T T T T 
-Strategy 5: F T T T F T F T T T T T 
-Strategy 6: F F T T T T F F T F F T 
-Strategy 7: T F T T T T T F T F T F 
-Strategy 8: T F F T T T T F F F F T 
-Strategy 9: T T T T F T T F T T T T 
+Strategy 0: F T T T F T T T F F F T 
+Strategy 1: T F T T T T T F F T T F 
+Strategy 2: T T F T T T T T T F F F 
+Strategy 3: F T T T T T F T T T T F 
+Strategy 4: F T T F T T T T T F F F 
+Strategy 5: T F T T T T F T T F F T 
+Strategy 6: T T T T T F T T F T T T 
+Strategy 7: T F T T T T F T T T T F 
+Strategy 8: T F F F T T T T T F F T 
+Strategy 9: T T F F T T T T F T T T 
 
 Initializing generation zero:
 
-Strategy 0: F T T F T T T T T F T F 
-Strategy 1: F F T T T T F F F T T T 
-Strategy 2: T T T T F T F T T F T F 
-Strategy 3: T T F T T F T F T F T F 
-Strategy 4: T T T T F F T T T T T T 
-Strategy 5: F T T T F T F T T T T T 
-Strategy 6: F F T T T T F F T F F T 
-Strategy 7: T F T T T T T F T F T F 
-Strategy 8: T F F T T T T F F F F T 
-Strategy 9: T T T T F T T F T T T T 
+Strategy 0: F T T T F T T T F F F T 
+Strategy 1: T F T T T T T F F T T F 
+Strategy 2: T T F T T T T T T F F F 
+Strategy 3: F T T T T T F T T T T F 
+Strategy 4: F T T F T T T T T F F F 
+Strategy 5: T F T T T T F T T F F T 
+Strategy 6: T T T T T F T T F T T T 
+Strategy 7: T F T T T T F T T T T F 
+Strategy 8: T F F F T T T T T F F T 
+Strategy 9: T T F F T T T T F T T T 
 
