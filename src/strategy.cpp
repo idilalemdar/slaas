@@ -6,11 +6,15 @@ Strategy::Strategy(int term, int max) {
     maxPossibleUtility = max;
 }
 
+vector<bool> Strategy::getDecision() const {
+    return decisionVector;
+}
+
 double Strategy::getFitness() const {
     return fitness;
 }
 
-void Strategy::calculateFitness() {
+void Strategy::calculateFitness() { // OK
     double sum = 0;
     for (auto const& ele : utilities) {
         sum += ele;

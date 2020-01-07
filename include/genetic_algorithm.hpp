@@ -19,8 +19,9 @@ private:
     void initializePopulation();
     void calculateTotalFitness();
     void calculateProportions(vector<double>&);
-    void createNewPopulation(const vector<double>&, vector<Strategy>&, auto&);
+    void createNewPopulation(const vector<double>&, vector<Strategy>&);
 public:
+    void reportPopulation();
     GeneticAlgorithm(int, int, int, int);
     vector<Strategy>& getCurrentPopulation();
     void evolve();
