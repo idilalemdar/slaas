@@ -10,7 +10,6 @@ TEST(StrategyTest1, Constructor) {
     st->setUtility(3,3);
     st->setUtility(4,7);
     st->setUtility(5,5);
-    st->calculateFitness();
     EXPECT_EQ((4.0/6), st->getFitness());
     delete st;
 }
@@ -24,7 +23,6 @@ TEST(StrategyTest2, Constructor) {
     st->setUtility(3,9);
     st->setUtility(4,9);
     st->setUtility(5,6);
-    st->calculateFitness();
     EXPECT_EQ(1, st->getFitness());
     delete st;
 }

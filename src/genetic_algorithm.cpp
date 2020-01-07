@@ -13,11 +13,10 @@ void GeneticAlgorithm::initializePopulation() {
         for (int j = 0; j < freeDecisionSpace; ++j) {
             // TODO: implement
         }
-        population.push_back(true);
     }
 }
 
-vector<Strategy>& GeneticAlgorithm::getCurrentPopulation() const {
+vector<Strategy>& GeneticAlgorithm::getCurrentPopulation() {
     return population;
 }
 

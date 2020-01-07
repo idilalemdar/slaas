@@ -13,7 +13,8 @@ Strategy::~Strategy() {
     free(utilities);
 }
 
-double Strategy::getFitness() const {
+double Strategy::getFitness() {
+    calculateFitness();
     return fitness;
 }
 

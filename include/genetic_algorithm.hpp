@@ -1,6 +1,8 @@
 #ifndef SLAAS_GENETIC_ALGORITHM_H
 #define SLAAS_GENETIC_ALGORITHM_H
 
+#include "strategy.hpp"
+using namespace std;
 
 class GeneticAlgorithm {
 private:
@@ -17,7 +19,7 @@ private:
     void initializePopulation();
 public:
     GeneticAlgorithm(int, int, int, int);
-    vector<Strategy>& getCurrentPopulation() const;
+    vector<Strategy>& getCurrentPopulation();
     void evolve();
 };
 
