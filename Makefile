@@ -6,7 +6,7 @@ SRC = src/*.cpp
 run: main.cpp
 	$(CC) -o main main.cpp $(SRC) $(CFLAGS_COMMON)
 test:
-	$(CC) -o test tests/*.cpp $(SRC) $(CFLAGS_TEST) $(CFLAGS_COMMON)
+	$(CC) -o test tests/*.cpp $(SRC) $(CFLAGS_TEST) $(CFLAGS_COMMON) -g
 debug:
 	$(CC) -o debug main.cpp $(SRC) $(CFLAGS_COMMON) -g
 clean_main:

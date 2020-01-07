@@ -7,18 +7,18 @@ using namespace std;
 
 class Strategy {
 private:
-    int maxPossibleUtility;
     int evolutionTerm;
-    int *utilities;
+    int maxPossibleUtility;
+    vector<int> utilities;
     double fitness;
     vector<bool> decisionVector;
 public:
     Strategy(int, int);
-    ~Strategy();
     void calculateFitness();
     double getFitness() const;
-    void setUtility(int, int);
+    void addUtility(int);
     void addDecision(bool);
+    void clearUtilities();
 };
 
 

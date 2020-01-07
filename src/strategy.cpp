@@ -1,15 +1,9 @@
 #include "strategy.hpp"
-#include <cstdlib>
 
-Strategy::Strategy(int evolutionTerm, int max) {
+Strategy::Strategy(int term, int max) {
     fitness = 0;
-    utilities = (int*)calloc(evolutionTerm, sizeof(int));
-    this->evolutionTerm = evolutionTerm;
+    evolutionTerm = term;
     maxPossibleUtility = max;
-}
-
-Strategy::~Strategy() {
-    free(utilities);
 }
 
 double Strategy::getFitness() const {
@@ -18,16 +12,19 @@ double Strategy::getFitness() const {
 
 void Strategy::calculateFitness() {
     double sum = 0;
-    for (int i = 0; i < evolutionTerm; ++i) {
-        sum += utilities[i];
+    for (auto const& ele : utilities) {
+        sum += ele;
     }
     fitness = (sum / evolutionTerm) / maxPossibleUtility;  // normalize the fitness value
 }
 
-void Strategy::setUtility(int index, int value) {
-    utilities[index] = value;
+void Strategy::addUtility(int value) {
+    utilities.push_back(value);
 }
 
 void Strategy::addDecision(bool decision) {
     decisionVector.push_back(decision);
+}
+void Strategy::clearUtilities() {
+    utilities.clear();
 }
