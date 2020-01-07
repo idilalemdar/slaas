@@ -12,12 +12,13 @@ private:
     int *utilities;
     double fitness;
     vector<bool> decisionVector;
-    void calculateFitness();
 public:
-    Strategy(const vector<bool>&, int, int);
+    Strategy(int, int);
     ~Strategy();
-    double getFitness();
+    void calculateFitness();
+    double getFitness() const;
     void setUtility(int, int);
+    void addDecision(bool);
 };
 
 

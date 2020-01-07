@@ -10,9 +10,11 @@ GeneticAlgorithm::GeneticAlgorithm(int term, int max, int size, int fd) {
 
 void GeneticAlgorithm::initializePopulation() {
     for (int i = 0; i < populationSize; ++i) {
+        Strategy st(evolutionTerm, maxPossibleUtility);
         for (int j = 0; j < freeDecisionSpace; ++j) {
-            // TODO: implement
+
         }
+        population.push_back(st);
     }
 }
 

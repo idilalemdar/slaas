@@ -1,8 +1,7 @@
 #include "strategy.hpp"
 #include <cstdlib>
 
-Strategy::Strategy(const vector<bool>& decisions, int evolutionTerm, int max) {
-    decisionVector = decisions;
+Strategy::Strategy(int evolutionTerm, int max) {
     fitness = 0;
     utilities = (int*)calloc(evolutionTerm, sizeof(int));
     this->evolutionTerm = evolutionTerm;
@@ -13,8 +12,7 @@ Strategy::~Strategy() {
     free(utilities);
 }
 
-double Strategy::getFitness() {
-    calculateFitness();
+double Strategy::getFitness() const {
     return fitness;
 }
 
@@ -28,4 +26,8 @@ void Strategy::calculateFitness() {
 
 void Strategy::setUtility(int index, int value) {
     utilities[index] = value;
+}
+
+void Strategy::addDecision(bool decision) {
+    decisionVector.push_back(decision);
 }
