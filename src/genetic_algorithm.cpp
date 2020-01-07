@@ -14,7 +14,7 @@ void GeneticAlgorithm::initializePopulation() {
     ofstream report("initialGeneration.txt", ofstream::app);
     report << "Initializing generation zero:\n\n";
     for (int i = 0; i < populationSize; ++i) {
-        report << "Strategy " << i << ":\n";
+        report << "Strategy " << i << ": ";
         Strategy st(evolutionTerm, maxPossibleUtility);
         for (int j = 0; j < freeDecisionSpace; ++j) {
             double roll = distribution(generator);
@@ -43,8 +43,48 @@ void GeneticAlgorithm::evolve() {
     mutate();
 }
 
-void GeneticAlgorithm::reproduce() {
+void GeneticAlgorithm::calculateTotalFitness() {
+    totalFitness = 0;
+    for (auto const &ele : population) {
+        totalFitness += ele.getFitness();
+    }
+}
 
+void GeneticAlgorithm::calculateProportions(vector<double>& proportions) {
+    for (auto const &ele : population) {
+        double proportion = ele.getFitness() / totalFitness;
+        if (proportions.empty()) {  // cumulative roulette wheel
+            proportions.push_back(proportion);
+        } else {
+            proportions.push_back(proportion + proportions.back());
+        }
+    }
+}
+
+void GeneticAlgorithm::createNewPopulation(const vector<double>& proportions, vector<Strategy>& new_population, auto& generator) {
+    uniform_real_distribution<double> distribution(0.0, 1.0);
+    for (int i = 0; i < populationSize; ++i) {
+        double roll = distribution(generator);
+        int index = 0;
+        while (roll > proportions[index]) {
+            index++;
+        }
+        new_population.push_back(population[index]);
+    }
+}
+
+void GeneticAlgorithm::reproduce() {  // fitness proportionate selection
+    calculateTotalFitness();
+
+    vector<double> proportions;
+    calculateProportions(proportions);
+
+    vector<Strategy> new_population;
+    default_random_engine generator{static_cast<long unsigned int>(time(0))};
+    createNewPopulation(proportions, new_population, generator);
+
+    population = new_population;
+    shuffle(population.begin(), population.end(), generator);
 }
 
 void GeneticAlgorithm::crossover() {

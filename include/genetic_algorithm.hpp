@@ -6,6 +6,7 @@
 
 class GeneticAlgorithm {
 private:
+    double totalFitness = 0;
     int evolutionTerm;
     int maxPossibleUtility;
     int populationSize;
@@ -13,14 +14,17 @@ private:
     const double crossoverRate = 0.7;
     const double mutationRate = 0.3;
     vector<Strategy> population;
-    void reproduce();
     void crossover();
     void mutate();
     void initializePopulation();
+    void calculateTotalFitness();
+    void calculateProportions(vector<double>&);
+    void createNewPopulation(const vector<double>&, vector<Strategy>&, auto&);
 public:
     GeneticAlgorithm(int, int, int, int);
     vector<Strategy>& getCurrentPopulation();
     void evolve();
+    void reproduce();
 };
 
 
