@@ -1,6 +1,4 @@
 #include "allocation.hpp"
-#include <cmath>
-#include <fstream>
 
 AllocationSpace::AllocationSpace(double c1, double c2, int u1, int u2) {
     costs.first = c1;
@@ -15,7 +13,7 @@ vector<pair< ActiveSliceSet, SliceType>> AllocationSpace::getFreeDecisionSpace()
 }
 
 void AllocationSpace::reportResourceFeasibility(const ActiveSliceSet& ele, int index) {
-    ofstream report("report.txt", ofstream::app);
+    ofstream report("allocation.txt", ofstream::app);
     report << index << ":\n# of type 0 slice: " << ele.countTypeZero << "\n# of type 1 slice: "
         << ele.countTypeOne << "\nTotal cost: " << ele.totalCost << "\nTotal utility: "
         << ele.totalUtility << "\n\n";
@@ -30,7 +28,7 @@ vector< ActiveSliceSet> AllocationSpace::calculateResourceFeasibility() {
     double typeOneCost = 0;
     double totalCost = 0;
     int totalUtility;
-    ofstream report("report.txt", ofstream::app);
+    ofstream report("allocation.txt", ofstream::app);
     report << "Space of resource feasibility:\n\n";
     report.close();
     for (int i = 0; i <= maxTypeOne; ++i) {
@@ -53,7 +51,7 @@ vector< ActiveSliceSet> AllocationSpace::calculateResourceFeasibility() {
 }
 
 void AllocationSpace::reportFreeDecision(const pair< ActiveSliceSet, SliceType>& p, int index) {
-    ofstream report("report.txt", ofstream::app);
+    ofstream report("allocation.txt", ofstream::app);
     ActiveSliceSet c = p.first;
     report << index << ":\n# of type 0 slice: " << c.countTypeZero << "\n# of type 1 slice: "
            << c.countTypeOne << "\nTotal cost: " << c.totalCost << "\nTotal utility: "
@@ -71,7 +69,7 @@ void AllocationSpace::calculateFreeDecision() {
     vector< ActiveSliceSet> resourceFeasibility = calculateResourceFeasibility();
     double costBefore;
     int index = 0;
-    ofstream report("report.txt", ofstream::app);
+    ofstream report("allocation.txt", ofstream::app);
     report << "Space of free decision:\n\n";
     report.close();
     for (auto const &ele : resourceFeasibility) {

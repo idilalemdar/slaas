@@ -2,7 +2,7 @@
 #define SLAAS_GENETIC_ALGORITHM_H
 
 #include "strategy.hpp"
-using namespace std;
+#include "common.hpp"
 
 class GeneticAlgorithm {
 private:

@@ -2,9 +2,7 @@
 #define SLAAS_ALLOCATION_H
 
 #include <utility>
-#include <vector>
-
-using namespace std;
+#include "common.hpp"
 
 enum SliceType {
     First,

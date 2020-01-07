@@ -1,7 +1,7 @@
 #ifndef SLAAS_STRATEGY_H
 #define SLAAS_STRATEGY_H
 
-#include <vector>
+#include "common.hpp"
 
 using namespace std;
 
