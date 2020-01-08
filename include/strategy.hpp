@@ -17,6 +17,7 @@ public:
     void calculateFitness();
     double getFitness() const;
     void addUtility(int);
+    void setDecision(vector<bool>);
     void addDecision(bool);
     void clearUtilities();
     vector<bool> getDecision() const;

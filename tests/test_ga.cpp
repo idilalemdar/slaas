@@ -2,9 +2,9 @@
 #include "genetic_algorithm.hpp"
 
 default_random_engine generator{static_cast<long unsigned int>(time(0))};
-uniform_int_distribution<int> distribution(1,5);
+uniform_int_distribution<int> distribution(0,6);
 
-TEST(GA2, Reproduce) {
+TEST(GA2, Evolve) {
     GeneticAlgorithm ga(6, 6, 10, 12);
     vector<Strategy>& pop = ga.getCurrentPopulation();
     for(auto& st: pop) {
@@ -14,10 +14,10 @@ TEST(GA2, Reproduce) {
         }
         st.calculateFitness();
     }
-    ga.reproduce();
+    ga.evolve();
 }
 
-TEST(GA3, ReproduceTwice) {
+TEST(GA3, EvolveTwice) {
     GeneticAlgorithm ga(6, 6, 10, 12);
     vector<Strategy>& pop = ga.getCurrentPopulation();
     for(int j = 0; j < 2; ++j) {
@@ -29,6 +29,6 @@ TEST(GA3, ReproduceTwice) {
             }
             st.calculateFitness();
         }
-        ga.reproduce();
+        ga.evolve();
     }
 }

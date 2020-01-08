@@ -32,3 +32,7 @@ void Strategy::addDecision(bool decision) {
 void Strategy::clearUtilities() {
     utilities.clear();
 }
+
+void Strategy::setDecision(vector<bool> v) {
+    decisionVector = v;
+}

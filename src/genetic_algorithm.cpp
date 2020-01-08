@@ -1,5 +1,5 @@
 #include "genetic_algorithm.hpp"
-#include <iostream>
+
 GeneticAlgorithm::GeneticAlgorithm(int term, int max, int size, int fd) {
     evolutionTerm = term;
     maxPossibleUtility = max;
@@ -94,12 +94,13 @@ void GeneticAlgorithm::reproduce() {  // fitness proportionate selection
 
     vector<Strategy> new_population;
     createNewPopulation(proportions, new_population);
-
     report << endl << "Old Population:" << endl;
     report.close();
     reportPopulation();
     population = new_population;
+    calculateTotalFitness();
     report.open("populationInfo.txt", ofstream::app);
+    report << "Total fitness in the new population: " << totalFitness << endl;
     report << "Before shuffle:\n";
     report.close();
     reportPopulation();
@@ -110,8 +111,42 @@ void GeneticAlgorithm::reproduce() {  // fitness proportionate selection
     reportPopulation();
 }
 
-void GeneticAlgorithm::crossover() {
+void GeneticAlgorithm::xover(int index) {
+    uniform_int_distribution<int> distribution(1, freeDecisionSpace - 1);
+    int roll = distribution(generator); // crossover point
 
+    vector<bool> dv1(population[index].getDecision());
+    vector<bool> dv2(population[index + 1].getDecision());
+
+    auto dv1start = dv1.begin();
+    auto dv1end = dv1.end();
+    auto dv2start = dv2.begin();
+    auto dv2end = dv2.end();
+
+    vector<bool> dv1_tail(dv1start + roll, dv1end);
+    vector<bool> dv2_tail(dv2start + roll, dv2end);
+    vector<bool> dv1_head(dv1start, dv1start + roll);
+    vector<bool> dv2_head(dv2start, dv2start + roll);
+
+    dv1_head.insert(dv1_head.end(), dv2_tail.begin(), dv2_tail.end());
+    dv2_head.insert(dv2_head.end(), dv1_tail.begin(), dv1_tail.end());
+
+    population[index].setDecision(dv1_head);
+    population[index + 1].setDecision(dv2_head);
+}
+
+void GeneticAlgorithm::crossover() {
+    uniform_real_distribution<double> distribution(0.0, 1.0);
+    for (int i = 0; i < populationSize; i += 2) {
+        double roll = distribution(generator);
+        if (roll <= crossoverRate) { // crossover happens
+            xover(i);
+        }
+    }
+    ofstream report("populationInfo.txt", ofstream::app);
+    report << "Crossover:\n";
+    report.close();
+    reportPopulation();
 }
 
 void GeneticAlgorithm::mutate() {

@@ -15,8 +15,10 @@ private:
     const double crossoverRate = 0.7;
     const double mutationRate = 0.3;
     vector<Strategy> population;
+    void reproduce();
     void crossover();
     void mutate();
+    void xover(int);
     void initializePopulation();
     void calculateTotalFitness();
     void calculateProportions(vector<double>&);
@@ -26,7 +28,6 @@ public:
     GeneticAlgorithm(int, int, int, int);
     vector<Strategy>& getCurrentPopulation();
     void evolve();
-    void reproduce();
 };
 
 
