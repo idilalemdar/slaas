@@ -1,9 +1,25 @@
 #include "strategy.hpp"
 
-Strategy::Strategy(int term, int max) {
-    fitness = 0;
+StrategyBase* StrategyBase::instance = 0;
+
+StrategyBase::~StrategyBase() {
+    delete instance;
+}
+
+static StrategyBase* StrategyBase::getInstance() {
+    if(instance == nullptr) {
+        instance = new StrategyBase();
+    }
+    return instance;
+}
+
+void StrategyBase::setValues(int term, int max) {
     evolutionTerm = term;
     maxPossibleUtility = max;
+}
+
+Strategy::Strategy() {
+    StrategyBase *instance = StrategyBase::getInstance();
 }
 
 vector<bool> Strategy::getDecision() const {

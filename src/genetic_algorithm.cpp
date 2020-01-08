@@ -1,8 +1,6 @@
 #include "genetic_algorithm.hpp"
 
-GeneticAlgorithm::GeneticAlgorithm(int term, int max, int size, int fd) {
-    evolutionTerm = term;
-    maxPossibleUtility = max;
+GeneticAlgorithm::GeneticAlgorithm(int size, int fd) {
     populationSize = size;
     freeDecisionSpace = fd;
     initializePopulation();
@@ -14,7 +12,7 @@ void GeneticAlgorithm::initializePopulation() {
     report << "Initializing generation zero:\n\n";
     for (int i = 0; i < populationSize; ++i) {
         report << "Strategy " << i << ": ";
-        Strategy st(evolutionTerm, maxPossibleUtility);
+        Strategy st;
         for (int j = 0; j < freeDecisionSpace; ++j) {
             double roll = distribution(generator);
             if (roll <= 0.6) { // generate true with probability 0.6

@@ -5,15 +5,26 @@
 
 using namespace std;
 
-class Strategy {
+class StrategyBase {
 private:
-    int evolutionTerm;
-    int maxPossibleUtility;
+    static StrategyBase* instance;
+    StrategyBase();
+protected:
+    static int evolutionTerm;
+    static int maxPossibleUtility;
+public:
+    void setValues(int, int);
+    static StrategyBase* getInstance();
+    ~StrategyBase();
+};
+
+class Strategy: public StrategyBase {
+private:
     vector<int> utilities;
-    double fitness;
+    double fitness = 0;
     vector<bool> decisionVector;
 public:
-    Strategy(int, int);
+    Strategy();
     void calculateFitness();
     double getFitness() const;
     void addUtility(int);

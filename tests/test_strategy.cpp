@@ -1,9 +1,12 @@
 #include "strategy.hpp"
 #include <gtest/gtest.h>
 
+StrategyBase *instance = StrategyBase::getInstance();
+instance->setValues(6,6);
+
 TEST(StrategyTest1, Constructor) {
     vector<bool> v = {true, true, false, true, false, false, true, false, false, true, true, false};
-    Strategy st(6, 6);
+    Strategy st;
     for (auto const& ele : v) {
         st.addDecision(ele);
     }
@@ -19,7 +22,7 @@ TEST(StrategyTest1, Constructor) {
 
 TEST(StrategyTest2, Constructor) {
     vector<bool> v = {true, true, false, true, false, false, true, false, false, true, true, false};
-    Strategy st(6, 6);
+    Strategy st;
     for (auto const& ele : v) {
         st.addDecision(ele);
     }
