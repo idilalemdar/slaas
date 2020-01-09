@@ -36,3 +36,7 @@ void Strategy::clearUtilities() {
 void Strategy::setDecision(vector<bool> v) {
     decisionVector = v;
 }
+
+void Strategy::mutateDecision(int index) {
+    decisionVector[index] = !decisionVector[index];
+}

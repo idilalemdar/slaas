@@ -19,6 +19,7 @@ public:
     void addUtility(int);
     void setDecision(vector<bool>);
     void addDecision(bool);
+    void mutateDecision(int);
     void clearUtilities();
     vector<bool> getDecision() const;
 };

@@ -14,11 +14,13 @@ private:
     int freeDecisionSpace;
     const double crossoverRate = 0.7;
     const double mutationRate = 0.3;
+    const int mutationRound = 1;
     vector<Strategy> population;
     void reproduce();
     void crossover();
     void mutate();
     void xover(int);
+    void mutateBits(int);
     void initializePopulation();
     void calculateTotalFitness();
     void calculateProportions(vector<double>&);

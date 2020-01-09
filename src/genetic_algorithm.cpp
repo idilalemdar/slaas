@@ -123,10 +123,13 @@ void GeneticAlgorithm::xover(int index) {
     auto dv2start = dv2.begin();
     auto dv2end = dv2.end();
 
-    vector<bool> dv1_tail(dv1start + roll, dv1end);
-    vector<bool> dv2_tail(dv2start + roll, dv2end);
-    vector<bool> dv1_head(dv1start, dv1start + roll);
-    vector<bool> dv2_head(dv2start, dv2start + roll);
+    auto split1 = dv1start + roll;
+    auto split2 = dv2start + roll;
+
+    vector<bool> dv1_tail(split1, dv1end);
+    vector<bool> dv2_tail(split2, dv2end);
+    vector<bool> dv1_head(dv1start, split1);
+    vector<bool> dv2_head(dv2start, split2);
 
     dv1_head.insert(dv1_head.end(), dv2_tail.begin(), dv2_tail.end());
     dv2_head.insert(dv2_head.end(), dv1_tail.begin(), dv1_tail.end());
@@ -149,6 +152,25 @@ void GeneticAlgorithm::crossover() {
     reportPopulation();
 }
 
-void GeneticAlgorithm::mutate() {
+void GeneticAlgorithm::mutateBits(int index) {
+    Strategy& individual = population[index];
+    uniform_real_distribution<double> distribution(0.0, 1.0);
+    for (int i = 0; i < freeDecisionSpace; ++i) {
+        double roll = distribution(generator);
+        if (roll <= mutationRate) {
+            individual.mutateDecision(i);
+        }
+    }
+}
 
+void GeneticAlgorithm::mutate() {
+    for (int j = 0; j < populationSize; ++j) {
+        for (int i = 0; i < mutationRound; ++i) {
+            mutateBits(j);
+        }
+    }
+    ofstream report("populationInfo.txt", ofstream::app);
+    report << "Mutation:\n";
+    report.close();
+    reportPopulation();
 }
