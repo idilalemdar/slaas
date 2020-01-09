@@ -8,7 +8,7 @@ AllocationSpace::AllocationSpace(double c1, double c2, int u1, int u2) {
     calculateFreeDecision();
 }
 
-vector<pair< ActiveSliceSet, SliceType>> AllocationSpace::getFreeDecisionSpace() const {
+vector<pair<ActiveSliceSet, SliceType>> AllocationSpace::getFreeDecisionSpace() const {
     return freeDecision;
 }
 
@@ -20,7 +20,7 @@ void AllocationSpace::reportResourceFeasibility(const ActiveSliceSet& ele, int i
     report.close();
 }
 
-vector< ActiveSliceSet> AllocationSpace::calculateResourceFeasibility() {
+vector<ActiveSliceSet> AllocationSpace::calculateResourceFeasibility() {
     int maxTypeOne = static_cast<int>(floor(resourcePool / costs.first));
     vector< ActiveSliceSet> result;
     int j = 0;
@@ -50,7 +50,7 @@ vector< ActiveSliceSet> AllocationSpace::calculateResourceFeasibility() {
     return result;
 }
 
-void AllocationSpace::reportFreeDecision(const pair< ActiveSliceSet, SliceType>& p, int index) {
+void AllocationSpace::reportFreeDecision(const pair<ActiveSliceSet, SliceType>& p, int index) {
     ofstream report("allocation.txt", ofstream::app);
     ActiveSliceSet c = p.first;
     report << index << ":\n# of type 0 slice: " << c.countTypeZero << "\n# of type 1 slice: "
@@ -59,14 +59,14 @@ void AllocationSpace::reportFreeDecision(const pair< ActiveSliceSet, SliceType>&
     report.close();
 }
 
-void AllocationSpace::addElementToFreeDecision( ActiveSliceSet ele, SliceType type, int index) {
+void AllocationSpace::addElementToFreeDecision(ActiveSliceSet ele, SliceType type, int index) {
     pair< ActiveSliceSet, SliceType> p(ele, type);
     freeDecision.push_back(p);
     reportFreeDecision(p, index);
 }
 
 void AllocationSpace::calculateFreeDecision() {
-    vector< ActiveSliceSet> resourceFeasibility = calculateResourceFeasibility();
+    vector<ActiveSliceSet> resourceFeasibility = calculateResourceFeasibility();
     double costBefore;
     int index = 0;
     ofstream report("allocation.txt", ofstream::app);
