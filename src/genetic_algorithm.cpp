@@ -10,27 +10,18 @@ GeneticAlgorithm::GeneticAlgorithm(int term, int max, int size, int fd) {
 
 void GeneticAlgorithm::initializePopulation() {
     uniform_real_distribution<double> distribution(0.0,1.0);
-    ofstream report("initialGeneration.txt", ofstream::app);
-    report << "Initializing generation zero:\n\n";
     for (int i = 0; i < populationSize; ++i) {
-        report << "Strategy " << i << ": ";
         Strategy st(evolutionTerm, maxPossibleUtility);
         for (int j = 0; j < freeDecisionSpace; ++j) {
             double roll = distribution(generator);
-            if (roll <= 0.6) { // generate true with probability 0.6
+            if (roll <= 0.7) { // generate true with probability 0.6
                 st.addDecision(true);
-                report << "T ";
             } else {
                 st.addDecision(false);
-                report << "F ";
             }
         }
-        report << endl;
         population.push_back(st);
     }
-    report << endl;
-    report.close();
-    reportPopulation();
 }
 
 vector<Strategy>& GeneticAlgorithm::getCurrentPopulation() {

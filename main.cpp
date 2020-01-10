@@ -48,7 +48,7 @@ int main(int argc, char **argv) {
     default_random_engine generator{static_cast<long unsigned int>(time(0))};
 
     for (int k = 0; k < MAX_GEN; ++k) {
-        map<int, vector<SliceRequest>> requests = generateRequests(generator, costs, utilities);// generate requests for the next generation
+        map<int, vector<SliceRequest>> requests(generateRequests(generator, costs, utilities));// generate requests for the next generation
         for (int j = 0; j < POPULATION_SIZE; ++j) {
             Strategy& st = population[j];
             CoreNW cnw(freeDecision, st, EVOLUTION_TERM);
@@ -61,7 +61,9 @@ int main(int argc, char **argv) {
             }
             st.clearUtilities();
         }
-        ga.evolve(); // evolve after each evolution term
+        ga.evolve(); // evolve after the whole population goes through one evolution term
+        cout << "Best Strategy:\n";
+        bestStrategy.reportStrategy();
     }
     return 0;
 }

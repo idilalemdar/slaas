@@ -32,7 +32,6 @@ void Strategy::addDecision(bool decision) {
     decisionVector.push_back(decision);
 }
 void Strategy::clearUtilities() {
-    fitness = 0;
     utilities.clear();
 }
 
@@ -42,4 +41,16 @@ void Strategy::setDecision(vector<bool> v) {
 
 void Strategy::mutateDecision(int index) {
     decisionVector[index] = !decisionVector[index];
+}
+
+void Strategy::reportStrategy() {
+    cout << "Utilities:\n";
+    for (const auto &item : utilities) {
+        cout << item << " ";
+    }
+    cout << "\nDecisin Vector:\n";
+    for (const auto &range : decisionVector) {
+        cout << range << " ";
+    }
+    cout << "Fitness: " << fitness << endl;
 }

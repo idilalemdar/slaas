@@ -1,0 +1,100 @@
+Best Strategy:
+Utilities:
+2 2 4 5 
+Decisin Vector:
+1 1 1 0 0 1 1 1 1 1 1 1 Fitness: 0.361111
+Best Strategy:
+Utilities:
+2 2 4 5 
+Decisin Vector:
+1 1 1 0 0 1 1 1 1 1 1 1 Fitness: 0.361111
+Best Strategy:
+Utilities:
+2 2 4 5 
+Decisin Vector:
+1 1 1 0 0 1 1 1 1 1 1 1 Fitness: 0.361111
+Best Strategy:
+Utilities:
+2 3 2 3 1 2 3 3 
+Decisin Vector:
+1 1 1 1 1 1 1 1 0 1 1 1 Fitness: 0.527778
+Best Strategy:
+Utilities:
+2 3 2 3 1 2 3 3 
+Decisin Vector:
+1 1 1 1 1 1 1 1 0 1 1 1 Fitness: 0.527778
+Best Strategy:
+Utilities:
+2 3 2 3 1 2 3 3 
+Decisin Vector:
+1 1 1 1 1 1 1 1 0 1 1 1 Fitness: 0.527778
+Best Strategy:
+Utilities:
+2 3 2 3 1 2 3 3 
+Decisin Vector:
+1 1 1 1 1 1 1 1 0 1 1 1 Fitness: 0.527778
+Best Strategy:
+Utilities:
+2 3 2 3 1 2 3 3 
+Decisin Vector:
+1 1 1 1 1 1 1 1 0 1 1 1 Fitness: 0.527778
+Best Strategy:
+Utilities:
+2 3 2 3 1 2 3 3 
+Decisin Vector:
+1 1 1 1 1 1 1 1 0 1 1 1 Fitness: 0.527778
+Best Strategy:
+Utilities:
+2 3 2 3 1 2 3 3 
+Decisin Vector:
+1 1 1 1 1 1 1 1 0 1 1 1 Fitness: 0.527778
+Best Strategy:
+Utilities:
+2 3 2 3 1 2 3 3 
+Decisin Vector:
+1 1 1 1 1 1 1 1 0 1 1 1 Fitness: 0.527778
+Best Strategy:
+Utilities:
+2 3 2 3 1 2 3 3 
+Decisin Vector:
+1 1 1 1 1 1 1 1 0 1 1 1 Fitness: 0.527778
+Best Strategy:
+Utilities:
+2 3 2 3 1 2 3 3 
+Decisin Vector:
+1 1 1 1 1 1 1 1 0 1 1 1 Fitness: 0.527778
+Best Strategy:
+Utilities:
+2 3 2 3 1 2 3 3 
+Decisin Vector:
+1 1 1 1 1 1 1 1 0 1 1 1 Fitness: 0.527778
+Best Strategy:
+Utilities:
+2 3 2 3 1 2 3 3 
+Decisin Vector:
+1 1 1 1 1 1 1 1 0 1 1 1 Fitness: 0.527778
+Best Strategy:
+Utilities:
+2 3 2 3 1 2 3 3 
+Decisin Vector:
+1 1 1 1 1 1 1 1 0 1 1 1 Fitness: 0.527778
+Best Strategy:
+Utilities:
+2 3 2 3 1 2 3 3 
+Decisin Vector:
+1 1 1 1 1 1 1 1 0 1 1 1 Fitness: 0.527778
+Best Strategy:
+Utilities:
+2 3 2 3 1 2 3 3 
+Decisin Vector:
+1 1 1 1 1 1 1 1 0 1 1 1 Fitness: 0.527778
+Best Strategy:
+Utilities:
+2 4 4 4 3 4 
+Decisin Vector:
+1 1 0 1 0 1 1 1 0 1 0 0 Fitness: 0.583333
+Best Strategy:
+Utilities:
+2 4 4 4 3 4 
+Decisin Vector:
+1 1 0 1 0 1 1 1 0 1 0 0 Fitness: 0.583333

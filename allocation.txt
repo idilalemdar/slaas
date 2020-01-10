@@ -146,3 +146,299 @@ Total cost: 0.6
 Total utility: 4
 Added slice type: 1
 
+Space of resource feasibility:
+
+0:
+# of type 0 slice: 0
+# of type 1 slice: 0
+Total cost: 0
+Total utility: 0
+
+1:
+# of type 0 slice: 0
+# of type 1 slice: 1
+Total cost: 0.3
+Total utility: 1
+
+2:
+# of type 0 slice: 0
+# of type 1 slice: 2
+Total cost: 0.6
+Total utility: 2
+
+3:
+# of type 0 slice: 0
+# of type 1 slice: 3
+Total cost: 0.9
+Total utility: 3
+
+4:
+# of type 0 slice: 1
+# of type 1 slice: 0
+Total cost: 0.3
+Total utility: 2
+
+5:
+# of type 0 slice: 1
+# of type 1 slice: 1
+Total cost: 0.6
+Total utility: 3
+
+6:
+# of type 0 slice: 1
+# of type 1 slice: 2
+Total cost: 0.9
+Total utility: 4
+
+7:
+# of type 0 slice: 2
+# of type 1 slice: 0
+Total cost: 0.6
+Total utility: 4
+
+8:
+# of type 0 slice: 2
+# of type 1 slice: 1
+Total cost: 0.9
+Total utility: 5
+
+9:
+# of type 0 slice: 3
+# of type 1 slice: 0
+Total cost: 0.9
+Total utility: 6
+
+Space of free decision:
+
+0:
+# of type 0 slice: 0
+# of type 1 slice: 0
+Total cost: 0
+Total utility: 0
+Added slice type: 0
+
+1:
+# of type 0 slice: 0
+# of type 1 slice: 0
+Total cost: 0
+Total utility: 0
+Added slice type: 1
+
+2:
+# of type 0 slice: 0
+# of type 1 slice: 1
+Total cost: 0.3
+Total utility: 1
+Added slice type: 0
+
+3:
+# of type 0 slice: 0
+# of type 1 slice: 1
+Total cost: 0.3
+Total utility: 1
+Added slice type: 1
+
+4:
+# of type 0 slice: 0
+# of type 1 slice: 2
+Total cost: 0.6
+Total utility: 2
+Added slice type: 0
+
+5:
+# of type 0 slice: 0
+# of type 1 slice: 2
+Total cost: 0.6
+Total utility: 2
+Added slice type: 1
+
+6:
+# of type 0 slice: 1
+# of type 1 slice: 0
+Total cost: 0.3
+Total utility: 2
+Added slice type: 0
+
+7:
+# of type 0 slice: 1
+# of type 1 slice: 0
+Total cost: 0.3
+Total utility: 2
+Added slice type: 1
+
+8:
+# of type 0 slice: 1
+# of type 1 slice: 1
+Total cost: 0.6
+Total utility: 3
+Added slice type: 0
+
+9:
+# of type 0 slice: 1
+# of type 1 slice: 1
+Total cost: 0.6
+Total utility: 3
+Added slice type: 1
+
+10:
+# of type 0 slice: 2
+# of type 1 slice: 0
+Total cost: 0.6
+Total utility: 4
+Added slice type: 0
+
+11:
+# of type 0 slice: 2
+# of type 1 slice: 0
+Total cost: 0.6
+Total utility: 4
+Added slice type: 1
+
+Space of resource feasibility:
+
+0:
+# of type 0 slice: 0
+# of type 1 slice: 0
+Total cost: 0
+Total utility: 0
+
+1:
+# of type 0 slice: 0
+# of type 1 slice: 1
+Total cost: 0.3
+Total utility: 1
+
+2:
+# of type 0 slice: 0
+# of type 1 slice: 2
+Total cost: 0.6
+Total utility: 2
+
+3:
+# of type 0 slice: 0
+# of type 1 slice: 3
+Total cost: 0.9
+Total utility: 3
+
+4:
+# of type 0 slice: 1
+# of type 1 slice: 0
+Total cost: 0.3
+Total utility: 2
+
+5:
+# of type 0 slice: 1
+# of type 1 slice: 1
+Total cost: 0.6
+Total utility: 3
+
+6:
+# of type 0 slice: 1
+# of type 1 slice: 2
+Total cost: 0.9
+Total utility: 4
+
+7:
+# of type 0 slice: 2
+# of type 1 slice: 0
+Total cost: 0.6
+Total utility: 4
+
+8:
+# of type 0 slice: 2
+# of type 1 slice: 1
+Total cost: 0.9
+Total utility: 5
+
+9:
+# of type 0 slice: 3
+# of type 1 slice: 0
+Total cost: 0.9
+Total utility: 6
+
+Space of free decision:
+
+0:
+# of type 0 slice: 0
+# of type 1 slice: 0
+Total cost: 0
+Total utility: 0
+Added slice type: 0
+
+1:
+# of type 0 slice: 0
+# of type 1 slice: 0
+Total cost: 0
+Total utility: 0
+Added slice type: 1
+
+2:
+# of type 0 slice: 0
+# of type 1 slice: 1
+Total cost: 0.3
+Total utility: 1
+Added slice type: 0
+
+3:
+# of type 0 slice: 0
+# of type 1 slice: 1
+Total cost: 0.3
+Total utility: 1
+Added slice type: 1
+
+4:
+# of type 0 slice: 0
+# of type 1 slice: 2
+Total cost: 0.6
+Total utility: 2
+Added slice type: 0
+
+5:
+# of type 0 slice: 0
+# of type 1 slice: 2
+Total cost: 0.6
+Total utility: 2
+Added slice type: 1
+
+6:
+# of type 0 slice: 1
+# of type 1 slice: 0
+Total cost: 0.3
+Total utility: 2
+Added slice type: 0
+
+7:
+# of type 0 slice: 1
+# of type 1 slice: 0
+Total cost: 0.3
+Total utility: 2
+Added slice type: 1
+
+8:
+# of type 0 slice: 1
+# of type 1 slice: 1
+Total cost: 0.6
+Total utility: 3
+Added slice type: 0
+
+9:
+# of type 0 slice: 1
+# of type 1 slice: 1
+Total cost: 0.6
+Total utility: 3
+Added slice type: 1
+
+10:
+# of type 0 slice: 2
+# of type 1 slice: 0
+Total cost: 0.6
+Total utility: 4
+Added slice type: 0
+
+11:
+# of type 0 slice: 2
+# of type 1 slice: 0
+Total cost: 0.6
+Total utility: 4
+Added slice type: 1
+

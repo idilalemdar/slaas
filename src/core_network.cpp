@@ -29,15 +29,19 @@ bool CoreNW::allocate(const SliceRequest& request) {
 
 void CoreNW::operate(vector<SliceRequest> requests) {
     removeSlices();
-    // iterate through the activeSLiceSet, reduce their lifetimes by 1
-    // pop those whose lifetime become 0, give back their resources
     if (!requests.empty()) {
         for (const auto &item : requests) {
             if (allocate(item)) {
-                // reduce idle resources accordingly
-                // push the request to the active slice set
-                // calculate utility in the operations period
-                // push that utility to the strategy
+                availablePool -= item.cost;
+                activeSliceSet.push_back(item);
+                status.totalCost += item.cost;
+                status.totalUtility += item.utility;
+                if (item.type == First) {
+                    status.countTypeZero += 1;
+                } else {
+                    status.countTypeOne += 1;
+                }
+                appliedStrategy.addUtility(status.totalUtility);
             }
         }
     }

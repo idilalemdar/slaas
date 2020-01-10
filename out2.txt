@@ -1,0 +1,100 @@
+Best Strategy:
+Utilities:
+1 2 
+Decisin Vector:
+1 1 1 1 0 1 1 1 0 0 1 0 Fitness: 0.0833333
+Best Strategy:
+Utilities:
+2 3 3 3 2 4 6 
+Decisin Vector:
+1 1 1 1 0 1 1 1 0 0 1 1 Fitness: 0.638889
+Best Strategy:
+Utilities:
+2 3 3 3 2 4 6 
+Decisin Vector:
+1 1 1 1 0 1 1 1 0 0 1 1 Fitness: 0.638889
+Best Strategy:
+Utilities:
+2 3 3 3 2 4 6 
+Decisin Vector:
+1 1 1 1 0 1 1 1 0 0 1 1 Fitness: 0.638889
+Best Strategy:
+Utilities:
+2 3 3 3 2 4 6 
+Decisin Vector:
+1 1 1 1 0 1 1 1 0 0 1 1 Fitness: 0.638889
+Best Strategy:
+Utilities:
+2 3 3 3 2 4 6 
+Decisin Vector:
+1 1 1 1 0 1 1 1 0 0 1 1 Fitness: 0.638889
+Best Strategy:
+Utilities:
+2 3 3 3 2 4 6 
+Decisin Vector:
+1 1 1 1 0 1 1 1 0 0 1 1 Fitness: 0.638889
+Best Strategy:
+Utilities:
+2 3 3 3 2 4 6 
+Decisin Vector:
+1 1 1 1 0 1 1 1 0 0 1 1 Fitness: 0.638889
+Best Strategy:
+Utilities:
+2 3 3 3 2 4 6 
+Decisin Vector:
+1 1 1 1 0 1 1 1 0 0 1 1 Fitness: 0.638889
+Best Strategy:
+Utilities:
+2 3 3 3 2 4 6 
+Decisin Vector:
+1 1 1 1 0 1 1 1 0 0 1 1 Fitness: 0.638889
+Best Strategy:
+Utilities:
+2 3 3 3 2 4 6 
+Decisin Vector:
+1 1 1 1 0 1 1 1 0 0 1 1 Fitness: 0.638889
+Best Strategy:
+Utilities:
+2 3 3 3 2 4 6 
+Decisin Vector:
+1 1 1 1 0 1 1 1 0 0 1 1 Fitness: 0.638889
+Best Strategy:
+Utilities:
+2 3 3 3 2 4 6 
+Decisin Vector:
+1 1 1 1 0 1 1 1 0 0 1 1 Fitness: 0.638889
+Best Strategy:
+Utilities:
+2 3 3 3 2 4 6 
+Decisin Vector:
+1 1 1 1 0 1 1 1 0 0 1 1 Fitness: 0.638889
+Best Strategy:
+Utilities:
+2 3 3 3 2 4 6 
+Decisin Vector:
+1 1 1 1 0 1 1 1 0 0 1 1 Fitness: 0.638889
+Best Strategy:
+Utilities:
+2 3 3 3 2 4 6 
+Decisin Vector:
+1 1 1 1 0 1 1 1 0 0 1 1 Fitness: 0.638889
+Best Strategy:
+Utilities:
+2 3 3 3 2 4 6 
+Decisin Vector:
+1 1 1 1 0 1 1 1 0 0 1 1 Fitness: 0.638889
+Best Strategy:
+Utilities:
+2 3 3 3 2 4 6 
+Decisin Vector:
+1 1 1 1 0 1 1 1 0 0 1 1 Fitness: 0.638889
+Best Strategy:
+Utilities:
+2 3 3 3 2 4 6 
+Decisin Vector:
+1 1 1 1 0 1 1 1 0 0 1 1 Fitness: 0.638889
+Best Strategy:
+Utilities:
+2 3 3 3 2 4 6 
+Decisin Vector:
+1 1 1 1 0 1 1 1 0 0 1 1 Fitness: 0.638889

@@ -12,8 +12,8 @@ private:
     int maxPossibleUtility;
     int populationSize;
     int freeDecisionSpace;
-    const double crossoverRate = 0.7;
-    const double mutationRate = 0.3;
+    const double crossoverRate = 1;
+    const double mutationRate = 0.1;
     const int mutationRound = 1;
     vector<Strategy> population;
     void reproduce();
