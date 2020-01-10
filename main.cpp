@@ -7,42 +7,62 @@
 #define EVOLUTION_TERM 6
 #define POPULATION_SIZE 10
 #define MAX_GEN 20
-#define LAMBDA = 0.5;
-#define MU = 2;
+#define LAMBDA 0.5
+#define MU 2
 
-vector<ActiveSliceSet> generateRequests(auto& generator) {
+int requestID = 0;
 
+map<int, vector<SliceRequest>> generateRequests(default_random_engine& generator, vector<double> costs, vector<int> utilities) {
+    map<int, vector<SliceRequest>> results;
+    poisson_distribution<int> dist_poisson(LAMBDA);
+    exponential_distribution<double> dist_exp(MU);
+
+    for (int k = 0; k < EVOLUTION_TERM; ++k) {
+        vector<SliceRequest> v;
+        for (int i = 0; i < 2; ++i) {
+            int numOfRequests = dist_poisson(generator);
+            cout << "numofreq for type " << i << ": " << numOfRequests << endl;
+            for (int j = 0; j < numOfRequests; ++j) {
+                int lifetime = static_cast<int>(ceil(dist_exp(generator)));
+                cout << "Lifetime: " << lifetime << endl;
+                SliceRequest srq{requestID++, static_cast<SliceType>(i), costs[i], lifetime, utilities[i]};
+                cout << "Slice Request: " << srq.type << " " << srq.cost << " " << srq.lifetime << " " << srq.utility << endl;
+                v.push_back(srq);
+            }
+        }
+        results.insert(make_pair(k, v));
+    }
+    return  results;
 }
 
 int main(int argc, char **argv) {
     double c1, c2;
     int u1, u2;
     cin >> c1 >> c2 >> u1 >> u2;
+    vector<double> costs{c1, c2};
+    vector<int> utilities{u1, u2};
 
     AllocationSpace as(c1, c2, u1, u2);
     auto freeDecision = as.getFreeDecisionSpace();
     GeneticAlgorithm ga(EVOLUTION_TERM, as.getBestUtility(), POPULATION_SIZE, freeDecision.size());
     vector<Strategy>& population = ga.getCurrentPopulation();
-    Strategy& bestStrategy = population[0];
+    Strategy bestStrategy(population[0]);
 
+    default_random_engine generator{static_cast<long unsigned int>(time(0))};
 
     for (int k = 0; k < MAX_GEN; ++k) {
-        vector<ActiveSliceSet> requests;// generate requests for the next generation
+        map<int, vector<SliceRequest>> requests = generateRequests(generator, costs, utilities);// generate requests for the next generation
         for (int j = 0; j < POPULATION_SIZE; ++j) {
-            CoreNW cnw(freeDecision, population[j], EVOLUTION_TERM);
+            Strategy& st = population[j];
+            CoreNW cnw(freeDecision, st, EVOLUTION_TERM);
             for (int i = 0; i < EVOLUTION_TERM; ++i) {
                 cnw.operate(requests[i]);
-
-                // cnw.operate() should:
-                // handle requests, release them when their lifetime is over
-                // calculate the utility generated
-                // add that utility to the strategy
             }
-            population[j].calculateFitness();
-            population[j].clearUtilities();
-            if (bestStrategy.getFitness() < population[j].getFitness()) {
-                bestStrategy = population[j];
+            st.calculateFitness();
+            if (bestStrategy.getFitness() < st.getFitness()) {
+                bestStrategy = st;
             }
+            st.clearUtilities();
         }
         ga.evolve(); // evolve after each evolution term
     }

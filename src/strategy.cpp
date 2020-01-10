@@ -15,11 +15,13 @@ double Strategy::getFitness() const {
 }
 
 void Strategy::calculateFitness() { // OK
-    double sum = 0;
-    for (auto const& ele : utilities) {
-        sum += ele;
+    if (!utilities.empty()) {
+        double sum = 0;
+        for (auto const &ele : utilities) {
+            sum += ele;
+        }
+        fitness = (sum / evolutionTerm) / maxPossibleUtility;  // normalize the fitness value
     }
-    fitness = (sum / evolutionTerm) / maxPossibleUtility;  // normalize the fitness value
 }
 
 void Strategy::addUtility(int value) {
@@ -30,6 +32,7 @@ void Strategy::addDecision(bool decision) {
     decisionVector.push_back(decision);
 }
 void Strategy::clearUtilities() {
+    fitness = 0;
     utilities.clear();
 }
 

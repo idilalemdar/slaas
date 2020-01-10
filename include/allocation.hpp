@@ -14,7 +14,10 @@ typedef struct ActiveSliceSet {
     int countTypeOne;
     double totalCost;
     int totalUtility;
-    int lifetime;
+    bool operator==(ActiveSliceSet const& rhs) const {
+        return (this->countTypeZero == rhs.countTypeZero)
+            && (this->countTypeOne == rhs.countTypeOne);
+    }
 } ActiveSliceSet;
 
 class AllocationSpace {
