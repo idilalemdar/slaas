@@ -41,8 +41,8 @@ void CoreNW::operate(vector<SliceRequest> requests) {
                 } else {
                     status.countTypeOne += 1;
                 }
-                appliedStrategy.addUtility(status.totalUtility);
             }
         }
     }
+    appliedStrategy.addUtility(status.totalUtility);
 }
