@@ -1,0 +1,1271 @@
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 0 1 1 1 1 0 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 1 1 1 1 1 1 0 0 
+Fitness:0 Decision vector: 0 0 1 1 0 1 1 1 0 1 1 1 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 1 1 1 0 
+Fitness:0 Decision vector: 1 1 1 0 1 1 0 1 0 1 1 1 
+Fitness:0 Decision vector: 1 1 1 1 1 1 0 0 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 0 0 1 1 1 1 0 1 0 
+Fitness:0 Decision vector: 1 1 1 1 0 1 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 0 1 1 1 1 0 0 0 1 0 
+
+Total fitness in the population: 0
+
+Old Population:
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 0 1 1 1 1 0 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 1 1 1 1 1 1 0 0 
+Fitness:0 Decision vector: 0 0 1 1 0 1 1 1 0 1 1 1 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 1 1 1 0 
+Fitness:0 Decision vector: 1 1 1 0 1 1 0 1 0 1 1 1 
+Fitness:0 Decision vector: 1 1 1 1 1 1 0 0 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 0 0 1 1 1 1 0 1 0 
+Fitness:0 Decision vector: 1 1 1 1 0 1 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 0 1 1 1 1 0 0 0 1 0 
+
+Total fitness in the new population: 0
+Before shuffle:
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+
+After shuffle:
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+
+Crossover:
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 1 1 1 1 1 
+
+Mutation:
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 0 0 1 1 1 0 1 1 0 1 1 1 
+Fitness:0 Decision vector: 1 0 0 1 1 0 1 1 0 1 0 1 
+Fitness:0 Decision vector: 0 0 1 0 1 0 1 1 1 1 0 1 
+Fitness:0 Decision vector: 1 0 1 0 1 1 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 1 1 1 1 1 0 0 1 0 1 1 
+Fitness:0 Decision vector: 0 0 1 0 1 1 1 1 1 1 1 1 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 1 1 0 0 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 0 1 0 1 1 0 1 0 1 
+
+Total fitness in the population: 0
+
+Old Population:
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 0 0 1 1 1 0 1 1 0 1 1 1 
+Fitness:0 Decision vector: 1 0 0 1 1 0 1 1 0 1 0 1 
+Fitness:0 Decision vector: 0 0 1 0 1 0 1 1 1 1 0 1 
+Fitness:0 Decision vector: 1 0 1 0 1 1 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 1 1 1 1 1 0 0 1 0 1 1 
+Fitness:0 Decision vector: 0 0 1 0 1 1 1 1 1 1 1 1 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 1 1 0 0 1 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 0 1 0 1 1 0 1 0 1 
+
+Total fitness in the new population: 0
+Before shuffle:
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+
+After shuffle:
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+
+Crossover:
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+
+Mutation:
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 1 1 1 0 1 0 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 0 0 1 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 1 1 1 0 0 
+Fitness:0 Decision vector: 1 0 1 0 1 0 0 0 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 1 1 0 0 1 1 0 1 1 0 0 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 1 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 1 1 1 1 1 0 0 0 
+
+Total fitness in the population: 0
+
+Old Population:
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 1 1 1 0 1 0 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 0 0 1 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 1 1 1 0 0 
+Fitness:0 Decision vector: 1 0 1 0 1 0 0 0 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 1 1 0 0 1 1 0 1 1 0 0 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 1 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 1 0 0 1 
+Fitness:0 Decision vector: 1 0 0 0 1 1 1 1 1 0 0 0 
+
+Total fitness in the new population: 0
+Before shuffle:
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+
+After shuffle:
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+
+Crossover:
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 0 1 
+
+Mutation:
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 1 1 0 1 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 1 0 0 0 0 0 0 1 1 1 
+Fitness:0 Decision vector: 1 1 1 0 0 0 0 0 0 1 0 0 
+Fitness:0 Decision vector: 1 0 0 0 0 1 0 0 0 1 1 1 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 1 1 0 0 1 
+Fitness:0 Decision vector: 0 0 0 0 0 0 0 1 0 1 1 1 
+Fitness:0 Decision vector: 1 0 1 0 1 1 0 1 0 1 1 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 0 0 1 
+Fitness:0 Decision vector: 0 0 0 0 0 0 0 1 0 1 0 1 
+
+Total fitness in the population: 0
+
+Old Population:
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 1 1 0 1 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 1 0 0 0 0 0 0 1 1 1 
+Fitness:0 Decision vector: 1 1 1 0 0 0 0 0 0 1 0 0 
+Fitness:0 Decision vector: 1 0 0 0 0 1 0 0 0 1 1 1 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 1 1 0 0 1 
+Fitness:0 Decision vector: 0 0 0 0 0 0 0 1 0 1 1 1 
+Fitness:0 Decision vector: 1 0 1 0 1 1 0 1 0 1 1 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 0 0 1 
+Fitness:0 Decision vector: 0 0 0 0 0 0 0 1 0 1 0 1 
+
+Total fitness in the new population: 0
+Before shuffle:
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+
+After shuffle:
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+
+Crossover:
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 1 
+
+Mutation:
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 1 
+Fitness:0 Decision vector: 1 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 1 0 0 1 0 1 0 1 1 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 1 1 0 1 
+Fitness:0 Decision vector: 0 1 0 1 0 0 0 0 1 1 1 1 
+Fitness:0 Decision vector: 1 1 0 0 1 0 0 1 1 0 1 1 
+Fitness:0 Decision vector: 1 0 0 0 1 0 1 0 0 1 1 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 1 0 
+
+Total fitness in the population: 0
+
+Old Population:
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 1 
+Fitness:0 Decision vector: 1 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 1 0 0 1 0 1 0 1 1 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 1 1 0 1 
+Fitness:0 Decision vector: 0 1 0 1 0 0 0 0 1 1 1 1 
+Fitness:0 Decision vector: 1 1 0 0 1 0 0 1 1 0 1 1 
+Fitness:0 Decision vector: 1 0 0 0 1 0 1 0 0 1 1 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 1 0 
+
+Total fitness in the new population: 0
+Before shuffle:
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+
+After shuffle:
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+
+Crossover:
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 0 0 0 
+
+Mutation:
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 1 0 0 0 1 1 0 0 1 0 
+Fitness:0 Decision vector: 0 0 1 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 1 1 0 
+Fitness:0 Decision vector: 1 1 0 0 0 1 1 1 0 0 0 1 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 1 1 1 
+Fitness:0 Decision vector: 0 0 0 0 0 1 1 1 0 1 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 1 1 1 1 0 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 1 0 0 0 0 
+
+Total fitness in the population: 0
+
+Old Population:
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 1 0 0 0 1 1 0 0 1 0 
+Fitness:0 Decision vector: 0 0 1 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 1 1 0 
+Fitness:0 Decision vector: 1 1 0 0 0 1 1 1 0 0 0 1 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 0 1 1 1 
+Fitness:0 Decision vector: 0 0 0 0 0 1 1 1 0 1 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 1 1 1 1 0 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 1 0 0 0 0 
+
+Total fitness in the new population: 0
+Before shuffle:
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+
+After shuffle:
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+
+Crossover:
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+
+Mutation:
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 0 0 1 0 0 0 0 0 0 0 0 0 
+Fitness:0 Decision vector: 1 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 1 0 0 1 
+Fitness:0 Decision vector: 1 1 0 0 1 0 1 0 0 0 1 0 
+Fitness:0 Decision vector: 0 1 1 0 1 0 0 1 0 0 0 1 
+Fitness:0 Decision vector: 1 1 1 0 0 1 0 1 0 1 1 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 1 0 0 0 1 1 0 0 0 0 
+
+Total fitness in the population: 0
+
+Old Population:
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 0 0 1 0 0 0 0 0 0 0 0 0 
+Fitness:0 Decision vector: 1 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 1 0 0 1 
+Fitness:0 Decision vector: 1 1 0 0 1 0 1 0 0 0 1 0 
+Fitness:0 Decision vector: 0 1 1 0 1 0 0 1 0 0 0 1 
+Fitness:0 Decision vector: 1 1 1 0 0 1 0 1 0 1 1 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 1 0 1 0 0 0 1 1 0 0 0 0 
+
+Total fitness in the new population: 0
+Before shuffle:
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+
+After shuffle:
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+
+Crossover:
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 1 0 1 1 0 
+
+Mutation:
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 1 1 0 0 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 1 1 1 0 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 0 0 1 1 1 
+Fitness:0 Decision vector: 0 1 0 1 0 1 1 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 1 0 1 0 1 1 0 
+
+Total fitness in the population: 0
+
+Old Population:
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 1 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 1 1 0 0 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 1 1 1 0 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 0 0 1 1 1 
+Fitness:0 Decision vector: 0 1 0 1 0 1 1 1 0 1 1 0 
+Fitness:0 Decision vector: 1 0 0 0 0 1 0 1 0 1 1 0 
+
+Total fitness in the new population: 0
+Before shuffle:
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+
+After shuffle:
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+
+Crossover:
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+
+Mutation:
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 1 0 0 1 0 0 1 0 1 1 1 
+Fitness:0 Decision vector: 0 1 0 1 1 0 0 0 0 1 0 0 
+Fitness:0 Decision vector: 0 1 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 0 1 0 0 1 0 0 1 1 1 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 0 1 1 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 1 0 1 0 0 0 0 0 
+Fitness:0 Decision vector: 0 0 1 0 1 0 1 0 0 1 1 0 
+
+Total fitness in the population: 0
+
+Old Population:
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 0 1 0 0 1 0 0 1 0 1 1 1 
+Fitness:0 Decision vector: 0 1 0 1 1 0 0 0 0 1 0 0 
+Fitness:0 Decision vector: 0 1 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 0 1 0 0 1 0 0 1 1 1 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 0 1 1 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 1 0 1 0 0 0 0 0 
+Fitness:0 Decision vector: 0 0 1 0 1 0 1 0 0 1 1 0 
+
+Total fitness in the new population: 0
+Before shuffle:
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+
+After shuffle:
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+
+Crossover:
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 1 
+
+Mutation:
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 0 
+Fitness:0 Decision vector: 0 0 1 0 0 1 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 0 
+Fitness:0 Decision vector: 0 0 0 1 1 0 1 0 0 1 0 0 
+Fitness:0 Decision vector: 0 1 0 1 0 0 0 0 0 1 0 0 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 0 1 1 1 0 0 0 0 1 1 
+Fitness:0 Decision vector: 0 1 1 1 1 0 1 0 0 0 1 1 
+
+Total fitness in the population: 0
+
+Old Population:
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 0 0 0 1 0 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 1 0 0 
+Fitness:0 Decision vector: 0 0 1 0 0 1 0 1 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 0 
+Fitness:0 Decision vector: 0 0 0 1 1 0 1 0 0 1 0 0 
+Fitness:0 Decision vector: 0 1 0 1 0 0 0 0 0 1 0 0 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 0 1 1 1 0 0 0 0 1 1 
+Fitness:0 Decision vector: 0 1 1 1 1 0 1 0 0 0 1 1 
+
+Total fitness in the new population: 0
+Before shuffle:
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+
+After shuffle:
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+
+Crossover:
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 0 0 0 0 0 0 1 1 
+
+Mutation:
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 1 0 1 0 1 0 1 0 1 0 0 
+Fitness:0 Decision vector: 1 0 1 0 0 0 0 1 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 1 0 1 1 
+Fitness:0 Decision vector: 1 1 0 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 0 1 0 1 1 0 0 0 0 1 0 
+Fitness:0 Decision vector: 1 0 1 1 0 0 1 0 0 0 0 1 
+Fitness:0 Decision vector: 0 1 1 1 0 0 0 0 1 1 1 0 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 1 1 0 0 0 1 
+
+Total fitness in the population: 0
+
+Old Population:
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 1 0 1 0 1 0 1 0 1 0 0 
+Fitness:0 Decision vector: 1 0 1 0 0 0 0 1 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 1 1 0 1 1 
+Fitness:0 Decision vector: 1 1 0 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 0 1 0 1 1 0 0 0 0 1 0 
+Fitness:0 Decision vector: 1 0 1 1 0 0 1 0 0 0 0 1 
+Fitness:0 Decision vector: 0 1 1 1 0 0 0 0 1 1 1 0 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 1 1 1 1 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 1 1 0 0 0 1 
+
+Total fitness in the new population: 0
+Before shuffle:
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+
+After shuffle:
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+
+Crossover:
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 0 1 
+
+Mutation:
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 0 0 0 0 1 0 1 1 1 
+Fitness:0 Decision vector: 0 1 0 0 0 1 0 1 0 0 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 1 0 1 1 0 0 
+Fitness:0 Decision vector: 1 0 0 1 1 1 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 0 1 1 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 0 0 0 
+Fitness:0 Decision vector: 1 1 0 1 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 1 1 0 1 0 0 1 0 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 1 1 0 0 1 0 1 
+
+Total fitness in the population: 0
+
+Old Population:
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 1 0 0 0 0 1 0 1 1 1 
+Fitness:0 Decision vector: 0 1 0 0 0 1 0 1 0 0 0 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 1 0 1 1 0 0 
+Fitness:0 Decision vector: 1 0 0 1 1 1 0 0 0 1 0 1 
+Fitness:0 Decision vector: 1 0 1 1 1 0 1 0 1 1 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 0 0 0 
+Fitness:0 Decision vector: 1 1 0 1 1 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 1 1 0 1 0 0 1 0 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 1 1 0 0 1 0 1 
+
+Total fitness in the new population: 0
+Before shuffle:
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+
+After shuffle:
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+
+Crossover:
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 1 0 0 0 1 1 
+
+Mutation:
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 1 1 0 1 0 1 1 0 0 0 0 0 
+Fitness:0 Decision vector: 1 1 1 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 1 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 1 1 1 0 1 0 1 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 1 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 1 1 0 1 0 1 1 
+
+Total fitness in the population: 0
+
+Old Population:
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 1 1 0 
+Fitness:0 Decision vector: 1 1 0 1 0 1 1 0 0 0 0 0 
+Fitness:0 Decision vector: 1 1 1 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 1 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 1 1 1 0 1 0 1 0 1 1 
+Fitness:0 Decision vector: 1 0 1 1 1 1 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 1 1 0 1 0 1 1 
+
+Total fitness in the new population: 0
+Before shuffle:
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+
+After shuffle:
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+
+Crossover:
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+
+Mutation:
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 1 1 1 1 0 1 0 0 1 1 1 
+Fitness:0 Decision vector: 0 1 1 1 1 0 1 0 1 0 1 1 
+Fitness:0 Decision vector: 0 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 1 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 0 1 0 1 0 0 1 0 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 1 0 1 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 1 1 0 0 
+Fitness:0 Decision vector: 0 1 0 0 1 0 0 0 1 0 1 1 
+
+Total fitness in the population: 0
+
+Old Population:
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 1 1 1 1 0 1 0 0 1 1 1 
+Fitness:0 Decision vector: 0 1 1 1 1 0 1 0 1 0 1 1 
+Fitness:0 Decision vector: 0 0 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 1 1 0 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 0 1 0 1 0 0 1 0 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 1 0 1 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 1 1 0 0 
+Fitness:0 Decision vector: 0 1 0 0 1 0 0 0 1 0 1 1 
+
+Total fitness in the new population: 0
+Before shuffle:
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+
+After shuffle:
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+
+Crossover:
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 0 0 1 0 
+
+Mutation:
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 1 1 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 0 1 0 
+Fitness:0 Decision vector: 0 1 0 1 0 0 0 1 1 0 1 0 
+Fitness:0 Decision vector: 0 0 1 1 1 0 0 1 1 0 1 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 1 0 1 0 0 1 0 1 1 
+Fitness:0 Decision vector: 0 1 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 0 0 1 1 0 1 1 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 1 0 0 0 0 1 0 
+
+Total fitness in the population: 0
+
+Old Population:
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 0 0 0 1 1 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 0 1 0 
+Fitness:0 Decision vector: 0 1 0 1 0 0 0 1 1 0 1 0 
+Fitness:0 Decision vector: 0 0 1 1 1 0 0 1 1 0 1 1 
+Fitness:0 Decision vector: 0 0 0 1 0 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 1 0 1 0 0 1 0 1 1 
+Fitness:0 Decision vector: 0 1 0 0 0 0 0 1 0 0 1 0 
+Fitness:0 Decision vector: 0 0 1 1 0 1 1 0 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 1 0 1 0 0 0 0 1 0 
+
+Total fitness in the new population: 0
+Before shuffle:
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+
+After shuffle:
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+
+Crossover:
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 0 1 0 
+
+Mutation:
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 0 1 1 0 1 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 1 1 1 
+Fitness:0 Decision vector: 0 0 0 1 1 1 0 0 0 0 0 0 
+Fitness:0 Decision vector: 1 1 0 1 0 0 1 0 1 1 0 1 
+Fitness:0 Decision vector: 0 0 0 0 1 1 1 1 1 0 1 1 
+Fitness:0 Decision vector: 0 0 0 0 0 0 0 1 0 1 0 0 
+Fitness:0 Decision vector: 0 1 0 0 1 1 1 1 1 1 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 0 0 1 0 1 1 
+Fitness:0 Decision vector: 0 0 1 0 0 1 0 1 0 0 1 1 
+
+Total fitness in the population: 0
+
+Old Population:
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 0 1 1 0 1 1 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 0 0 1 1 1 1 
+Fitness:0 Decision vector: 0 0 0 1 1 1 0 0 0 0 0 0 
+Fitness:0 Decision vector: 1 1 0 1 0 0 1 0 1 1 0 1 
+Fitness:0 Decision vector: 0 0 0 0 1 1 1 1 1 0 1 1 
+Fitness:0 Decision vector: 0 0 0 0 0 0 0 1 0 1 0 0 
+Fitness:0 Decision vector: 0 1 0 0 1 1 1 1 1 1 0 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 0 0 1 0 1 1 
+Fitness:0 Decision vector: 0 0 1 0 0 1 0 1 0 0 1 1 
+
+Total fitness in the new population: 0
+Before shuffle:
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+
+After shuffle:
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+
+Crossover:
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 0 0 1 1 1 0 
+
+Mutation:
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 1 1 1 0 1 0 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 1 1 0 1 1 0 0 1 0 0 
+Fitness:0 Decision vector: 1 1 0 1 1 0 1 0 0 1 0 0 
+Fitness:0 Decision vector: 1 1 1 1 1 1 1 0 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 0 1 0 1 1 1 1 0 0 1 1 0 
+Fitness:0 Decision vector: 0 1 1 1 1 1 1 0 1 1 1 0 
+Fitness:0 Decision vector: 1 0 0 1 1 1 0 1 0 0 1 0 
+
+Total fitness in the population: 0
+
+Old Population:
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 0 0 0 1 1 1 0 1 0 1 0 
+Fitness:0 Decision vector: 0 1 0 1 1 1 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 1 1 1 0 1 1 0 0 1 0 0 
+Fitness:0 Decision vector: 1 1 0 1 1 0 1 0 0 1 0 0 
+Fitness:0 Decision vector: 1 1 1 1 1 1 1 0 0 0 0 1 
+Fitness:0 Decision vector: 1 0 0 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 0 1 0 1 1 1 1 0 0 1 1 0 
+Fitness:0 Decision vector: 0 1 1 1 1 1 1 0 1 1 1 0 
+Fitness:0 Decision vector: 1 0 0 1 1 1 0 1 0 0 1 0 
+
+Total fitness in the new population: 0
+Before shuffle:
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+
+After shuffle:
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+
+Crossover:
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+
+Mutation:
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 1 1 1 1 1 0 0 1 0 1 0 0 
+Fitness:0 Decision vector: 1 1 1 1 0 1 0 1 1 1 1 1 
+Fitness:0 Decision vector: 0 0 0 0 0 0 0 1 0 0 0 1 
+Fitness:0 Decision vector: 0 0 1 1 1 0 0 0 1 0 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 1 1 0 1 1 0 1 
+Fitness:0 Decision vector: 0 1 1 1 0 0 0 1 0 1 1 1 
+Fitness:0 Decision vector: 1 1 0 1 0 0 0 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 1 0 1 0 0 1 0 0 1 
+Fitness:0 Decision vector: 1 1 0 1 1 0 1 1 1 1 0 1 
+
+Total fitness in the population: 0
+
+Old Population:
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 1 1 1 1 1 0 0 1 0 1 0 0 
+Fitness:0 Decision vector: 1 1 1 1 0 1 0 1 1 1 1 1 
+Fitness:0 Decision vector: 0 0 0 0 0 0 0 1 0 0 0 1 
+Fitness:0 Decision vector: 0 0 1 1 1 0 0 0 1 0 0 1 
+Fitness:0 Decision vector: 1 1 1 1 0 1 1 0 1 1 0 1 
+Fitness:0 Decision vector: 0 1 1 1 0 0 0 1 0 1 1 1 
+Fitness:0 Decision vector: 1 1 0 1 0 0 0 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 1 0 1 0 0 1 0 0 1 
+Fitness:0 Decision vector: 1 1 0 1 1 0 1 1 1 1 0 1 
+
+Total fitness in the new population: 0
+Before shuffle:
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+
+After shuffle:
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+
+Crossover:
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 1 1 0 
+
+Mutation:
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 0 0 1 1 1 1 1 0 0 
+Fitness:0 Decision vector: 1 1 0 0 0 0 1 0 1 1 1 1 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 1 0 
+Fitness:0 Decision vector: 0 1 1 1 0 0 1 1 1 1 1 0 
+Fitness:0 Decision vector: 0 1 1 0 0 0 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 0 0 0 
+Fitness:0 Decision vector: 1 1 1 0 0 0 1 0 1 1 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 0 0 0 0 1 1 1 1 1 
+
+Total fitness in the population: 0
+
+Old Population:
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 0 0 1 1 1 1 1 0 0 
+Fitness:0 Decision vector: 1 1 0 0 0 0 1 0 1 1 1 1 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 1 0 
+Fitness:0 Decision vector: 0 1 1 1 0 0 1 1 1 1 1 0 
+Fitness:0 Decision vector: 0 1 1 0 0 0 0 0 1 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 0 0 1 0 1 0 0 0 
+Fitness:0 Decision vector: 1 1 1 0 0 0 1 0 1 1 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 0 1 1 1 1 
+Fitness:0 Decision vector: 1 0 1 0 0 0 0 1 1 1 1 1 
+
+Total fitness in the new population: 0
+Before shuffle:
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+
+After shuffle:
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+
+Crossover:
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+
+Mutation:
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 1 1 1 0 1 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 1 0 1 0 1 1 1 0 0 0 1 
+Fitness:0 Decision vector: 0 1 0 1 1 0 0 1 0 1 1 1 
+Fitness:0 Decision vector: 1 1 0 1 1 0 1 1 0 0 1 0 
+Fitness:0 Decision vector: 0 1 0 1 0 1 1 1 0 0 0 1 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 1 1 
+Fitness:0 Decision vector: 0 1 0 0 1 0 0 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 1 1 0 1 1 0 0 0 0 
+
+Total fitness in the population: 0
+
+Old Population:
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 1 1 1 0 0 0 0 0 0 1 1 
+Fitness:0 Decision vector: 1 1 1 1 0 1 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 1 0 1 0 1 1 1 0 0 0 1 
+Fitness:0 Decision vector: 0 1 0 1 1 0 0 1 0 1 1 1 
+Fitness:0 Decision vector: 1 1 0 1 1 0 1 1 0 0 1 0 
+Fitness:0 Decision vector: 0 1 0 1 0 1 1 1 0 0 0 1 
+Fitness:0 Decision vector: 0 1 0 1 1 0 1 1 0 0 1 1 
+Fitness:0 Decision vector: 0 1 0 0 1 0 0 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 1 1 0 1 1 0 0 0 0 
+
+Total fitness in the new population: 0
+Before shuffle:
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+
+After shuffle:
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+
+Crossover:
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 1 1 0 0 0 0 
+
+Mutation:
+Fitness:0 Decision vector: 0 0 1 0 1 0 1 1 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 1 1 1 1 0 0 
+Fitness:0 Decision vector: 0 0 1 0 1 0 1 1 0 0 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 0 0 1 0 0 0 0 
+Fitness:0 Decision vector: 1 0 0 0 1 0 1 0 0 0 1 1 
+Fitness:0 Decision vector: 1 0 0 1 1 0 1 1 0 1 1 0 
+Fitness:0 Decision vector: 0 0 0 0 1 1 1 0 0 0 0 0 
+Fitness:0 Decision vector: 0 1 1 0 1 0 0 1 0 0 0 0 
+Fitness:0 Decision vector: 1 0 0 0 0 0 1 1 0 1 0 0 
+Fitness:0 Decision vector: 1 0 0 0 1 0 1 1 0 1 0 0 
+

@@ -16,7 +16,9 @@ typedef struct ActiveSliceSet {
     int totalUtility;
     bool operator==(ActiveSliceSet const& rhs) const {
         return (this->countTypeZero == rhs.countTypeZero)
-            && (this->countTypeOne == rhs.countTypeOne);
+            && (this->countTypeOne == rhs.countTypeOne)
+            && (this->totalUtility == rhs.totalUtility)
+            && (this->totalCost == rhs.totalCost);
     }
 } ActiveSliceSet;
 

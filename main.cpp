@@ -21,12 +21,9 @@ map<int, vector<SliceRequest>> generateRequests(default_random_engine& generator
         vector<SliceRequest> v;
         for (int i = 0; i < 2; ++i) {
             int numOfRequests = dist_poisson(generator);
-            cout << "numofreq for type " << i << ": " << numOfRequests << endl;
             for (int j = 0; j < numOfRequests; ++j) {
                 int lifetime = static_cast<int>(ceil(dist_exp(generator)));
-                cout << "Lifetime: " << lifetime << endl;
                 SliceRequest srq{requestID++, static_cast<SliceType>(i), costs[i], lifetime, utilities[i]};
-                cout << "Slice Request: " << srq.type << " " << srq.cost << " " << srq.lifetime << " " << srq.utility << endl;
                 v.push_back(srq);
             }
         }

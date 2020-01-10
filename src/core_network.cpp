@@ -19,7 +19,12 @@ void CoreNW::removeSlices() {
 
 bool CoreNW::allocate(const SliceRequest& request) {
     pair<ActiveSliceSet, SliceType> element = make_pair(status, request.type);
-    return find(freeDecision.begin(), freeDecision.end(), element) != freeDecision.end();
+    vector<pair<ActiveSliceSet, SliceType>>::iterator iter = find(freeDecision.begin(), freeDecision.end(), element);
+    if (iter != freeDecision.end()) { // if the request is in the space of free decision
+        vector<bool> st(appliedStrategy.getDecision());
+        return st[iter - freeDecision.begin()];
+    }
+    return false;
 }
 
 void CoreNW::operate(vector<SliceRequest> requests) {
