@@ -5,19 +5,29 @@
 #include "strategy.hpp"
 #include "allocation.hpp"
 
+typedef struct SliceRequest {
+    SliceType type;
+    double cost;
+    int lifetime;
+    int utility;
+} SliceRequest;
+
 class CoreNW {
 private:
     double availablePool = 1.0;
-    const double lambda = 0.5;
-    const int mu = 2;
-    Strategy appliedStrategy;
+    Strategy& appliedStrategy;
     int evolutionTerm;
-    ActiveSliceSet activeSliceSet;
+    vector<SliceRequest> activeSliceSet;
     vector<pair<ActiveSliceSet, SliceType>> freeDecision;
 public:
     CoreNW(vector<pair<ActiveSliceSet, SliceType>> fd, Strategy& st, int term)
-        : appliedStrategy(st), evolutionTerm(term), freeDecision(fd) {}
-    void operate();
+        : appliedStrategy(st), evolutionTerm(term), freeDecision(fd) {
+        activeSliceSet.countTypeZero = 0;
+        activeSliceSet.countTypeOne = 0;
+        activeSliceSet.totalCost = 0;
+        activeSliceSet.totalUtility = 0;
+    }
+    void operate(vector<SliceRequest>);
 };
 
 

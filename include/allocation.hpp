@@ -14,6 +14,7 @@ typedef struct ActiveSliceSet {
     int countTypeOne;
     double totalCost;
     int totalUtility;
+    int lifetime;
 } ActiveSliceSet;
 
 class AllocationSpace {
@@ -27,7 +28,7 @@ private:
     void calculateFreeDecision();
     void reportResourceFeasibility(const ActiveSliceSet&, int);
     void reportFreeDecision(const pair<ActiveSliceSet, SliceType>&, int);
-    void addElementToFreeDecision( ActiveSliceSet, SliceType, int);
+    void addElementToFreeDecision(ActiveSliceSet, SliceType, int);
 public:
     AllocationSpace(double, double, int, int);
     vector<pair<ActiveSliceSet, SliceType>> getFreeDecisionSpace() const;
