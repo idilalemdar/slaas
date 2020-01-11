@@ -14,7 +14,7 @@ void GeneticAlgorithm::initializePopulation() {
         Strategy st(evolutionTerm, maxPossibleUtility);
         for (int j = 0; j < freeDecisionSpace; ++j) {
             double roll = distribution(generator);
-            if (roll <= 0.7) { // generate true with probability 0.6
+            if (roll <= 0.7) { // generate true with probability 0.7
                 st.addDecision(true);
             } else {
                 st.addDecision(false);
@@ -41,10 +41,11 @@ void GeneticAlgorithm::calculateTotalFitness() {  // OK
     }
 }
 
-void GeneticAlgorithm::reportPopulation() {
-    ofstream report("populationInfo.txt", ofstream::app);
+void GeneticAlgorithm::reportPopulation(string fname, string i) {
+    ofstream report(fname, ofstream::app);
+    report << "Total fitness in the population at generation " + i + ": " << totalFitness << endl << endl;
     for (auto const& ele: population) {
-        report << "Fitness:" << ele.getFitness() << " Decision vector: ";
+        report << " Decision vector: ";
         for (auto const& decision: ele.getDecision()) {
             report << decision << " ";
         }
@@ -77,29 +78,17 @@ void GeneticAlgorithm::createNewPopulation(const vector<double>& proportions, ve
 void GeneticAlgorithm::reproduce() {  // fitness proportionate selection
     ofstream report;
     calculateTotalFitness();
-    report.open("populationInfo.txt", ofstream::app);
-    report << "Total fitness in the population: " << totalFitness << endl;
 
     vector<double> proportions;
     calculateProportions(proportions);
 
     vector<Strategy> new_population;
     createNewPopulation(proportions, new_population);
-    report << endl << "Old Population:" << endl;
-    report.close();
-    reportPopulation();
+
     population = new_population;
     calculateTotalFitness();
-    report.open("populationInfo.txt", ofstream::app);
-    report << "Total fitness in the new population: " << totalFitness << endl;
-    report << "Before shuffle:\n";
-    report.close();
-    reportPopulation();
+
     shuffle(population.begin(), population.end(), generator);
-    report.open("populationInfo.txt", ofstream::app);
-    report << "After shuffle:\n";
-    report.close();
-    reportPopulation();
 }
 
 void GeneticAlgorithm::xover(int index) {
@@ -137,10 +126,6 @@ void GeneticAlgorithm::crossover() {
             xover(i);
         }
     }
-    ofstream report("populationInfo.txt", ofstream::app);
-    report << "Crossover:\n";
-    report.close();
-    reportPopulation();
 }
 
 void GeneticAlgorithm::mutateBits(int index) {
@@ -160,8 +145,4 @@ void GeneticAlgorithm::mutate() {
             mutateBits(j);
         }
     }
-    ofstream report("populationInfo.txt", ofstream::app);
-    report << "Mutation:\n";
-    report.close();
-    reportPopulation();
 }

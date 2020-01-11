@@ -1,0 +1,5 @@
+alpha = 1
+beta = 1
+gamma = 0.1
+gen = 20
+0.3 0.3 2 1

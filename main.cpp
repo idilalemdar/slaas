@@ -33,11 +33,15 @@ map<int, vector<SliceRequest>> generateRequests(default_random_engine& generator
 }
 
 int main(int argc, char **argv) {
-    double c1, c2;
-    int u1, u2;
-    cin >> c1 >> c2 >> u1 >> u2;
+    double c1 = stod(argv[2]);
+    double c2 = stod(argv[3]);
+    int u1 = stoi(argv[4]);
+    int u2 = stoi(argv[5]);
+
     vector<double> costs{c1, c2};
     vector<int> utilities{u1, u2};
+
+    string experiment = argv[1];
 
     AllocationSpace as(c1, c2, u1, u2);
     auto freeDecision = as.getFreeDecisionSpace();
@@ -46,7 +50,7 @@ int main(int argc, char **argv) {
     Strategy bestStrategy(population[0]);
 
     default_random_engine generator{static_cast<long unsigned int>(time(0))};
-
+    string fname = "exp" + experiment + "_report.txt";
     for (int k = 0; k < MAX_GEN; ++k) {
         map<int, vector<SliceRequest>> requests(generateRequests(generator, costs, utilities));// generate requests for the next generation
         for (int j = 0; j < POPULATION_SIZE; ++j) {
@@ -62,8 +66,8 @@ int main(int argc, char **argv) {
             st.clearUtilities();
         }
         ga.evolve(); // evolve after the whole population goes through one evolution term
-        cout << "Best Strategy:\n";
-        bestStrategy.reportStrategy();
+        ga.reportPopulation(fname, to_string(k));
+        bestStrategy.reportStrategy(fname, to_string(k));
     }
     return 0;
 }

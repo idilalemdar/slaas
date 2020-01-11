@@ -31,9 +31,7 @@ private:
     vector<pair<ActiveSliceSet, SliceType>> freeDecision;
     vector<ActiveSliceSet> calculateResourceFeasibility();
     void calculateFreeDecision();
-    void reportResourceFeasibility(const ActiveSliceSet&, int);
-    void reportFreeDecision(const pair<ActiveSliceSet, SliceType>&, int);
-    void addElementToFreeDecision(ActiveSliceSet, SliceType, int);
+    void addElementToFreeDecision(ActiveSliceSet, SliceType);
 public:
     AllocationSpace(double, double, int, int);
     vector<pair<ActiveSliceSet, SliceType>> getFreeDecisionSpace() const;

@@ -26,7 +26,7 @@ private:
     void calculateProportions(vector<double>&);
     void createNewPopulation(const vector<double>&, vector<Strategy>&);
 public:
-    void reportPopulation();
+    void reportPopulation(string, string);
     GeneticAlgorithm(int, int, int, int);
     vector<Strategy>& getCurrentPopulation();
     void evolve();

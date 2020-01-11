@@ -43,14 +43,17 @@ void Strategy::mutateDecision(int index) {
     decisionVector[index] = !decisionVector[index];
 }
 
-void Strategy::reportStrategy() {
-    cout << "Utilities:\n";
+void Strategy::reportStrategy(string fname, string i) {
+    ofstream report(fname, ofstream::app);
+    report << "Best Strategy at generation " + i + ":\n";
+    report << "Utilities generated: ";
     for (const auto &item : utilities) {
-        cout << item << " ";
+        report << item << " ";
     }
-    cout << "\nDecisin Vector:\n";
+    report << "\nDecision Vector:";
     for (const auto &range : decisionVector) {
-        cout << range << " ";
+        report << range << " ";
     }
-    cout << "Fitness: " << fitness << endl;
+    report << "\nFitness: " << fitness << endl << endl;
+    report.close();
 }

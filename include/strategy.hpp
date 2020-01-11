@@ -22,7 +22,7 @@ public:
     void mutateDecision(int);
     void clearUtilities();
     vector<bool> getDecision() const;
-    void reportStrategy();
+    void reportStrategy(string, string);
 };
 
 
