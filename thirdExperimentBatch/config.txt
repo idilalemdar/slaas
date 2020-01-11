@@ -1,0 +1,5 @@
+lambda1 = 0.3
+lambda2 = 1
+mu1 = 2
+mu2 = 3
+pop = 10

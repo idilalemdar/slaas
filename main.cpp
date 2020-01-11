@@ -7,10 +7,10 @@
 #define EVOLUTION_TERM 6
 #define POPULATION_SIZE 50
 #define MAX_GEN 20
-#define LAMBDA1 0.5
-#define LAMBDA2 2
+#define LAMBDA1 1
+#define LAMBDA2 0
 #define MU1 2
-#define MU2 10
+#define MU2 5
 
 int requestID = 0;
 

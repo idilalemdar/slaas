@@ -2,4 +2,4 @@ lambda1 = 0.5
 lambda2 = 2
 mu1 = 2
 mu2 = 10
-pop = 20
+pop = 10

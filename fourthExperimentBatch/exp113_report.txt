@@ -1,0 +1,1160 @@
+Total fitness in the population at generation 0: 10.0278
+
+ Decision vector: 0 0 1 1 1 1 1 1 1 1 1 1 
+ Decision vector: 1 0 0 1 1 1 1 1 0 1 1 0 
+ Decision vector: 1 1 1 1 1 1 1 0 1 1 0 0 
+ Decision vector: 1 1 0 1 0 0 0 1 0 0 1 1 
+ Decision vector: 1 1 1 1 0 1 0 0 0 1 1 1 
+ Decision vector: 1 0 1 1 1 0 1 1 0 1 0 0 
+ Decision vector: 1 1 0 1 0 0 0 0 0 0 1 0 
+ Decision vector: 1 1 1 0 1 1 1 1 1 1 1 1 
+ Decision vector: 1 0 0 1 1 1 1 1 1 1 1 0 
+ Decision vector: 1 0 0 1 1 1 1 1 0 1 1 1 
+ Decision vector: 1 1 1 1 0 0 1 1 1 1 0 1 
+ Decision vector: 1 1 0 1 0 1 1 0 1 1 0 1 
+ Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+ Decision vector: 1 0 1 1 1 0 0 1 0 1 1 1 
+ Decision vector: 1 1 1 0 0 1 1 1 0 0 1 1 
+ Decision vector: 1 1 1 0 0 1 1 0 1 1 1 1 
+ Decision vector: 0 1 1 1 0 1 1 1 1 1 1 0 
+ Decision vector: 1 1 1 0 1 1 0 0 1 1 1 1 
+ Decision vector: 1 1 0 1 0 1 1 1 1 1 1 0 
+ Decision vector: 1 0 1 0 0 0 0 1 0 1 0 1 
+ Decision vector: 1 1 0 1 0 1 1 1 0 1 1 1 
+ Decision vector: 1 1 0 1 0 1 1 1 1 1 0 1 
+ Decision vector: 1 1 1 1 1 0 1 1 0 1 1 0 
+ Decision vector: 1 1 1 1 1 0 1 0 1 0 1 0 
+ Decision vector: 1 0 1 1 1 0 0 1 0 1 0 0 
+ Decision vector: 0 1 1 1 1 1 1 1 1 1 1 1 
+ Decision vector: 1 1 1 1 1 0 1 0 0 1 0 1 
+ Decision vector: 1 1 1 1 1 1 1 1 1 0 0 1 
+ Decision vector: 1 1 1 0 1 1 1 1 1 1 0 1 
+ Decision vector: 1 1 0 1 0 1 1 0 1 0 1 1 
+ Decision vector: 0 1 1 1 0 0 0 0 1 1 1 1 
+ Decision vector: 0 1 1 1 0 0 1 0 1 1 1 1 
+ Decision vector: 1 1 1 1 1 0 1 0 0 0 1 1 
+ Decision vector: 0 0 1 1 1 1 0 1 1 0 1 1 
+ Decision vector: 1 1 0 1 0 1 1 1 1 1 1 0 
+ Decision vector: 1 1 1 1 0 1 1 0 1 1 1 1 
+ Decision vector: 1 0 1 1 1 0 0 1 0 0 1 1 
+ Decision vector: 1 1 1 1 1 1 1 1 1 0 0 1 
+ Decision vector: 0 1 1 1 1 0 1 1 1 1 1 1 
+ Decision vector: 1 1 1 1 0 1 0 1 1 0 1 1 
+ Decision vector: 1 1 0 0 0 1 1 0 1 0 1 0 
+ Decision vector: 1 1 1 1 1 1 1 1 0 1 1 1 
+ Decision vector: 1 1 1 0 1 1 0 0 1 1 0 0 
+ Decision vector: 1 0 0 1 1 1 1 1 1 1 1 1 
+ Decision vector: 1 1 1 0 1 1 0 1 0 0 0 0 
+ Decision vector: 1 0 1 1 0 0 1 1 1 1 0 1 
+ Decision vector: 1 1 1 1 1 1 0 1 1 1 0 0 
+ Decision vector: 1 1 0 1 0 1 1 0 1 1 1 1 
+ Decision vector: 1 1 1 0 0 0 0 0 1 1 1 0 
+ Decision vector: 1 1 1 0 0 1 1 1 0 1 1 0 
+
+Best Strategy at generation 0:
+Utilities generated: 2 2 2 3 0 0 
+Decision Vector:1 1 1 1 1 1 1 1 1 0 0 0 
+Fitness: 0.25
+
+Total fitness in the population at generation 1: 8.33333
+
+ Decision vector: 1 1 1 1 0 1 0 0 0 0 0 1 
+ Decision vector: 1 1 1 1 1 0 1 0 1 0 1 0 
+ Decision vector: 1 1 0 0 1 1 0 1 1 1 1 1 
+ Decision vector: 0 1 1 1 1 1 1 1 1 1 1 1 
+ Decision vector: 1 1 1 1 0 1 1 0 1 1 1 1 
+ Decision vector: 1 1 0 1 1 1 1 1 1 0 0 1 
+ Decision vector: 1 1 0 1 0 0 0 0 1 1 0 1 
+ Decision vector: 1 1 1 1 1 0 1 0 1 0 1 0 
+ Decision vector: 1 1 1 0 0 0 0 0 0 0 1 0 
+ Decision vector: 0 1 0 1 0 0 0 1 1 0 1 0 
+ Decision vector: 0 1 1 1 1 0 1 1 1 0 0 0 
+ Decision vector: 1 0 0 0 1 1 0 1 0 1 1 1 
+ Decision vector: 1 1 0 1 0 0 1 1 0 0 0 0 
+ Decision vector: 1 1 1 0 1 1 1 0 1 1 1 1 
+ Decision vector: 1 1 1 0 1 0 1 0 0 0 1 1 
+ Decision vector: 1 1 0 1 0 0 1 0 0 0 1 1 
+ Decision vector: 1 1 0 1 0 0 0 0 1 1 1 1 
+ Decision vector: 0 1 1 0 0 1 0 0 1 1 0 1 
+ Decision vector: 1 1 1 1 0 1 1 1 1 0 1 1 
+ Decision vector: 1 1 0 1 1 0 1 0 0 1 1 1 
+ Decision vector: 1 1 1 1 0 1 0 0 1 0 1 1 
+ Decision vector: 1 1 1 0 0 0 0 0 1 0 1 0 
+ Decision vector: 1 1 0 1 0 1 1 1 1 0 1 1 
+ Decision vector: 1 1 1 0 1 0 1 0 0 0 1 1 
+ Decision vector: 1 1 1 1 1 1 1 0 1 1 0 1 
+ Decision vector: 1 1 1 1 0 1 1 0 1 1 1 1 
+ Decision vector: 1 1 0 1 1 1 1 1 1 1 0 1 
+ Decision vector: 1 1 1 0 0 1 1 0 1 0 0 1 
+ Decision vector: 1 1 0 0 0 1 1 0 1 0 1 1 
+ Decision vector: 0 1 0 0 0 1 1 1 0 1 1 1 
+ Decision vector: 1 0 0 1 0 1 1 0 1 1 0 1 
+ Decision vector: 0 1 1 0 1 0 0 0 1 1 1 1 
+ Decision vector: 1 1 0 0 1 0 1 0 1 0 0 0 
+ Decision vector: 0 1 1 1 0 1 0 0 1 0 1 0 
+ Decision vector: 1 1 1 0 1 0 1 0 1 0 0 0 
+ Decision vector: 1 1 0 0 1 1 0 1 1 0 0 0 
+ Decision vector: 1 1 1 0 1 0 0 1 1 1 1 1 
+ Decision vector: 1 1 1 1 0 1 0 1 1 0 1 1 
+ Decision vector: 1 1 1 0 1 1 0 0 1 1 0 0 
+ Decision vector: 1 1 0 1 1 0 1 0 0 1 0 1 
+ Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+ Decision vector: 0 1 0 1 1 1 1 1 1 0 0 0 
+ Decision vector: 1 1 0 1 1 0 1 0 1 0 1 0 
+ Decision vector: 1 0 1 1 1 1 1 0 1 1 1 1 
+ Decision vector: 1 1 0 1 0 0 0 0 1 1 1 1 
+ Decision vector: 0 1 1 1 0 1 0 0 0 1 1 1 
+ Decision vector: 1 1 0 1 0 1 1 0 1 0 1 1 
+ Decision vector: 1 0 1 0 1 0 0 0 1 1 0 1 
+ Decision vector: 0 1 1 1 0 1 1 0 1 0 1 1 
+ Decision vector: 1 1 0 1 1 0 1 1 1 1 1 1 
+
+Best Strategy at generation 1:
+Utilities generated: 2 2 2 3 0 0 
+Decision Vector:1 1 1 1 1 1 1 1 1 0 0 0 
+Fitness: 0.25
+
+Total fitness in the population at generation 2: 7.16667
+
+ Decision vector: 1 1 0 1 1 0 1 0 1 0 0 1 
+ Decision vector: 1 1 1 0 0 0 1 0 1 0 0 0 
+ Decision vector: 1 1 1 1 1 0 0 0 1 0 1 0 
+ Decision vector: 1 1 1 1 1 0 1 0 1 0 1 0 
+ Decision vector: 1 1 0 0 1 0 1 1 1 1 1 1 
+ Decision vector: 1 1 1 1 1 0 1 0 0 1 1 1 
+ Decision vector: 0 1 0 0 1 1 1 0 1 1 0 1 
+ Decision vector: 1 1 1 1 0 1 0 0 1 1 0 1 
+ Decision vector: 1 1 0 0 0 1 1 0 1 0 1 1 
+ Decision vector: 1 1 0 0 1 0 1 0 1 0 0 0 
+ Decision vector: 1 0 1 0 0 1 1 1 0 1 0 1 
+ Decision vector: 0 1 0 0 1 0 0 0 1 0 0 0 
+ Decision vector: 0 1 1 0 1 0 1 1 1 0 1 1 
+ Decision vector: 1 1 1 1 1 1 0 0 0 1 0 0 
+ Decision vector: 1 1 1 1 1 0 1 0 0 0 1 1 
+ Decision vector: 1 1 0 1 0 0 0 0 1 1 1 1 
+ Decision vector: 1 1 1 1 1 0 1 0 1 1 1 1 
+ Decision vector: 1 0 0 1 0 0 0 0 1 1 1 0 
+ Decision vector: 1 1 1 1 1 0 1 0 0 0 1 0 
+ Decision vector: 1 1 0 1 0 0 0 1 0 0 0 0 
+ Decision vector: 1 1 0 0 1 1 0 1 1 0 0 0 
+ Decision vector: 0 1 0 1 0 0 1 1 0 0 0 0 
+ Decision vector: 1 1 0 1 1 0 1 0 1 1 0 1 
+ Decision vector: 1 1 0 1 1 0 1 0 0 1 0 1 
+ Decision vector: 1 0 1 0 1 0 1 1 1 0 1 0 
+ Decision vector: 1 1 0 1 1 0 1 0 1 0 0 0 
+ Decision vector: 1 1 0 0 1 0 1 0 1 0 0 0 
+ Decision vector: 1 0 1 0 0 1 1 0 1 0 0 1 
+ Decision vector: 1 1 1 0 1 0 0 1 0 0 1 0 
+ Decision vector: 1 1 0 1 0 0 0 0 0 0 1 0 
+ Decision vector: 1 0 0 1 1 0 1 0 1 0 0 0 
+ Decision vector: 1 1 1 0 1 0 1 0 1 1 0 1 
+ Decision vector: 1 1 1 1 0 0 0 0 0 1 1 0 
+ Decision vector: 0 1 0 0 1 1 1 1 1 1 0 1 
+ Decision vector: 1 0 0 1 0 0 1 1 1 1 1 1 
+ Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+ Decision vector: 1 1 0 1 1 0 1 1 1 0 1 0 
+ Decision vector: 0 1 1 1 1 0 1 0 1 0 1 0 
+ Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+ Decision vector: 1 1 1 1 0 0 0 0 1 1 0 1 
+ Decision vector: 0 1 0 0 1 0 1 1 0 0 0 0 
+ Decision vector: 1 1 0 0 0 1 0 1 1 0 0 0 
+ Decision vector: 1 1 0 0 1 1 0 1 1 1 1 1 
+ Decision vector: 1 1 0 0 0 0 1 1 1 1 1 1 
+ Decision vector: 1 1 1 0 0 1 1 0 1 0 1 1 
+ Decision vector: 1 1 1 0 1 0 1 0 0 0 0 1 
+ Decision vector: 0 1 1 1 0 0 1 1 0 0 0 0 
+ Decision vector: 1 1 0 0 1 0 0 0 1 1 1 0 
+ Decision vector: 1 1 0 1 0 0 0 1 1 1 0 1 
+ Decision vector: 1 1 0 1 0 0 1 0 0 0 1 1 
+
+Best Strategy at generation 2:
+Utilities generated: 2 2 2 3 0 0 
+Decision Vector:1 1 1 1 1 1 1 1 1 0 0 0 
+Fitness: 0.25
+
+Total fitness in the population at generation 3: 13.0278
+
+ Decision vector: 1 1 0 1 1 0 0 0 1 0 1 0 
+ Decision vector: 1 1 1 0 1 0 1 0 0 0 0 1 
+ Decision vector: 1 0 0 0 0 1 0 1 1 1 1 1 
+ Decision vector: 1 1 0 0 1 0 1 1 1 0 1 0 
+ Decision vector: 1 0 1 1 1 1 1 0 1 0 0 0 
+ Decision vector: 1 1 1 0 1 0 1 0 0 1 0 1 
+ Decision vector: 0 1 0 1 0 0 0 0 0 1 0 0 
+ Decision vector: 0 1 1 1 1 0 1 1 0 0 1 0 
+ Decision vector: 1 1 0 1 1 0 1 1 1 0 1 0 
+ Decision vector: 0 0 0 0 0 1 1 0 0 0 1 1 
+ Decision vector: 1 1 0 0 1 0 1 0 0 0 0 0 
+ Decision vector: 1 1 1 0 1 1 1 0 1 1 0 1 
+ Decision vector: 1 0 0 1 0 0 0 1 1 1 1 0 
+ Decision vector: 1 1 0 0 0 0 0 0 1 1 0 1 
+ Decision vector: 0 1 1 1 1 0 1 0 0 0 1 1 
+ Decision vector: 0 1 1 0 1 0 1 1 1 0 1 0 
+ Decision vector: 1 1 0 0 1 1 1 0 1 1 1 1 
+ Decision vector: 1 1 0 0 0 0 0 0 0 1 1 0 
+ Decision vector: 1 0 1 0 1 0 1 1 1 0 1 1 
+ Decision vector: 1 0 1 0 1 0 1 1 1 0 1 0 
+ Decision vector: 1 1 1 0 1 1 1 0 0 0 1 0 
+ Decision vector: 1 1 0 1 0 0 0 0 1 0 1 1 
+ Decision vector: 1 1 1 1 0 0 1 1 1 1 0 1 
+ Decision vector: 1 1 1 1 1 0 1 0 1 0 0 0 
+ Decision vector: 1 1 0 0 0 0 1 0 0 1 1 0 
+ Decision vector: 1 1 1 0 0 0 1 0 1 1 1 0 
+ Decision vector: 0 1 1 0 1 0 1 0 1 0 0 0 
+ Decision vector: 0 1 0 1 1 1 1 0 0 0 1 0 
+ Decision vector: 1 1 1 0 0 1 1 0 1 0 0 1 
+ Decision vector: 1 0 0 1 1 1 1 0 1 1 1 0 
+ Decision vector: 1 1 1 1 1 0 1 0 0 0 0 0 
+ Decision vector: 1 1 1 0 0 0 1 0 1 1 1 1 
+ Decision vector: 1 1 1 0 0 1 0 1 1 1 1 1 
+ Decision vector: 1 1 1 0 0 0 1 0 1 1 0 0 
+ Decision vector: 1 1 0 0 1 0 1 0 0 1 0 1 
+ Decision vector: 1 1 0 1 0 0 0 0 1 1 0 0 
+ Decision vector: 1 1 0 1 1 0 0 0 0 1 1 0 
+ Decision vector: 1 1 1 0 0 0 1 0 1 1 0 1 
+ Decision vector: 1 0 0 0 0 1 1 0 1 0 1 1 
+ Decision vector: 1 0 0 1 1 0 1 0 0 0 0 0 
+ Decision vector: 1 1 0 1 0 0 1 0 0 0 1 1 
+ Decision vector: 1 1 0 1 1 0 0 1 0 0 0 0 
+ Decision vector: 1 0 0 1 1 0 0 1 1 1 0 0 
+ Decision vector: 1 1 0 1 0 0 1 0 0 1 0 1 
+ Decision vector: 1 1 0 1 1 0 1 0 1 0 0 0 
+ Decision vector: 1 1 1 1 1 0 1 0 1 0 0 0 
+ Decision vector: 1 1 1 1 0 0 1 1 0 0 0 0 
+ Decision vector: 1 1 1 1 1 1 1 0 1 0 1 0 
+ Decision vector: 1 1 1 1 0 1 1 0 1 0 1 1 
+ Decision vector: 1 1 0 0 0 0 1 0 0 0 1 1 
+
+Best Strategy at generation 3:
+Utilities generated: 2 1 0 2 2 5 
+Decision Vector:1 1 0 1 1 0 1 0 1 0 0 1 
+Fitness: 0.333333
+
+Total fitness in the population at generation 4: 10.5556
+
+ Decision vector: 0 1 0 1 0 0 0 0 1 1 0 1 
+ Decision vector: 1 1 1 0 1 1 1 0 0 0 0 0 
+ Decision vector: 1 1 0 1 1 0 0 1 1 0 1 0 
+ Decision vector: 1 0 1 0 1 0 1 0 1 0 0 0 
+ Decision vector: 1 1 0 1 1 0 1 0 1 0 0 0 
+ Decision vector: 0 1 1 1 1 0 0 0 1 0 1 1 
+ Decision vector: 1 1 0 1 0 0 1 1 1 1 1 1 
+ Decision vector: 1 1 1 1 1 0 1 0 0 1 0 0 
+ Decision vector: 1 1 1 0 0 1 1 1 1 1 1 1 
+ Decision vector: 0 0 0 1 0 1 0 0 1 0 0 1 
+ Decision vector: 1 1 0 1 0 0 1 1 1 0 1 0 
+ Decision vector: 1 0 1 0 1 0 1 0 0 1 0 0 
+ Decision vector: 0 1 0 1 0 0 0 0 0 0 0 0 
+ Decision vector: 0 0 1 0 1 0 1 1 1 0 1 0 
+ Decision vector: 1 1 0 0 1 0 0 0 0 0 1 1 
+ Decision vector: 1 1 0 1 0 0 1 1 1 0 0 0 
+ Decision vector: 1 1 0 1 0 0 1 0 0 0 1 1 
+ Decision vector: 1 0 0 1 0 1 1 0 1 1 1 0 
+ Decision vector: 1 1 0 0 1 1 1 0 1 1 0 0 
+ Decision vector: 1 1 0 1 0 0 0 0 0 0 0 0 
+ Decision vector: 1 1 1 0 1 0 1 0 0 0 1 1 
+ Decision vector: 0 1 1 0 1 0 1 1 1 1 0 1 
+ Decision vector: 1 1 0 0 0 0 0 0 0 0 1 1 
+ Decision vector: 0 1 1 0 1 1 1 1 1 1 0 1 
+ Decision vector: 1 0 0 1 0 0 0 0 0 1 0 0 
+ Decision vector: 0 1 0 1 1 0 1 0 0 0 0 1 
+ Decision vector: 1 0 1 0 1 0 1 1 1 0 1 0 
+ Decision vector: 1 1 0 1 1 0 1 0 1 1 0 0 
+ Decision vector: 0 0 1 0 1 0 1 0 1 1 1 1 
+ Decision vector: 1 1 0 1 0 0 0 1 1 1 1 1 
+ Decision vector: 0 1 0 0 1 1 0 0 0 1 1 0 
+ Decision vector: 0 1 0 1 0 1 1 0 0 1 1 1 
+ Decision vector: 1 0 1 0 1 0 1 0 1 0 1 0 
+ Decision vector: 1 1 1 1 1 1 1 0 1 0 1 0 
+ Decision vector: 1 0 0 0 0 0 1 0 1 1 0 1 
+ Decision vector: 1 1 1 0 1 0 1 1 1 1 1 1 
+ Decision vector: 0 1 1 1 0 1 1 0 1 1 1 1 
+ Decision vector: 1 1 0 0 1 0 0 0 1 1 1 0 
+ Decision vector: 1 1 0 1 1 0 0 1 1 1 1 1 
+ Decision vector: 0 1 0 0 1 0 1 0 1 0 1 0 
+ Decision vector: 1 1 0 0 0 0 1 0 0 1 1 1 
+ Decision vector: 1 0 0 0 0 1 0 1 1 1 1 1 
+ Decision vector: 0 1 0 0 1 0 1 0 0 0 0 0 
+ Decision vector: 1 1 0 0 0 0 0 0 1 1 0 1 
+ Decision vector: 1 1 1 1 1 0 0 0 0 0 0 0 
+ Decision vector: 1 1 0 1 1 0 1 0 1 0 0 0 
+ Decision vector: 1 1 1 0 0 0 1 0 1 1 1 0 
+ Decision vector: 0 1 1 0 0 0 1 1 1 1 1 0 
+ Decision vector: 1 1 1 0 1 0 0 0 1 1 0 0 
+ Decision vector: 1 1 0 1 0 1 1 0 1 1 0 1 
+
+Best Strategy at generation 4:
+Utilities generated: 2 1 0 2 2 5 
+Decision Vector:1 1 0 1 1 0 1 0 1 0 0 1 
+Fitness: 0.333333
+
+Total fitness in the population at generation 5: 7.11111
+
+ Decision vector: 1 1 0 1 0 0 1 0 1 0 1 1 
+ Decision vector: 1 1 0 1 0 0 1 0 0 1 0 1 
+ Decision vector: 1 0 0 0 1 0 0 0 0 1 0 0 
+ Decision vector: 1 1 1 1 1 0 1 0 1 0 0 1 
+ Decision vector: 1 1 0 1 0 1 0 1 1 0 0 0 
+ Decision vector: 1 1 0 0 1 1 1 0 1 1 1 1 
+ Decision vector: 1 1 0 1 0 1 1 0 1 1 0 0 
+ Decision vector: 1 1 0 1 1 0 1 0 1 0 0 1 
+ Decision vector: 1 0 1 0 1 1 1 1 1 1 1 0 
+ Decision vector: 1 1 0 1 0 1 1 0 1 1 0 1 
+ Decision vector: 0 1 0 1 0 0 1 1 0 0 1 0 
+ Decision vector: 1 1 1 0 0 0 0 0 1 1 0 1 
+ Decision vector: 1 1 0 1 0 0 0 0 0 0 0 0 
+ Decision vector: 1 1 1 1 1 0 0 1 1 0 1 0 
+ Decision vector: 1 0 0 1 1 0 1 0 1 1 1 1 
+ Decision vector: 1 1 0 0 1 1 1 0 0 1 0 1 
+ Decision vector: 0 1 0 1 0 0 0 0 0 0 1 0 
+ Decision vector: 1 1 0 1 1 0 0 1 1 0 0 0 
+ Decision vector: 1 1 0 1 0 0 1 1 1 1 1 0 
+ Decision vector: 1 1 1 0 1 0 0 1 0 0 1 1 
+ Decision vector: 1 1 0 0 0 0 1 0 1 1 0 1 
+ Decision vector: 1 1 0 0 1 0 1 0 1 1 0 1 
+ Decision vector: 1 0 1 0 1 0 1 0 0 0 1 0 
+ Decision vector: 1 1 1 1 1 1 1 0 1 0 1 1 
+ Decision vector: 1 1 0 1 0 0 0 0 1 0 0 0 
+ Decision vector: 1 1 0 1 1 0 1 0 1 1 1 1 
+ Decision vector: 1 1 0 1 0 0 0 0 1 0 0 0 
+ Decision vector: 1 0 1 0 1 0 1 1 1 0 1 1 
+ Decision vector: 1 1 1 0 0 1 1 0 1 1 0 1 
+ Decision vector: 1 0 0 0 0 1 1 1 1 0 1 1 
+ Decision vector: 1 1 1 1 1 1 1 0 0 0 0 0 
+ Decision vector: 1 1 1 0 1 1 1 0 0 0 0 0 
+ Decision vector: 1 1 1 0 1 1 1 1 1 1 0 1 
+ Decision vector: 0 1 1 0 0 0 1 0 1 1 0 0 
+ Decision vector: 0 1 0 1 1 0 1 1 0 0 1 0 
+ Decision vector: 1 1 0 1 0 1 0 0 1 1 1 1 
+ Decision vector: 1 1 1 0 1 0 1 1 1 1 1 1 
+ Decision vector: 1 1 0 1 1 0 1 1 1 1 0 1 
+ Decision vector: 1 1 0 0 0 0 1 0 1 0 0 0 
+ Decision vector: 1 0 0 0 0 0 1 1 1 1 0 0 
+ Decision vector: 1 1 0 1 1 0 1 0 1 1 0 1 
+ Decision vector: 0 1 0 0 1 0 1 0 1 0 0 1 
+ Decision vector: 1 1 1 0 0 0 1 1 1 0 0 0 
+ Decision vector: 1 0 1 1 1 0 1 0 0 1 1 0 
+ Decision vector: 1 0 1 0 1 0 1 1 0 1 1 0 
+ Decision vector: 1 0 0 0 1 1 0 0 0 0 0 0 
+ Decision vector: 1 1 0 1 0 1 1 0 0 0 0 1 
+ Decision vector: 1 1 1 0 0 1 1 0 1 0 0 1 
+ Decision vector: 1 1 1 1 0 1 1 0 1 0 1 1 
+ Decision vector: 1 1 1 0 1 0 1 0 0 0 1 1 
+
+Best Strategy at generation 5:
+Utilities generated: 2 1 0 2 2 5 
+Decision Vector:1 1 0 1 1 0 1 0 1 0 0 1 
+Fitness: 0.333333
+
+Total fitness in the population at generation 6: 10.7222
+
+ Decision vector: 1 0 0 1 0 1 1 0 0 1 1 0 
+ Decision vector: 1 0 1 0 1 0 1 0 0 0 0 0 
+ Decision vector: 1 1 0 0 0 0 1 0 0 0 0 0 
+ Decision vector: 0 1 0 1 0 0 1 0 1 1 0 1 
+ Decision vector: 1 0 1 0 0 0 1 0 1 1 0 1 
+ Decision vector: 1 0 0 0 0 1 1 1 0 0 1 1 
+ Decision vector: 0 1 0 0 0 0 1 1 0 1 0 1 
+ Decision vector: 0 1 0 0 0 0 1 1 0 0 1 0 
+ Decision vector: 1 0 0 0 1 1 1 1 0 1 0 1 
+ Decision vector: 1 1 0 1 1 0 1 1 1 1 1 0 
+ Decision vector: 1 0 1 0 1 0 1 0 1 0 0 1 
+ Decision vector: 0 1 0 0 1 1 1 0 1 1 0 0 
+ Decision vector: 1 0 1 0 1 0 1 1 1 1 0 1 
+ Decision vector: 1 1 0 0 0 0 1 0 1 1 1 1 
+ Decision vector: 1 0 0 0 1 1 0 0 1 0 0 0 
+ Decision vector: 1 1 0 1 0 1 0 1 0 1 0 1 
+ Decision vector: 1 0 1 0 1 0 1 1 0 0 1 1 
+ Decision vector: 1 1 1 0 0 1 1 1 0 1 1 0 
+ Decision vector: 1 1 0 1 0 1 1 0 1 1 0 0 
+ Decision vector: 1 1 0 1 0 0 1 1 1 1 1 0 
+ Decision vector: 1 0 0 1 1 1 1 0 1 0 1 0 
+ Decision vector: 1 1 1 0 0 1 1 0 1 0 1 0 
+ Decision vector: 1 0 1 0 0 0 1 0 1 0 1 1 
+ Decision vector: 1 1 0 0 1 0 1 0 0 0 0 0 
+ Decision vector: 1 1 0 0 1 0 1 1 1 0 1 1 
+ Decision vector: 0 0 1 0 1 0 1 0 0 1 0 1 
+ Decision vector: 1 1 1 0 0 1 1 1 1 1 0 0 
+ Decision vector: 1 1 1 0 0 0 1 0 0 0 0 0 
+ Decision vector: 1 0 1 0 1 1 1 0 0 0 1 1 
+ Decision vector: 1 1 1 1 0 1 0 0 1 0 0 0 
+ Decision vector: 1 0 1 1 1 0 0 0 0 0 1 1 
+ Decision vector: 1 1 1 1 1 0 0 1 1 0 1 0 
+ Decision vector: 1 1 0 1 0 0 1 0 1 1 0 1 
+ Decision vector: 0 1 0 0 0 0 1 0 1 0 0 0 
+ Decision vector: 1 1 1 1 0 1 1 0 1 0 0 1 
+ Decision vector: 1 1 1 1 1 0 1 0 1 0 1 1 
+ Decision vector: 0 1 0 0 1 1 0 1 1 1 1 1 
+ Decision vector: 1 0 1 0 0 1 1 0 0 0 0 1 
+ Decision vector: 1 1 1 0 0 0 1 1 1 0 0 0 
+ Decision vector: 1 1 0 0 0 0 1 0 1 0 0 0 
+ Decision vector: 0 1 0 1 0 1 1 0 0 0 1 1 
+ Decision vector: 1 0 0 0 1 0 0 0 0 0 1 0 
+ Decision vector: 1 0 1 1 0 0 1 0 0 0 1 1 
+ Decision vector: 0 1 0 1 0 0 1 1 0 1 1 0 
+ Decision vector: 0 1 1 0 1 1 1 1 0 1 0 1 
+ Decision vector: 1 1 1 1 1 0 1 0 1 0 0 1 
+ Decision vector: 1 1 1 0 1 1 1 0 0 0 1 0 
+ Decision vector: 1 0 1 0 1 0 0 0 0 1 1 0 
+ Decision vector: 1 1 0 1 0 1 0 0 1 0 0 0 
+ Decision vector: 0 1 1 1 0 0 0 0 1 1 1 1 
+
+Best Strategy at generation 6:
+Utilities generated: 2 1 0 2 2 5 
+Decision Vector:1 1 0 1 1 0 1 0 1 0 0 1 
+Fitness: 0.333333
+
+Total fitness in the population at generation 7: 10.1944
+
+ Decision vector: 1 0 0 0 0 1 1 0 1 0 1 0 
+ Decision vector: 1 0 1 1 1 0 1 0 0 0 0 0 
+ Decision vector: 1 0 0 0 0 1 1 0 0 0 1 1 
+ Decision vector: 1 1 0 0 0 0 1 0 1 1 1 1 
+ Decision vector: 1 1 0 0 0 0 1 1 0 0 1 1 
+ Decision vector: 0 1 0 1 0 1 1 1 0 1 0 1 
+ Decision vector: 0 1 0 1 0 1 0 1 1 1 0 1 
+ Decision vector: 1 1 0 1 0 0 1 0 0 1 1 1 
+ Decision vector: 0 1 0 0 0 0 1 1 1 0 1 0 
+ Decision vector: 1 1 1 0 0 0 0 0 1 0 0 1 
+ Decision vector: 0 1 0 1 0 1 0 0 1 1 1 1 
+ Decision vector: 0 1 0 1 0 0 1 1 1 1 0 1 
+ Decision vector: 1 1 1 0 0 1 1 1 1 0 0 1 
+ Decision vector: 1 0 1 0 1 0 1 0 1 0 0 0 
+ Decision vector: 0 1 0 1 1 0 1 0 0 1 0 0 
+ Decision vector: 1 0 1 0 0 0 1 1 0 0 1 0 
+ Decision vector: 1 1 0 0 0 0 1 1 1 0 0 1 
+ Decision vector: 0 1 1 1 1 0 0 1 1 0 1 0 
+ Decision vector: 1 1 1 1 0 0 1 0 1 1 1 0 
+ Decision vector: 1 1 0 1 0 1 1 1 0 1 1 0 
+ Decision vector: 0 0 1 0 0 0 1 0 0 1 0 0 
+ Decision vector: 1 1 0 1 0 1 1 0 1 0 1 1 
+ Decision vector: 1 0 0 1 0 1 1 0 1 0 1 0 
+ Decision vector: 1 1 1 0 0 1 1 1 0 0 1 1 
+ Decision vector: 1 1 1 1 0 1 1 1 1 0 1 0 
+ Decision vector: 1 1 0 0 0 0 1 1 0 0 1 0 
+ Decision vector: 1 0 0 1 0 0 0 1 1 1 1 1 
+ Decision vector: 1 1 0 0 0 1 1 1 0 0 1 1 
+ Decision vector: 0 1 0 0 1 0 1 0 1 1 0 0 
+ Decision vector: 1 1 1 0 0 0 1 1 1 1 0 0 
+ Decision vector: 1 1 1 0 0 1 1 1 0 0 1 0 
+ Decision vector: 0 1 0 0 0 0 1 1 0 0 1 1 
+ Decision vector: 0 1 1 0 1 1 1 0 0 0 1 0 
+ Decision vector: 0 1 0 0 1 0 1 1 0 1 1 1 
+ Decision vector: 1 1 1 1 1 0 0 1 1 0 1 1 
+ Decision vector: 1 0 1 1 1 1 0 0 0 0 1 0 
+ Decision vector: 1 0 1 0 0 0 1 0 1 0 1 0 
+ Decision vector: 0 1 1 1 0 1 1 0 0 0 0 1 
+ Decision vector: 1 1 1 0 1 1 1 1 0 1 1 0 
+ Decision vector: 0 1 0 1 0 0 1 0 0 0 1 0 
+ Decision vector: 1 1 0 1 1 0 1 0 0 0 0 0 
+ Decision vector: 1 1 1 0 0 0 1 1 1 1 1 0 
+ Decision vector: 0 0 0 0 0 0 0 1 1 1 1 0 
+ Decision vector: 1 1 1 1 0 1 1 1 0 0 1 0 
+ Decision vector: 1 1 0 0 0 1 1 0 0 0 1 0 
+ Decision vector: 1 1 0 0 0 0 0 1 1 0 1 0 
+ Decision vector: 1 1 1 0 0 1 1 1 1 1 1 0 
+ Decision vector: 1 1 1 0 0 1 1 1 0 1 1 1 
+ Decision vector: 1 0 1 0 1 1 0 1 1 1 0 0 
+ Decision vector: 1 0 1 0 1 1 1 0 0 0 0 1 
+
+Best Strategy at generation 7:
+Utilities generated: 2 1 0 2 2 5 
+Decision Vector:1 1 0 1 1 0 1 0 1 0 0 1 
+Fitness: 0.333333
+
+Total fitness in the population at generation 8: 7.05556
+
+ Decision vector: 0 1 0 1 0 1 0 1 0 1 1 1 
+ Decision vector: 1 1 0 0 0 0 1 0 1 1 1 0 
+ Decision vector: 0 1 0 0 1 0 1 1 0 1 1 0 
+ Decision vector: 1 1 1 1 0 1 1 1 1 0 1 1 
+ Decision vector: 0 1 0 1 0 1 0 0 0 1 0 0 
+ Decision vector: 0 1 0 1 0 0 1 0 1 1 1 0 
+ Decision vector: 1 1 0 0 0 1 1 1 0 0 0 1 
+ Decision vector: 1 1 1 0 0 1 1 1 0 0 1 0 
+ Decision vector: 1 1 0 0 0 1 1 1 0 0 0 1 
+ Decision vector: 0 1 0 1 0 0 1 1 1 0 0 1 
+ Decision vector: 1 1 1 0 0 0 1 1 0 0 1 1 
+ Decision vector: 1 1 1 0 0 1 1 1 1 0 0 1 
+ Decision vector: 1 0 0 1 0 0 1 0 1 0 0 0 
+ Decision vector: 1 1 1 0 0 1 1 1 0 0 1 0 
+ Decision vector: 1 1 1 0 0 0 0 0 1 0 1 1 
+ Decision vector: 1 0 0 1 1 1 0 0 1 0 0 0 
+ Decision vector: 1 1 1 0 1 1 1 1 0 1 0 0 
+ Decision vector: 1 0 0 1 1 0 1 0 0 1 1 0 
+ Decision vector: 0 1 1 0 1 0 1 1 0 0 1 0 
+ Decision vector: 1 1 0 0 0 0 1 0 0 0 1 0 
+ Decision vector: 1 1 1 1 1 0 1 0 0 1 1 1 
+ Decision vector: 0 1 0 1 0 1 1 1 0 1 0 0 
+ Decision vector: 0 1 0 0 0 0 0 1 1 0 1 0 
+ Decision vector: 1 1 1 1 0 1 1 0 0 0 0 1 
+ Decision vector: 1 1 1 1 1 0 0 1 1 0 1 1 
+ Decision vector: 0 1 0 0 0 0 0 0 1 1 1 0 
+ Decision vector: 1 0 0 1 0 0 1 0 0 1 1 1 
+ Decision vector: 1 1 1 0 0 0 1 1 1 0 0 1 
+ Decision vector: 0 1 0 1 0 1 0 0 1 1 1 1 
+ Decision vector: 1 1 0 1 0 1 0 0 0 0 1 1 
+ Decision vector: 0 1 0 0 0 1 1 1 0 1 1 1 
+ Decision vector: 1 1 1 1 1 0 1 0 0 1 1 0 
+ Decision vector: 0 1 0 1 0 1 1 0 1 0 1 1 
+ Decision vector: 1 1 0 1 1 1 0 1 1 0 1 1 
+ Decision vector: 0 1 0 1 0 0 1 0 0 0 1 0 
+ Decision vector: 1 1 0 0 0 0 1 1 0 1 1 0 
+ Decision vector: 1 1 1 0 1 0 0 0 1 0 0 0 
+ Decision vector: 1 1 1 0 1 1 1 1 0 1 1 0 
+ Decision vector: 0 1 0 1 0 0 1 0 0 1 0 0 
+ Decision vector: 0 1 0 1 1 1 1 0 0 1 1 0 
+ Decision vector: 1 1 1 1 0 0 0 0 0 0 0 1 
+ Decision vector: 0 1 1 1 1 0 0 1 1 1 1 1 
+ Decision vector: 1 1 1 0 1 1 1 1 0 0 1 0 
+ Decision vector: 1 1 1 1 0 1 1 0 0 0 1 0 
+ Decision vector: 1 0 0 1 1 0 1 1 0 1 1 1 
+ Decision vector: 1 1 1 0 0 1 0 1 1 1 1 1 
+ Decision vector: 0 1 0 0 0 1 1 1 1 1 1 0 
+ Decision vector: 1 1 0 0 1 0 1 0 0 1 0 0 
+ Decision vector: 1 1 0 1 0 1 1 1 0 1 0 0 
+ Decision vector: 1 1 0 1 0 1 0 0 0 0 1 0 
+
+Best Strategy at generation 8:
+Utilities generated: 2 1 0 2 2 5 
+Decision Vector:1 1 0 1 1 0 1 0 1 0 0 1 
+Fitness: 0.333333
+
+Total fitness in the population at generation 9: 8.5
+
+ Decision vector: 0 1 0 1 0 0 1 0 0 1 1 1 
+ Decision vector: 1 1 1 1 1 0 0 0 0 1 0 0 
+ Decision vector: 0 1 0 1 0 1 1 0 0 0 1 1 
+ Decision vector: 0 1 1 1 1 0 1 1 0 0 1 0 
+ Decision vector: 0 1 1 1 0 1 1 1 0 1 0 1 
+ Decision vector: 0 1 0 1 1 0 1 1 1 0 0 1 
+ Decision vector: 0 1 0 0 0 1 1 0 0 0 0 0 
+ Decision vector: 1 1 1 1 1 0 1 1 1 1 1 0 
+ Decision vector: 1 0 1 0 0 0 0 1 1 0 0 1 
+ Decision vector: 1 1 0 0 0 1 1 1 1 1 1 1 
+ Decision vector: 1 1 1 1 1 0 1 0 0 1 1 1 
+ Decision vector: 1 1 1 0 1 1 1 1 0 1 1 0 
+ Decision vector: 0 1 0 1 0 0 0 1 0 1 1 0 
+ Decision vector: 1 1 0 1 0 1 0 1 1 0 0 0 
+ Decision vector: 0 1 0 0 0 0 0 1 1 1 1 1 
+ Decision vector: 0 1 0 0 0 1 1 1 0 1 1 1 
+ Decision vector: 1 0 0 1 0 1 0 1 0 1 0 0 
+ Decision vector: 1 1 0 0 0 0 0 0 0 0 1 1 
+ Decision vector: 1 1 1 1 0 0 0 1 0 0 1 1 
+ Decision vector: 1 1 0 0 1 0 0 1 1 0 1 1 
+ Decision vector: 1 1 1 1 0 1 1 0 0 0 1 0 
+ Decision vector: 1 1 1 1 0 1 1 0 0 0 1 0 
+ Decision vector: 1 1 1 0 0 1 1 1 1 1 1 0 
+ Decision vector: 0 1 0 0 0 1 1 1 1 0 0 0 
+ Decision vector: 1 1 1 0 0 1 0 1 1 0 0 1 
+ Decision vector: 0 1 0 1 0 0 1 1 1 0 1 1 
+ Decision vector: 0 1 0 0 0 0 1 0 0 0 1 0 
+ Decision vector: 1 1 0 0 1 0 1 1 0 1 0 0 
+ Decision vector: 1 1 1 1 0 0 0 0 1 1 1 1 
+ Decision vector: 0 1 0 0 1 1 0 0 0 0 0 1 
+ Decision vector: 1 1 0 1 0 0 1 0 1 0 1 0 
+ Decision vector: 0 1 1 0 0 0 0 0 1 0 1 1 
+ Decision vector: 1 1 0 1 0 1 0 0 0 0 1 1 
+ Decision vector: 1 1 0 1 1 0 0 1 1 0 1 0 
+ Decision vector: 1 1 0 0 0 1 1 1 0 0 0 0 
+ Decision vector: 1 1 0 1 0 0 1 1 0 1 0 1 
+ Decision vector: 1 1 1 1 1 0 1 0 0 1 1 1 
+ Decision vector: 0 0 1 0 1 0 0 1 1 0 1 1 
+ Decision vector: 1 1 0 0 0 1 1 1 0 0 1 1 
+ Decision vector: 1 1 0 1 1 1 0 1 0 0 1 1 
+ Decision vector: 1 1 1 0 0 0 1 1 1 0 0 0 
+ Decision vector: 1 1 1 0 1 0 0 0 1 0 0 1 
+ Decision vector: 1 1 0 1 0 1 0 0 1 0 1 1 
+ Decision vector: 0 1 1 1 0 1 1 1 0 1 1 0 
+ Decision vector: 1 1 1 0 0 0 1 1 1 1 0 0 
+ Decision vector: 1 1 1 0 1 1 0 1 1 1 1 1 
+ Decision vector: 0 1 1 0 1 1 1 1 0 1 1 1 
+ Decision vector: 0 0 0 1 0 1 1 1 1 0 1 0 
+ Decision vector: 0 0 0 0 0 1 0 0 1 0 0 0 
+ Decision vector: 1 1 0 0 0 0 1 0 1 1 1 1 
+
+Best Strategy at generation 9:
+Utilities generated: 2 1 0 2 2 5 
+Decision Vector:1 1 0 1 1 0 1 0 1 0 0 1 
+Fitness: 0.333333
+
+Total fitness in the population at generation 10: 11.0833
+
+ Decision vector: 0 1 1 1 0 1 1 0 0 0 1 0 
+ Decision vector: 1 0 0 0 1 0 0 0 0 0 0 1 
+ Decision vector: 1 1 0 1 0 0 1 1 1 0 1 0 
+ Decision vector: 1 0 0 1 1 0 0 1 1 0 1 0 
+ Decision vector: 1 0 0 0 0 1 1 0 1 0 1 0 
+ Decision vector: 1 1 0 1 0 1 1 1 0 1 0 0 
+ Decision vector: 0 1 1 1 1 0 0 1 0 1 1 0 
+ Decision vector: 0 1 1 1 1 1 1 1 0 0 0 0 
+ Decision vector: 1 0 1 1 0 1 0 0 1 1 0 0 
+ Decision vector: 1 1 0 0 0 0 0 1 1 0 0 1 
+ Decision vector: 1 1 1 1 0 0 0 0 1 1 1 1 
+ Decision vector: 0 0 1 1 1 0 1 1 0 1 0 1 
+ Decision vector: 1 1 0 0 0 1 1 1 1 1 0 0 
+ Decision vector: 1 1 1 0 0 1 1 1 1 0 1 0 
+ Decision vector: 1 1 1 0 0 0 0 0 0 0 1 1 
+ Decision vector: 1 1 0 0 0 1 1 1 1 1 1 0 
+ Decision vector: 1 1 1 1 1 1 0 1 0 0 0 0 
+ Decision vector: 1 1 0 0 1 0 1 1 1 1 0 0 
+ Decision vector: 1 1 0 1 1 1 0 1 0 1 1 1 
+ Decision vector: 0 1 1 1 0 0 0 1 0 0 0 0 
+ Decision vector: 1 1 0 1 0 1 0 0 0 1 1 0 
+ Decision vector: 0 1 1 0 1 1 1 1 0 1 1 1 
+ Decision vector: 1 1 1 1 1 0 0 0 0 0 0 1 
+ Decision vector: 1 1 0 1 1 0 1 1 1 0 0 0 
+ Decision vector: 1 1 1 0 0 0 1 1 1 1 1 1 
+ Decision vector: 0 1 1 1 1 0 1 1 1 0 0 0 
+ Decision vector: 1 1 0 0 1 0 1 1 0 1 0 0 
+ Decision vector: 1 1 1 1 1 0 1 0 0 1 1 1 
+ Decision vector: 1 1 1 0 0 0 1 1 0 1 1 0 
+ Decision vector: 0 1 1 1 0 1 1 0 1 0 0 0 
+ Decision vector: 1 1 1 1 0 0 1 0 0 0 1 1 
+ Decision vector: 0 1 0 1 0 0 1 1 1 0 1 0 
+ Decision vector: 1 1 1 0 0 0 0 1 1 0 0 1 
+ Decision vector: 1 0 1 0 0 0 0 0 0 0 1 1 
+ Decision vector: 1 1 1 0 0 1 0 1 1 0 0 1 
+ Decision vector: 1 1 1 1 1 0 1 1 1 1 1 0 
+ Decision vector: 0 1 0 1 0 1 0 1 1 0 1 1 
+ Decision vector: 1 1 1 1 1 0 0 1 0 0 1 1 
+ Decision vector: 0 0 1 1 1 0 1 0 0 0 1 1 
+ Decision vector: 0 1 0 1 0 0 1 1 0 1 1 1 
+ Decision vector: 0 1 0 0 0 0 1 1 1 1 0 1 
+ Decision vector: 1 1 1 0 1 1 0 1 0 0 1 1 
+ Decision vector: 1 1 0 1 1 1 1 1 1 1 1 0 
+ Decision vector: 1 1 1 1 0 1 0 0 1 0 1 1 
+ Decision vector: 0 1 1 1 0 1 0 1 1 0 0 0 
+ Decision vector: 1 1 1 1 1 1 1 1 0 1 1 0 
+ Decision vector: 1 1 0 0 0 0 1 0 1 0 1 0 
+ Decision vector: 1 1 1 1 0 0 0 0 1 0 1 1 
+ Decision vector: 1 1 0 1 1 1 1 1 0 0 1 0 
+ Decision vector: 1 1 1 1 1 1 0 1 0 1 0 1 
+
+Best Strategy at generation 10:
+Utilities generated: 2 1 0 2 2 5 
+Decision Vector:1 1 0 1 1 0 1 0 1 0 0 1 
+Fitness: 0.333333
+
+Total fitness in the population at generation 11: 11.0556
+
+ Decision vector: 1 1 1 0 1 0 0 0 0 1 1 0 
+ Decision vector: 0 1 1 1 1 0 0 1 0 0 1 1 
+ Decision vector: 1 1 0 0 1 0 0 1 0 0 0 1 
+ Decision vector: 1 1 1 1 0 0 1 1 1 1 1 1 
+ Decision vector: 1 1 1 0 0 1 1 0 1 0 1 0 
+ Decision vector: 1 0 0 0 1 1 0 1 0 0 1 1 
+ Decision vector: 1 1 0 1 1 0 1 1 1 0 0 1 
+ Decision vector: 1 1 0 1 0 1 1 0 1 0 1 0 
+ Decision vector: 1 1 1 0 1 1 1 1 0 1 1 1 
+ Decision vector: 1 1 0 1 1 0 1 1 1 0 0 0 
+ Decision vector: 0 1 1 1 0 1 0 1 1 0 1 0 
+ Decision vector: 0 1 0 1 0 1 1 1 1 1 1 1 
+ Decision vector: 1 1 1 1 1 0 1 1 1 0 1 0 
+ Decision vector: 1 0 0 1 0 0 1 0 0 1 1 1 
+ Decision vector: 0 1 1 1 1 1 1 1 1 1 1 0 
+ Decision vector: 1 1 0 0 0 0 1 1 1 1 0 1 
+ Decision vector: 1 1 1 0 0 0 0 1 0 1 0 0 
+ Decision vector: 1 1 0 1 1 1 1 0 1 0 0 1 
+ Decision vector: 1 1 0 0 0 1 1 0 1 1 0 0 
+ Decision vector: 1 1 1 0 0 0 1 0 0 1 1 0 
+ Decision vector: 0 1 1 0 0 1 0 0 0 0 0 1 
+ Decision vector: 0 1 1 0 0 1 1 1 1 0 1 1 
+ Decision vector: 1 1 1 1 0 1 0 0 1 0 1 1 
+ Decision vector: 0 1 1 1 1 0 0 1 0 0 1 1 
+ Decision vector: 1 0 1 1 0 0 0 0 1 0 1 0 
+ Decision vector: 1 1 0 1 0 1 0 0 1 1 1 1 
+ Decision vector: 1 1 0 0 1 0 0 0 0 0 0 1 
+ Decision vector: 1 0 0 1 1 0 1 1 1 1 0 0 
+ Decision vector: 1 0 1 0 0 0 0 0 0 0 1 1 
+ Decision vector: 1 1 0 0 0 1 1 1 1 0 1 0 
+ Decision vector: 1 1 0 0 1 1 1 0 0 0 0 1 
+ Decision vector: 1 0 1 0 1 0 0 1 0 0 0 1 
+ Decision vector: 1 0 0 0 1 0 0 1 0 1 1 0 
+ Decision vector: 1 1 0 1 0 0 0 1 1 1 1 0 
+ Decision vector: 1 1 0 1 1 1 0 1 0 1 1 0 
+ Decision vector: 1 1 1 1 1 1 0 1 1 1 1 1 
+ Decision vector: 1 0 1 1 0 1 1 1 1 1 1 0 
+ Decision vector: 1 1 0 0 0 1 0 0 1 0 1 1 
+ Decision vector: 1 1 1 1 0 0 1 0 1 0 0 0 
+ Decision vector: 0 1 1 1 0 0 1 1 1 1 1 1 
+ Decision vector: 1 1 0 0 1 0 0 1 0 0 1 1 
+ Decision vector: 1 1 1 1 1 0 1 1 0 1 0 0 
+ Decision vector: 0 1 0 1 1 1 1 1 0 0 1 0 
+ Decision vector: 0 1 1 1 1 0 0 1 1 1 1 0 
+ Decision vector: 1 1 1 1 1 0 0 1 1 1 1 1 
+ Decision vector: 0 1 0 0 0 0 0 0 0 0 0 1 
+ Decision vector: 1 1 1 1 1 0 0 1 0 0 1 0 
+ Decision vector: 1 1 0 1 0 1 0 0 0 1 1 0 
+ Decision vector: 1 1 0 1 0 1 0 1 1 0 0 0 
+ Decision vector: 0 1 1 1 1 0 1 1 1 0 1 1 
+
+Best Strategy at generation 11:
+Utilities generated: 2 1 0 2 2 5 
+Decision Vector:1 1 0 1 1 0 1 0 1 0 0 1 
+Fitness: 0.333333
+
+Total fitness in the population at generation 12: 11.5833
+
+ Decision vector: 0 1 0 0 0 1 1 0 0 0 0 0 
+ Decision vector: 1 0 0 0 0 0 1 1 1 0 0 1 
+ Decision vector: 1 1 1 0 0 1 1 0 1 0 1 1 
+ Decision vector: 1 0 1 0 0 0 1 0 0 0 1 0 
+ Decision vector: 1 0 1 0 1 0 0 0 1 1 1 1 
+ Decision vector: 1 1 0 1 1 1 0 1 0 0 1 1 
+ Decision vector: 0 1 1 0 1 0 1 0 1 0 0 0 
+ Decision vector: 1 1 0 1 1 1 0 1 1 1 1 0 
+ Decision vector: 0 1 1 1 0 1 0 0 1 0 1 1 
+ Decision vector: 1 1 1 0 1 0 0 1 1 0 1 1 
+ Decision vector: 0 1 1 0 0 0 1 0 0 1 0 0 
+ Decision vector: 1 1 0 1 0 0 1 1 1 1 1 1 
+ Decision vector: 0 1 1 1 1 0 1 1 1 0 1 0 
+ Decision vector: 1 1 1 0 0 1 0 0 0 1 1 1 
+ Decision vector: 1 1 1 1 1 0 1 1 1 0 1 0 
+ Decision vector: 1 1 0 0 0 1 1 0 1 0 1 0 
+ Decision vector: 1 1 1 1 0 0 1 0 1 0 0 0 
+ Decision vector: 1 1 0 1 1 0 0 1 0 1 1 0 
+ Decision vector: 0 1 0 1 1 0 0 0 0 0 1 1 
+ Decision vector: 1 0 0 0 1 1 0 1 0 0 0 0 
+ Decision vector: 0 1 1 1 1 0 1 1 1 0 1 0 
+ Decision vector: 1 1 1 1 1 0 0 1 0 0 1 1 
+ Decision vector: 1 0 1 1 0 0 1 1 0 0 1 0 
+ Decision vector: 1 1 1 0 1 0 0 0 1 0 0 0 
+ Decision vector: 1 1 1 1 0 0 1 1 1 1 1 0 
+ Decision vector: 1 1 1 0 0 1 1 0 1 0 1 1 
+ Decision vector: 1 1 1 1 0 0 0 1 0 0 1 1 
+ Decision vector: 0 0 0 1 1 0 1 1 1 1 0 1 
+ Decision vector: 1 1 1 0 0 0 0 1 0 0 0 1 
+ Decision vector: 0 0 0 0 1 1 0 0 1 0 1 1 
+ Decision vector: 1 0 0 0 0 0 1 0 0 0 0 1 
+ Decision vector: 1 1 0 0 1 0 0 1 0 0 1 1 
+ Decision vector: 0 1 0 1 1 0 0 0 0 0 0 1 
+ Decision vector: 0 1 0 0 0 1 1 1 0 0 1 0 
+ Decision vector: 0 1 0 0 1 0 0 1 0 0 1 0 
+ Decision vector: 1 1 0 1 1 0 0 1 0 0 0 1 
+ Decision vector: 1 1 0 0 0 0 1 0 0 0 1 0 
+ Decision vector: 1 1 1 1 1 0 1 0 0 1 1 0 
+ Decision vector: 1 0 1 1 0 0 0 0 0 0 0 1 
+ Decision vector: 0 1 0 1 0 0 1 0 1 0 1 0 
+ Decision vector: 1 0 1 1 1 0 0 1 0 0 1 0 
+ Decision vector: 1 1 1 0 0 1 1 0 0 0 0 1 
+ Decision vector: 1 1 0 0 0 1 1 1 1 0 0 1 
+ Decision vector: 1 1 0 0 1 1 0 1 0 0 1 0 
+ Decision vector: 1 1 0 0 0 0 1 0 1 1 0 0 
+ Decision vector: 1 1 0 0 1 0 0 0 0 0 0 1 
+ Decision vector: 1 1 1 1 0 1 0 0 1 0 1 1 
+ Decision vector: 1 1 0 0 0 1 0 0 1 0 1 1 
+ Decision vector: 1 1 1 1 0 0 0 0 0 0 0 1 
+ Decision vector: 0 1 1 0 1 1 1 1 0 1 1 1 
+
+Best Strategy at generation 12:
+Utilities generated: 2 1 0 2 2 5 
+Decision Vector:1 1 0 1 1 0 1 0 1 0 0 1 
+Fitness: 0.333333
+
+Total fitness in the population at generation 13: 9.02778
+
+ Decision vector: 0 1 0 1 1 0 0 1 0 0 0 0 
+ Decision vector: 0 1 0 1 1 0 0 0 0 0 1 1 
+ Decision vector: 1 1 1 0 0 1 1 0 1 0 1 1 
+ Decision vector: 1 1 0 0 0 1 1 0 1 0 0 0 
+ Decision vector: 1 0 0 1 0 0 1 1 0 0 1 0 
+ Decision vector: 1 0 0 0 0 1 1 0 0 0 0 1 
+ Decision vector: 1 1 0 1 0 1 0 1 0 0 1 0 
+ Decision vector: 0 1 1 0 0 1 1 0 1 0 1 1 
+ Decision vector: 0 1 0 0 0 0 0 1 0 0 1 1 
+ Decision vector: 1 1 0 0 1 0 1 0 0 1 0 0 
+ Decision vector: 1 0 1 1 1 0 1 0 1 0 1 1 
+ Decision vector: 1 1 0 1 0 1 1 1 0 0 1 0 
+ Decision vector: 1 1 1 0 0 1 0 0 1 0 1 1 
+ Decision vector: 0 1 1 1 0 1 0 0 0 1 1 1 
+ Decision vector: 1 1 1 1 0 1 1 0 1 0 1 1 
+ Decision vector: 1 1 1 1 1 0 0 1 1 0 1 1 
+ Decision vector: 0 1 0 1 0 0 1 0 1 0 1 0 
+ Decision vector: 1 1 0 1 1 0 1 1 1 0 1 0 
+ Decision vector: 0 1 1 1 1 0 1 1 1 1 0 0 
+ Decision vector: 1 1 1 0 0 0 1 1 0 0 0 0 
+ Decision vector: 1 1 0 0 0 1 1 1 0 0 1 1 
+ Decision vector: 0 1 1 0 1 1 1 1 0 0 1 1 
+ Decision vector: 0 1 1 1 1 0 1 1 1 0 1 0 
+ Decision vector: 0 1 1 1 1 0 1 0 1 0 1 0 
+ Decision vector: 1 1 0 1 1 0 0 1 1 1 1 1 
+ Decision vector: 0 1 0 1 1 1 1 0 1 1 0 0 
+ Decision vector: 1 1 1 1 1 0 1 1 1 0 1 0 
+ Decision vector: 0 1 1 0 0 0 0 0 0 0 0 0 
+ Decision vector: 1 1 1 0 0 0 1 0 0 1 0 1 
+ Decision vector: 1 1 1 1 0 0 1 0 0 0 1 0 
+ Decision vector: 0 1 0 0 0 0 1 0 1 0 1 0 
+ Decision vector: 1 1 0 1 0 0 1 1 1 1 0 0 
+ Decision vector: 1 1 0 1 1 0 1 1 1 0 1 1 
+ Decision vector: 0 1 1 1 1 1 0 1 0 0 1 1 
+ Decision vector: 0 1 0 0 0 0 1 0 1 0 1 1 
+ Decision vector: 1 1 1 1 1 0 1 1 0 0 0 0 
+ Decision vector: 1 1 1 0 1 1 0 1 0 1 1 1 
+ Decision vector: 0 1 1 0 1 1 1 1 0 1 1 0 
+ Decision vector: 1 1 1 1 0 1 0 1 0 1 1 0 
+ Decision vector: 1 1 0 1 1 0 0 0 1 0 1 1 
+ Decision vector: 1 1 1 1 0 0 1 1 0 0 1 0 
+ Decision vector: 1 1 1 1 1 0 1 0 1 0 0 0 
+ Decision vector: 1 1 1 1 1 1 1 1 1 0 1 0 
+ Decision vector: 1 1 1 1 0 0 0 1 0 0 0 0 
+ Decision vector: 1 1 1 0 1 0 0 0 1 0 0 1 
+ Decision vector: 0 1 0 1 1 0 0 1 0 0 0 0 
+ Decision vector: 1 1 0 0 0 0 1 0 0 1 0 0 
+ Decision vector: 0 1 1 0 0 1 1 0 1 0 1 0 
+ Decision vector: 1 1 0 1 0 1 0 0 0 1 1 0 
+ Decision vector: 1 1 1 0 0 1 1 1 1 0 1 1 
+
+Best Strategy at generation 13:
+Utilities generated: 2 1 0 2 2 5 
+Decision Vector:1 1 0 1 1 0 1 0 1 0 0 1 
+Fitness: 0.333333
+
+Total fitness in the population at generation 14: 9.41667
+
+ Decision vector: 1 1 1 0 0 1 1 1 1 0 1 1 
+ Decision vector: 1 0 1 1 1 0 1 1 1 0 0 0 
+ Decision vector: 0 1 0 1 1 0 0 1 0 0 0 0 
+ Decision vector: 1 1 1 0 0 0 1 1 0 0 0 0 
+ Decision vector: 1 1 1 0 0 1 1 0 1 0 1 1 
+ Decision vector: 1 1 1 0 0 1 1 0 1 0 0 0 
+ Decision vector: 1 1 1 0 0 0 0 0 1 0 0 1 
+ Decision vector: 1 1 1 1 0 1 1 1 1 0 1 1 
+ Decision vector: 1 0 0 1 1 0 0 1 0 0 0 0 
+ Decision vector: 0 1 0 0 0 0 1 0 0 1 0 0 
+ Decision vector: 1 1 0 0 1 0 0 0 0 1 0 0 
+ Decision vector: 1 1 0 1 0 1 1 1 0 0 1 0 
+ Decision vector: 1 1 1 1 1 0 1 0 1 0 0 1 
+ Decision vector: 1 0 1 1 1 0 1 1 1 1 1 0 
+ Decision vector: 1 1 1 1 1 0 1 0 1 0 0 0 
+ Decision vector: 0 1 0 1 0 0 1 0 1 0 1 0 
+ Decision vector: 1 1 1 1 0 1 0 1 0 1 1 0 
+ Decision vector: 1 1 1 1 0 0 1 1 0 0 1 0 
+ Decision vector: 1 1 0 0 0 1 1 1 0 0 1 1 
+ Decision vector: 1 1 0 0 0 0 1 0 0 1 0 0 
+ Decision vector: 1 1 1 1 1 0 1 1 1 0 1 1 
+ Decision vector: 1 1 0 1 0 1 0 0 0 1 1 0 
+ Decision vector: 0 1 0 0 1 0 1 0 1 1 0 0 
+ Decision vector: 1 1 0 0 0 0 1 1 0 0 1 0 
+ Decision vector: 1 1 1 0 1 1 0 1 0 1 1 1 
+ Decision vector: 1 1 0 1 0 1 1 1 0 0 1 0 
+ Decision vector: 1 1 1 0 1 1 0 1 1 0 1 1 
+ Decision vector: 1 0 0 0 0 1 1 0 0 0 0 1 
+ Decision vector: 1 1 0 1 0 0 1 1 0 0 1 0 
+ Decision vector: 1 0 0 1 0 1 0 1 0 1 1 0 
+ Decision vector: 1 1 1 0 1 0 0 0 1 1 1 1 
+ Decision vector: 1 1 0 1 0 0 0 0 0 1 0 1 
+ Decision vector: 1 1 1 0 1 0 0 0 0 0 0 0 
+ Decision vector: 1 0 0 0 0 1 1 0 1 0 0 1 
+ Decision vector: 1 1 1 1 0 1 1 1 1 0 1 1 
+ Decision vector: 1 1 1 0 0 1 1 1 1 0 0 0 
+ Decision vector: 1 1 0 1 0 1 0 1 0 0 0 0 
+ Decision vector: 1 1 1 1 0 1 1 1 0 0 1 0 
+ Decision vector: 1 1 1 1 0 0 0 1 1 1 1 0 
+ Decision vector: 1 1 1 1 0 1 0 1 0 1 0 0 
+ Decision vector: 1 1 1 1 1 0 0 0 1 0 0 0 
+ Decision vector: 1 1 0 0 0 1 1 1 1 0 1 0 
+ Decision vector: 1 1 0 1 0 1 1 1 0 0 1 1 
+ Decision vector: 1 1 0 1 1 0 0 1 1 0 1 0 
+ Decision vector: 1 1 1 0 1 0 0 1 0 0 0 1 
+ Decision vector: 0 1 0 1 1 1 0 0 1 1 1 1 
+ Decision vector: 1 1 0 1 1 0 1 1 1 0 1 0 
+ Decision vector: 1 1 0 0 0 0 0 0 1 0 0 1 
+ Decision vector: 1 0 0 0 0 0 1 0 0 0 1 0 
+ Decision vector: 0 1 0 1 0 1 0 1 0 0 1 0 
+
+Best Strategy at generation 14:
+Utilities generated: 2 1 0 2 2 5 
+Decision Vector:1 1 0 1 1 0 1 0 1 0 0 1 
+Fitness: 0.333333
+
+Total fitness in the population at generation 15: 6
+
+ Decision vector: 1 1 1 1 0 1 1 0 1 0 1 1 
+ Decision vector: 1 1 1 1 0 1 0 1 0 1 1 1 
+ Decision vector: 1 1 1 0 0 1 1 0 1 0 0 0 
+ Decision vector: 1 1 0 1 1 0 1 1 1 0 1 0 
+ Decision vector: 1 1 0 1 0 1 0 0 0 0 1 1 
+ Decision vector: 1 1 1 1 0 1 1 1 1 0 0 1 
+ Decision vector: 1 1 1 0 0 0 1 1 0 1 0 0 
+ Decision vector: 1 1 0 1 0 0 0 0 0 0 0 0 
+ Decision vector: 1 1 0 1 0 0 1 0 1 1 1 0 
+ Decision vector: 0 1 0 0 1 0 1 1 0 0 1 0 
+ Decision vector: 1 1 1 1 0 1 1 1 1 1 0 0 
+ Decision vector: 1 1 1 0 0 1 0 1 0 0 1 0 
+ Decision vector: 1 0 0 1 0 0 1 1 0 0 0 0 
+ Decision vector: 0 1 0 1 0 0 0 0 0 1 0 1 
+ Decision vector: 0 1 0 1 0 0 1 0 1 0 0 0 
+ Decision vector: 0 1 0 1 0 0 1 0 0 0 0 0 
+ Decision vector: 1 1 1 1 0 1 1 1 1 1 1 1 
+ Decision vector: 0 1 1 0 1 1 0 0 1 0 1 1 
+ Decision vector: 0 1 0 0 0 0 1 0 0 1 0 0 
+ Decision vector: 0 1 0 1 1 0 0 1 0 0 0 0 
+ Decision vector: 1 1 0 0 1 0 1 0 1 0 0 0 
+ Decision vector: 0 1 0 0 0 1 1 1 0 0 1 1 
+ Decision vector: 1 0 1 1 0 1 1 1 0 0 1 0 
+ Decision vector: 1 1 0 1 0 0 1 1 0 0 1 1 
+ Decision vector: 1 0 1 1 0 1 0 0 1 0 0 1 
+ Decision vector: 1 1 0 0 0 0 1 1 1 0 1 1 
+ Decision vector: 1 1 1 0 1 1 0 0 0 0 0 0 
+ Decision vector: 0 1 1 0 1 0 0 1 0 1 1 1 
+ Decision vector: 1 1 1 0 1 1 0 1 0 0 1 0 
+ Decision vector: 0 1 0 1 0 0 1 0 1 1 1 1 
+ Decision vector: 0 1 0 1 0 1 0 1 0 0 0 1 
+ Decision vector: 0 1 0 1 0 1 1 1 0 0 1 0 
+ Decision vector: 0 1 0 1 0 0 1 1 0 0 1 0 
+ Decision vector: 1 1 0 1 1 1 0 1 1 1 1 1 
+ Decision vector: 1 1 1 0 1 0 0 1 1 1 0 0 
+ Decision vector: 1 1 0 0 1 1 0 1 0 1 1 0 
+ Decision vector: 1 1 1 0 1 0 0 1 0 0 0 0 
+ Decision vector: 0 1 0 1 1 0 1 1 0 1 1 1 
+ Decision vector: 1 1 0 1 1 0 0 1 0 0 0 0 
+ Decision vector: 0 1 0 1 0 0 0 1 1 0 1 0 
+ Decision vector: 1 1 1 0 0 0 1 1 1 0 1 0 
+ Decision vector: 0 0 0 1 0 0 0 1 0 0 1 0 
+ Decision vector: 1 1 1 0 1 1 0 1 0 0 0 0 
+ Decision vector: 0 1 0 1 0 1 0 1 1 0 1 1 
+ Decision vector: 1 1 0 1 1 1 0 0 1 1 1 0 
+ Decision vector: 0 1 0 1 0 1 1 1 0 0 1 1 
+ Decision vector: 1 1 0 1 0 1 0 0 0 1 0 1 
+ Decision vector: 1 0 1 0 0 0 1 1 0 0 0 0 
+ Decision vector: 1 1 1 1 1 0 0 1 1 1 1 1 
+ Decision vector: 1 1 1 0 1 1 0 1 0 0 1 1 
+
+Best Strategy at generation 15:
+Utilities generated: 2 1 0 2 2 5 
+Decision Vector:1 1 0 1 1 0 1 0 1 0 0 1 
+Fitness: 0.333333
+
+Total fitness in the population at generation 16: 7.80556
+
+ Decision vector: 0 1 1 1 0 1 0 1 1 0 1 1 
+ Decision vector: 0 1 1 0 1 0 0 1 0 1 1 1 
+ Decision vector: 1 1 1 1 0 0 1 1 1 0 1 0 
+ Decision vector: 1 1 1 0 0 1 0 0 0 1 0 1 
+ Decision vector: 0 1 0 1 0 0 1 1 0 0 0 0 
+ Decision vector: 1 1 0 1 0 0 0 0 0 0 1 0 
+ Decision vector: 1 0 1 0 1 0 0 1 1 0 0 0 
+ Decision vector: 1 1 1 0 1 1 0 1 0 0 1 1 
+ Decision vector: 0 1 0 1 0 0 1 1 0 0 0 0 
+ Decision vector: 1 0 1 1 0 0 0 0 1 1 0 1 
+ Decision vector: 1 1 1 0 1 0 0 1 0 0 1 0 
+ Decision vector: 1 1 1 1 0 0 1 1 0 1 0 0 
+ Decision vector: 0 1 0 0 0 0 0 1 0 0 1 0 
+ Decision vector: 1 1 1 0 0 1 1 1 1 0 1 0 
+ Decision vector: 0 0 0 1 0 0 1 1 0 1 1 1 
+ Decision vector: 0 1 0 1 1 0 1 1 0 0 1 1 
+ Decision vector: 1 1 1 1 0 0 1 0 0 1 1 0 
+ Decision vector: 1 1 1 0 1 0 0 1 0 1 1 0 
+ Decision vector: 0 1 1 0 1 1 0 0 0 0 1 0 
+ Decision vector: 1 1 1 0 1 1 0 1 0 0 1 1 
+ Decision vector: 1 1 0 1 0 0 0 0 0 0 1 1 
+ Decision vector: 1 1 1 1 0 1 0 0 0 1 0 0 
+ Decision vector: 1 1 1 1 1 0 0 1 1 0 1 1 
+ Decision vector: 1 1 1 0 1 1 1 1 0 1 1 1 
+ Decision vector: 1 1 0 1 1 1 1 1 0 0 0 0 
+ Decision vector: 1 1 1 0 1 0 1 1 1 0 1 0 
+ Decision vector: 0 1 0 1 1 1 0 1 0 1 1 1 
+ Decision vector: 1 0 0 1 1 0 1 1 1 0 0 1 
+ Decision vector: 0 1 0 1 1 0 1 0 0 0 1 0 
+ Decision vector: 0 1 0 1 0 0 0 1 1 1 0 0 
+ Decision vector: 1 1 0 0 1 0 0 0 1 1 1 0 
+ Decision vector: 1 1 0 1 1 0 1 0 0 1 1 1 
+ Decision vector: 0 1 0 0 0 0 0 0 1 1 1 0 
+ Decision vector: 1 1 0 0 1 1 0 1 1 0 0 0 
+ Decision vector: 1 1 1 1 1 0 1 1 0 0 0 0 
+ Decision vector: 0 1 1 1 1 1 0 1 0 0 1 0 
+ Decision vector: 1 1 1 0 1 1 1 1 0 1 1 1 
+ Decision vector: 0 1 1 0 0 0 0 0 0 0 0 1 
+ Decision vector: 1 1 0 1 0 1 1 0 0 0 1 1 
+ Decision vector: 0 1 0 1 1 0 1 1 0 1 1 1 
+ Decision vector: 1 1 0 1 1 1 1 1 1 0 1 1 
+ Decision vector: 1 0 1 1 1 1 1 1 1 1 1 0 
+ Decision vector: 0 1 1 1 1 0 1 1 0 0 1 1 
+ Decision vector: 0 1 1 0 0 1 0 1 0 0 1 1 
+ Decision vector: 1 1 0 1 0 1 1 0 1 0 1 0 
+ Decision vector: 1 1 0 0 0 1 0 0 1 1 1 1 
+ Decision vector: 0 1 0 1 0 0 1 1 1 0 1 0 
+ Decision vector: 1 1 1 1 1 0 1 1 0 1 1 1 
+ Decision vector: 1 0 0 1 0 1 0 1 1 0 1 1 
+ Decision vector: 0 1 0 1 1 0 1 1 1 1 1 1 
+
+Best Strategy at generation 16:
+Utilities generated: 2 1 0 2 2 5 
+Decision Vector:1 1 0 1 1 0 1 0 1 0 0 1 
+Fitness: 0.333333
+
+Total fitness in the population at generation 17: 8.5
+
+ Decision vector: 0 1 0 1 1 0 1 1 0 1 1 1 
+ Decision vector: 0 1 1 0 1 0 0 0 0 1 1 1 
+ Decision vector: 0 1 1 0 0 1 1 0 0 0 1 1 
+ Decision vector: 1 1 0 1 0 0 0 1 0 0 1 1 
+ Decision vector: 0 1 1 1 0 0 0 0 0 0 1 0 
+ Decision vector: 1 1 0 0 1 0 0 1 0 1 1 1 
+ Decision vector: 1 1 1 1 1 0 1 1 0 1 1 0 
+ Decision vector: 1 1 0 1 0 0 0 0 0 0 1 1 
+ Decision vector: 1 1 0 1 0 0 0 1 0 1 1 1 
+ Decision vector: 1 1 1 1 1 0 0 1 1 0 1 0 
+ Decision vector: 0 1 0 1 1 0 1 0 0 0 0 0 
+ Decision vector: 0 1 0 1 0 0 1 1 0 0 1 0 
+ Decision vector: 1 1 1 0 0 0 0 0 0 1 0 1 
+ Decision vector: 1 1 0 1 0 0 1 0 0 1 0 0 
+ Decision vector: 1 1 1 1 0 0 1 1 1 0 1 0 
+ Decision vector: 1 1 0 1 1 0 1 0 0 1 1 0 
+ Decision vector: 0 1 1 0 1 1 0 0 0 0 0 0 
+ Decision vector: 0 1 1 0 1 1 0 0 0 0 1 0 
+ Decision vector: 0 1 1 0 1 0 0 1 1 1 1 1 
+ Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+ Decision vector: 1 0 1 1 0 0 1 0 0 1 1 0 
+ Decision vector: 1 1 0 1 1 1 1 1 1 0 1 1 
+ Decision vector: 1 0 1 1 1 0 0 1 0 1 1 0 
+ Decision vector: 0 1 1 0 1 1 0 1 0 1 0 0 
+ Decision vector: 1 0 0 1 0 0 1 0 1 1 0 1 
+ Decision vector: 1 0 1 1 1 1 0 1 1 0 1 1 
+ Decision vector: 1 1 0 1 1 0 0 1 0 0 0 0 
+ Decision vector: 0 1 1 1 0 1 0 1 0 0 1 0 
+ Decision vector: 1 1 1 1 0 0 0 1 1 0 1 1 
+ Decision vector: 1 1 1 0 0 0 1 1 1 0 1 0 
+ Decision vector: 1 0 1 1 0 1 1 1 0 0 1 1 
+ Decision vector: 0 1 1 1 0 0 1 1 1 1 1 0 
+ Decision vector: 1 1 0 0 1 0 1 1 1 0 1 1 
+ Decision vector: 1 1 0 1 1 0 0 0 1 1 1 0 
+ Decision vector: 1 1 1 0 1 1 0 0 0 0 0 1 
+ Decision vector: 0 1 1 0 0 0 0 0 1 1 1 0 
+ Decision vector: 0 0 0 1 1 0 0 0 0 0 0 1 
+ Decision vector: 1 1 1 0 0 0 1 0 0 0 1 0 
+ Decision vector: 0 1 0 1 0 0 1 1 0 0 0 0 
+ Decision vector: 0 1 0 1 0 0 1 1 1 1 0 0 
+ Decision vector: 0 1 0 1 1 0 1 1 0 0 0 0 
+ Decision vector: 1 1 1 1 1 1 0 1 0 1 1 1 
+ Decision vector: 1 1 0 1 1 0 1 0 0 0 1 1 
+ Decision vector: 0 1 0 1 0 1 1 1 1 0 1 0 
+ Decision vector: 0 1 0 1 0 0 1 1 0 1 1 0 
+ Decision vector: 0 1 1 1 1 0 1 1 0 0 0 0 
+ Decision vector: 1 1 0 1 1 0 1 1 0 1 0 0 
+ Decision vector: 1 1 1 0 0 0 0 0 0 0 1 0 
+ Decision vector: 0 1 1 0 1 1 0 1 1 0 1 0 
+ Decision vector: 1 1 0 1 1 1 1 1 1 0 1 0 
+
+Best Strategy at generation 17:
+Utilities generated: 2 1 0 2 2 5 
+Decision Vector:1 1 0 1 1 0 1 0 1 0 0 1 
+Fitness: 0.333333
+
+Total fitness in the population at generation 18: 9.30556
+
+ Decision vector: 1 1 0 1 1 0 1 1 0 1 1 1 
+ Decision vector: 1 1 0 0 1 0 1 1 0 1 0 0 
+ Decision vector: 0 1 0 1 0 0 1 1 0 0 0 0 
+ Decision vector: 0 0 0 1 0 1 1 1 1 1 1 1 
+ Decision vector: 0 0 1 1 0 1 0 0 0 0 0 0 
+ Decision vector: 0 1 0 1 1 1 1 0 1 1 1 0 
+ Decision vector: 1 0 1 1 1 1 1 0 0 0 0 0 
+ Decision vector: 0 1 0 1 1 0 1 1 0 0 1 1 
+ Decision vector: 1 1 0 0 0 0 0 1 0 1 1 0 
+ Decision vector: 1 1 0 1 1 0 1 1 0 1 1 0 
+ Decision vector: 0 1 0 1 1 1 0 1 0 1 1 1 
+ Decision vector: 1 1 0 0 0 1 0 1 0 0 1 0 
+ Decision vector: 1 1 0 1 0 1 1 1 0 1 0 0 
+ Decision vector: 1 1 1 1 1 0 1 1 1 0 1 0 
+ Decision vector: 0 1 1 1 0 0 0 0 1 1 0 1 
+ Decision vector: 1 1 1 1 0 0 0 0 0 0 1 0 
+ Decision vector: 1 1 1 0 0 0 1 1 0 0 1 0 
+ Decision vector: 1 1 1 1 1 0 1 0 0 0 1 0 
+ Decision vector: 1 1 1 1 1 1 0 1 0 1 0 0 
+ Decision vector: 1 1 0 1 1 0 1 1 1 0 1 1 
+ Decision vector: 1 1 0 1 1 0 1 0 0 1 1 1 
+ Decision vector: 1 1 0 1 1 0 1 1 1 0 1 0 
+ Decision vector: 1 1 0 1 0 0 0 0 1 1 0 1 
+ Decision vector: 1 1 0 1 1 1 1 1 1 0 1 0 
+ Decision vector: 1 1 0 1 0 1 1 1 1 1 0 0 
+ Decision vector: 1 1 1 1 0 0 0 0 0 0 1 1 
+ Decision vector: 0 1 0 0 0 0 1 1 1 0 0 0 
+ Decision vector: 1 1 1 0 1 1 1 1 1 1 1 0 
+ Decision vector: 1 1 1 1 1 0 1 0 0 1 0 1 
+ Decision vector: 1 1 1 0 0 0 0 1 0 0 0 0 
+ Decision vector: 1 1 0 1 1 1 1 1 1 1 1 0 
+ Decision vector: 1 1 1 1 1 0 0 1 1 0 1 0 
+ Decision vector: 1 1 0 0 0 0 0 1 0 0 1 1 
+ Decision vector: 1 1 1 1 1 1 1 1 0 0 0 0 
+ Decision vector: 0 1 1 1 0 0 1 1 0 1 1 0 
+ Decision vector: 0 1 1 0 0 0 0 0 0 0 1 0 
+ Decision vector: 1 1 0 0 1 1 1 0 1 0 1 1 
+ Decision vector: 0 0 0 1 0 0 1 0 1 0 0 1 
+ Decision vector: 1 0 1 1 0 0 1 0 0 0 0 0 
+ Decision vector: 0 1 0 1 0 0 1 1 1 0 1 0 
+ Decision vector: 1 1 0 0 0 0 1 1 1 1 0 0 
+ Decision vector: 0 1 0 1 1 0 1 1 1 0 1 1 
+ Decision vector: 1 1 1 0 0 0 0 1 1 0 1 0 
+ Decision vector: 1 1 1 0 0 0 1 0 0 0 1 0 
+ Decision vector: 1 1 0 1 1 0 1 0 0 0 1 1 
+ Decision vector: 0 1 0 0 1 0 0 0 1 0 1 0 
+ Decision vector: 1 1 0 1 0 1 1 0 0 0 1 0 
+ Decision vector: 1 1 1 0 1 0 0 0 0 0 1 1 
+ Decision vector: 1 1 1 0 1 1 0 0 1 0 1 0 
+ Decision vector: 1 1 1 0 0 0 1 1 0 1 1 0 
+
+Best Strategy at generation 18:
+Utilities generated: 2 1 0 2 2 5 
+Decision Vector:1 1 0 1 1 0 1 0 1 0 0 1 
+Fitness: 0.333333
+
+Total fitness in the population at generation 19: 11.8611
+
+ Decision vector: 1 1 1 1 0 0 0 1 0 0 0 0 
+ Decision vector: 1 0 1 0 0 0 0 1 1 0 0 0 
+ Decision vector: 1 1 1 1 1 0 0 1 1 0 1 1 
+ Decision vector: 1 1 1 1 1 0 0 0 1 0 1 0 
+ Decision vector: 1 1 1 1 1 1 0 1 1 0 1 0 
+ Decision vector: 1 1 0 1 1 1 1 1 0 1 0 0 
+ Decision vector: 1 0 1 0 1 0 1 0 1 0 0 0 
+ Decision vector: 1 1 1 1 1 1 1 1 0 1 1 0 
+ Decision vector: 0 1 0 0 1 0 1 1 1 0 1 0 
+ Decision vector: 0 1 0 1 0 0 1 1 1 0 1 0 
+ Decision vector: 1 1 1 1 1 1 1 1 0 1 1 1 
+ Decision vector: 0 1 1 0 0 0 0 0 0 1 0 0 
+ Decision vector: 1 1 0 0 0 1 0 1 1 0 1 0 
+ Decision vector: 0 1 0 0 1 1 0 0 0 0 1 0 
+ Decision vector: 1 1 0 1 1 0 1 1 0 1 0 0 
+ Decision vector: 1 1 1 1 0 1 0 0 0 1 1 1 
+ Decision vector: 1 1 0 0 0 1 1 1 1 1 0 0 
+ Decision vector: 1 1 1 0 0 0 1 0 0 0 1 0 
+ Decision vector: 1 1 1 0 1 1 1 1 1 1 1 0 
+ Decision vector: 1 1 0 1 0 1 1 0 0 1 1 0 
+ Decision vector: 1 0 1 1 0 1 1 1 0 0 0 0 
+ Decision vector: 0 1 1 1 1 1 1 0 0 1 1 0 
+ Decision vector: 1 1 0 1 0 0 0 0 1 1 0 0 
+ Decision vector: 1 1 1 1 1 0 1 1 1 0 0 1 
+ Decision vector: 1 1 0 1 1 0 1 1 1 1 1 0 
+ Decision vector: 0 1 1 0 1 0 0 0 0 0 0 0 
+ Decision vector: 0 1 0 1 1 0 1 0 0 0 1 1 
+ Decision vector: 1 1 0 1 1 0 1 1 0 0 1 1 
+ Decision vector: 1 1 0 0 1 0 1 1 0 1 0 0 
+ Decision vector: 1 1 0 1 1 1 1 1 1 1 0 0 
+ Decision vector: 0 1 0 0 1 0 0 0 1 0 1 1 
+ Decision vector: 0 1 0 1 0 1 0 0 1 0 1 1 
+ Decision vector: 1 1 1 1 0 1 1 1 1 0 0 0 
+ Decision vector: 1 1 0 1 1 0 1 1 0 1 0 0 
+ Decision vector: 1 0 0 1 1 0 1 0 1 0 1 0 
+ Decision vector: 1 1 0 1 0 0 1 1 0 0 1 1 
+ Decision vector: 0 1 1 1 0 1 1 1 0 1 0 0 
+ Decision vector: 0 0 1 1 0 1 1 1 0 1 1 0 
+ Decision vector: 1 1 0 1 1 0 1 1 0 0 1 1 
+ Decision vector: 0 1 1 1 0 1 0 1 0 1 0 0 
+ Decision vector: 1 1 0 1 0 0 1 1 0 0 0 1 
+ Decision vector: 0 0 0 0 1 1 1 1 1 1 0 0 
+ Decision vector: 0 1 0 1 1 0 0 1 0 0 1 0 
+ Decision vector: 1 0 1 1 0 0 1 1 0 1 1 1 
+ Decision vector: 0 1 0 1 0 0 0 0 0 0 0 0 
+ Decision vector: 1 1 1 1 1 0 0 1 1 0 1 1 
+ Decision vector: 1 1 0 0 0 0 1 1 1 0 1 1 
+ Decision vector: 1 1 0 1 1 0 0 1 0 1 1 0 
+ Decision vector: 0 1 0 0 1 0 0 1 0 1 0 0 
+ Decision vector: 1 1 1 1 0 1 0 0 1 1 0 1 
+
+Best Strategy at generation 19:
+Utilities generated: 2 1 0 2 2 5 
+Decision Vector:1 1 0 1 1 0 1 0 1 0 0 1 
+Fitness: 0.333333
+
