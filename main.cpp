@@ -5,7 +5,7 @@
 #include "common.hpp"
 
 #define EVOLUTION_TERM 6
-#define POPULATION_SIZE 10
+#define POPULATION_SIZE 50
 #define MAX_GEN 20
 #define LAMBDA1 0.5
 #define LAMBDA2 2
