@@ -7,25 +7,35 @@
 #define EVOLUTION_TERM 6
 #define POPULATION_SIZE 10
 #define MAX_GEN 20
-#define LAMBDA 0.5
-#define MU 2
+#define LAMBDA1 0.5
+#define LAMBDA2 2
+#define MU1 2
+#define MU2 10
 
 int requestID = 0;
 
 map<int, vector<SliceRequest>> generateRequests(default_random_engine& generator, vector<double> costs, vector<int> utilities) {
     map<int, vector<SliceRequest>> results;
-    poisson_distribution<int> dist_poisson(LAMBDA);
-    exponential_distribution<double> dist_exp(MU);
+
+    poisson_distribution<int> dist_poisson_1(LAMBDA1);
+    exponential_distribution<double> dist_exp_1(MU1);
+
+    poisson_distribution<int> dist_poisson_2(LAMBDA2);
+    exponential_distribution<double> dist_exp_2(MU2);
 
     for (int k = 0; k < EVOLUTION_TERM; ++k) {
         vector<SliceRequest> v;
-        for (int i = 0; i < 2; ++i) {
-            int numOfRequests = dist_poisson(generator);
-            for (int j = 0; j < numOfRequests; ++j) {
-                int lifetime = static_cast<int>(ceil(dist_exp(generator)));
-                SliceRequest srq{requestID++, static_cast<SliceType>(i), costs[i], lifetime, utilities[i]};
-                v.push_back(srq);
-            }
+        int numOfRequestsTypeOne = dist_poisson_1(generator);
+        for (int j = 0; j < numOfRequestsTypeOne; ++j) {
+            int lifetime1 = static_cast<int>(ceil(dist_exp_1(generator)));
+            SliceRequest srq{requestID++, First, costs[0], lifetime1, utilities[0]};
+            v.push_back(srq);
+        }
+        int numOfRequestsTypeTwo = dist_poisson_2(generator);
+        for (int k = 0; k < numOfRequestsTypeTwo; ++k) {
+            int lifetime2 = static_cast<int>(ceil(dist_exp_2(generator)));
+            SliceRequest srq{requestID++, Second, costs[1], lifetime2, utilities[1]};
+            v.push_back(srq);
         }
         results.insert(make_pair(k, v));
     }
