@@ -10,7 +10,7 @@ n = number of experiment \
 c1 = cost of slice type 1 \
 c2 = cost of slice type 2 \
 u1 = utility of slice type 1 \
-u2 = utility of slice type 2 \
+u2 = utility of slice type 2 
 
 The experiment results will be reported in a file expn_report.txt, where n is the experiment number.
 The Poisson and exponential distribution parameters are #define'd in the main.cpp files. 
